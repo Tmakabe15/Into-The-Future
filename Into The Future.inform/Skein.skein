@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x22a4c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x22a4c0" />
+  <item nodeId="node-0x22a4c0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+You are an intelligent scientist who has invented a prototype watch that allows you to travel 40 years into the future. You have exactly an hour and a half in the future day before your watch teleports you back home. In the mean time, you can do anything your heart desires, but use your time wisely!
+
+You have successfully teleported into the future. Keep an eye on your watch at all times.
+
+&quot;Whoa!!!&quot; you say. &quot;I guess this is what my laboratory will look like 40 years from now… How magnificent!&quot;
+
+Into The Future
+An Interactive Fiction by Tyler Makabe
+Release 1 / Serial number 130228 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Lab
+s
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">NO</temporary>
+    <children>
+      <child nodeId="node-0x22a550" />
+      <child nodeId="node-0x22a6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x22a6f0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Pristine Library
+s
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0x22a550">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Garage
+s
+
+s
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x22a5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x22a5a0">
+    <command xml:space="preserve">ride XD4</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x22a5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x22a5f0">
+    <command xml:space="preserve">drie</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x22a680" />
+    </children>
+  </item>
+  <item nodeId="node-0x22a680">
+    <command xml:space="preserve">drive</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+</Skein>
