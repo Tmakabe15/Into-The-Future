@@ -1,7 +1,9 @@
 "Into The Future" by Tyler Makabe
 
 
-
+Rule for deciding whether all includes something: it does not.
+Rule for printing a parser error when the latest parser error is the nothing to do error:
+	say "Take everything individually please…" instead.
 
 The description of the player is "You are a tall young man, about 6 foot 2 inches. You are wearing a plain white T-shirt, black slim jeans, white shoes, prescription glasses, and your prototype watch."
 
@@ -54,11 +56,26 @@ The Shack is a room. It is east of the DNA Beach. "s"
 
 The Wall is a room. It is west of the DNA Beach. "s"
 
+The Obscure Parking Lot is south of the Garage. "s"
+
+The Skyscraper is a room. It is east of the Obscure Parking Lot. "s"
+
+The Elevator Shaft is a room. It is west of the Obscure Parking Lot. "s"
+
+The Plaza is a room. It is east of the Skyscraper. "s"
+
+The Alternative is a room. It is south of the Skyscraper. "s"
 
 
 
 
-The Skyscraper is a room. It is east of the Tech Building. ""
+
+
+
+
+
+
+
 
 
 

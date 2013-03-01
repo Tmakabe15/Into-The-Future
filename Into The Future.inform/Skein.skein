@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x22a4c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x2a7920" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x22a4c0" />
-  <item nodeId="node-0x22a4c0">
+  <activeNode nodeId="node-0x2a7920" />
+  <item nodeId="node-0x2a7920">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -23,14 +23,15 @@ s
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="3">NO</temporary>
     <children>
-      <child nodeId="node-0x22a550" />
-      <child nodeId="node-0x22a6f0" />
+      <child nodeId="node-0x2a79b0" />
+      <child nodeId="node-0x9227840" />
+      <child nodeId="node-0x2a7b30" />
     </children>
   </item>
-  <item nodeId="node-0x22a6f0">
+  <item nodeId="node-0x2a7b30">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Pristine Library
@@ -41,7 +42,16 @@ s
     <changed>YES</changed>
     <temporary score="1">YES</temporary>
   </item>
-  <item nodeId="node-0x22a550">
+  <item nodeId="node-0x9227840">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Hey stop that! All is disabled.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x2a79b0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Garage
@@ -54,10 +64,10 @@ s
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x22a5a0" />
+      <child nodeId="node-0x2a7a00" />
     </children>
   </item>
-  <item nodeId="node-0x22a5a0">
+  <item nodeId="node-0x2a7a00">
     <command xml:space="preserve">ride XD4</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -66,10 +76,10 @@ s
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x22a5f0" />
+      <child nodeId="node-0x2a7a50" />
     </children>
   </item>
-  <item nodeId="node-0x22a5f0">
+  <item nodeId="node-0x2a7a50">
     <command xml:space="preserve">drie</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -78,10 +88,10 @@ s
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x22a680" />
+      <child nodeId="node-0x2a7ac0" />
     </children>
   </item>
-  <item nodeId="node-0x22a680">
+  <item nodeId="node-0x2a7ac0">
     <command xml:space="preserve">drive</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
