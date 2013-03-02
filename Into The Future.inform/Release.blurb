@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6G60
 
-status "/Users/tmakabe15/Desktop/Comp Sci./Inform/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/CblorbModel.html" "/Users/tmakabe15/Desktop/Into The Future.inform/Build/StatusCblorb.html"
+status "/Users/tmakabe15/Desktop/Comp Sci./Inform/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/CblorbModel.html" "/Users/tmakabe15/Desktop/Into The Future/Into The Future/Into The Future.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/Users/tmakabe15/Desktop/Into The Future.inform"
-release to "/Users/tmakabe15/Desktop/Into The Future Materials/Release"
+project folder "/Users/tmakabe15/Desktop/Into The Future/Into The Future/Into The Future.inform"
+release to "/Users/tmakabe15/Desktop/Into The Future/Into The Future/Into The Future Materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "Into The Future.zblorb"
-storyfile "/Users/tmakabe15/Desktop/Into The Future.inform/Build/output.z8" include
-ifiction "/Users/tmakabe15/Desktop/Into The Future.inform/Metadata.iFiction" include
+storyfile "/Users/tmakabe15/Desktop/Into The Future/Into The Future/Into The Future.inform/Build/output.z8" include
+ifiction "/Users/tmakabe15/Desktop/Into The Future/Into The Future/Into The Future.inform/Metadata.iFiction" include
 cover "/Users/tmakabe15/Desktop/Comp Sci./Inform/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
 picture 1 "/Users/tmakabe15/Desktop/Comp Sci./Inform/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
 
