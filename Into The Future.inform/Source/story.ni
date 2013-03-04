@@ -86,21 +86,23 @@ The Wall is a room. It is west of the DNA Beach. "A long and twelve foot wall th
 
 The Obscure Parking Lot is south of the Garage. "An eighteen foot parking structure that allows you to park your car whenever you want."
 
-The Skyscraper 057 is a room. It is east of the Obscure Parking Lot. ""
+The Skyscraper 057 is a room. It is east of the Obscure Parking Lot. "The largest building in the vicinity. Two steel doors open and close as you enter. The Skyscraper is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. "
 
-The Elevator Shaft is a room. It is west of the Obscure Parking Lot. ""
+The Elevator Shaft is a room. It is west of the Obscure Parking Lot. "Watch out! Yellow tape borders the edges of the elevator. Seems as though the elevator is out of function."
 
-The Plaza Streets is a room. It is east of the Skyscraper. ""
+The Plaza Streets is a room. It is east of the Skyscraper. "People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is tiled with black and blue cement around the plaza. What a sight. "
 
-The Medical Field is a room. It is south of the Skyscraper. ""
+The Medical Field is a room. It is south of the Skyscraper. "This place is definately much more advanced than your old lab. The chemists are busy with their work. Seems as though a lot of the new technology is built here. Try and ask the chemists what they're creating now."
 
-The Stairway is a room. It is north of the Skyscraper. ""
+The Stairway is a room. It is north of the Skyscraper. "Just an empty stairway. Wonder where this leads to."
 
-The Skyscraper View is a room. It is north of the stairway. ""
+The Skyscraper View is a room. It is north of the stairway. "What an amazing sight to see. Long metal poles stretch across the edges of the skyscraper for safety. There's a nice breeze at the top of the Skyscraper. You can see almost everything from here, how fantastic. Just don't look down."
 
-The Epicenter is a room. It is north of the Plaza Streets. ""
+[Action: Look down, and notice how all the people and cars look like ants from up here.]
 
-The Pear Incorporation is a room. It is south of the Plaza Streets. ""
+The Epicenter is a room. It is north of the Plaza Streets. "It smells very musty in here. Seems as though many homeless stay here for shelter and food. Many old blankets and reusable bags cover the entire room. You can see tiny insects crawling in and out of the bags. Surprisingly, the infrastructure looks amazing! The entire building has built-in LED lights inside the clear glass walls that flicker when you touch it."
+
+The Pear Incorporation is a room. It is south of the Plaza Streets. "This is surprising to see that Apple has a rival in their industry. Hundreds of devices are scattered on the wooden desks around the room. The Pear Inc. workers are ready to assist anyone that needs help."
 
 
 
