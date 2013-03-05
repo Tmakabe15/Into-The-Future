@@ -110,6 +110,32 @@ The car is a vehicle. It is in the garage. "Such an incredible piece of work! Th
 
 [Floating Sidewalk]
 
+The pathway is scenery. It is undescribed. It is in the Floating Sidewalk. The description of the pathway is "A functional surface that glows a bright orange. "
+
+The handbars are scenery. It is undescribed. It is in the Floating Sidewalk. THe description of the handbars is "Metal railing that prevents people from falling off of the pathway."
+
+[Lockdown]
+
+[Add NPC- Guards]
+[Add more tangible items]
+
+The Luminated Steel is scenery. It is undescribed. It is in the Lockdown. The description of the luminated steel is "Tough steel that looks unbendable to human hands. Thick cylindrical wires are stuck to the bottom of the steel."
+
+The Cylindrical Wires are scenery. It is undescribed. It is in the Lockdown. The description of the cylindrical wires is "Wires that conduct pressure and electricity. Probably what makes the Steel able to float and move to certain cells."
+
+The Prison Cell is scenery. It is undescribed. It is in the Lockdown. The description of the prison cell is "Contains cell bars, walls, and bed for the prisoner. Not very luxurious but suitable for reprobates."
+
+The Cell Bars are scenery. It is undescribed. It is in the Lockdown. The description of the Cell Bars is "Metal bars that keep the criminals inside their room."
+
+The Cell Walls are scenery. It is undescribed. It is in the Lockdown. The description of the Cell Walls is "The walls are surfaced with pure white material, just like the luminated steel."
+
+[DIrectional Path]
+[Add items that are inside the bag]
+The Cement is scenery. It is undescribed. It is in the Directional Path. The description of the cement is "Plain old cement used to pave roads and walkways. Nothing too special about it."
+
+The Brown Silk Bag is a closed openable container. It is undescribed. It is in the Directional Path. The description of the brown silk bag is "A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair, and glasses. "
+
+
 
 
 The tabletops is a thing. It is in the fancy salon.
@@ -140,10 +166,10 @@ The Garage is a room. It is west of the lab room. "This must be someone's garage
 The Floating Sidewalk is a room. It is west of the Garage. "A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you're walking on a cloud, but looks like a beam of light!"
 
 
-The Lockdown is a room. It is west of the Floating Sidewalk. "The jail is extremely large. Chunks of the luminated ground emerge from underneath and move toward each cell. The cell bars and walls are too made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail."
+The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail."
 
 
-The Pathway is a room. It is south of the Floating Sidewalk. It is north of the Elevator Shaft. "You are now on cement again. The texture of this pathway is much different from the Floating Sidewalk."
+The Directional Path is a room. It is south of the Floating Sidewalk. It is north of the Elevator Shaft. "You are now on cement again. The texture of this pathway is much different from the Floating Sidewalk. A brown silk bag is lying on the side of the pathway."
 
 
 The Outback Dump is a room. It is south of the lab room. "A room made specially for trash and filthy chemicals. It reeks of carbon and a large dumpster is in the center of the room. A bunch of dead spiders are scattered all over the place. Disgusting."
