@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x54768f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x5342840" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x54768f0" />
-  <item nodeId="node-0x54768f0">
+  <activeNode nodeId="node-0x5342840" />
+  <item nodeId="node-0x5342840">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -16,7 +16,7 @@ You have successfully teleported into the future. Keep an eye on your watch at a
 
 Into The Future
 An Interactive Fiction by Tyler Makabe
-Release 1 / Serial number 130305 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130306 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Lab Room
 It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
@@ -24,18 +24,254 @@ It is very gloomy in here with its spherical lights. You can vaguely see equpime
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="31">NO</temporary>
+    <temporary score="304">NO</temporary>
     <children>
-      <child nodeId="node-0x5435570" />
-      <child nodeId="node-0x54355e0" />
-      <child nodeId="node-0x5435650" />
-      <child nodeId="node-0x54357a0" />
-      <child nodeId="node-0x5435a40" />
-      <child nodeId="node-0x5435c00" />
-      <child nodeId="node-0x5476940" />
+      <child nodeId="node-0x521fb90" />
+      <child nodeId="node-0xde854c0" />
+      <child nodeId="node-0x100088f0" />
+      <child nodeId="node-0x5805a0" />
+      <child nodeId="node-0x100c5840" />
+      <child nodeId="node-0x11ad05e0" />
+      <child nodeId="node-0x53428c0" />
+      <child nodeId="node-0x55e330" />
     </children>
   </item>
-  <item nodeId="node-0x5476940">
+  <item nodeId="node-0x55e330">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Pristine Library
+The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. One of them is a black book that seems to be jutting out a little too far than the others though. A clear glass door is on the far side of the library along with a painting of a prestigious man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="168">YES</temporary>
+    <children>
+      <child nodeId="node-0x549570" />
+    </children>
+  </item>
+  <item nodeId="node-0x549570">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="168">YES</temporary>
+    <children>
+      <child nodeId="node-0x53cf400" />
+    </children>
+  </item>
+  <item nodeId="node-0x53cf400">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="167">YES</temporary>
+    <children>
+      <child nodeId="node-0x564910" />
+    </children>
+  </item>
+  <item nodeId="node-0x564910">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x53e730" />
+    </children>
+  </item>
+  <item nodeId="node-0x53e730">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0xde948a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde948a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="164">YES</temporary>
+  </item>
+  <item nodeId="node-0x53428c0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Pristine Library
+The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. One of them is a black book that seems to be jutting out a little too far than the others though. A clear glass door is on the far side of the library along with a painting of a prestigious man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="179">YES</temporary>
+    <children>
+      <child nodeId="node-0x5344720" />
+    </children>
+  </item>
+  <item nodeId="node-0x5344720">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="179">YES</temporary>
+    <children>
+      <child nodeId="node-0x5fbf30" />
+      <child nodeId="node-0x5380310" />
+    </children>
+  </item>
+  <item nodeId="node-0x5380310">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="179">YES</temporary>
+    <children>
+      <child nodeId="node-0x100a2a40" />
+      <child nodeId="node-0xeb17f70" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb17f70">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0x53ce870" />
+    </children>
+  </item>
+  <item nodeId="node-0x53ce870">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Mysterious Room
+A hidden room lighted with lit candles instead of bright light bulbs. Piles of raw silk and stacks of golden bricks fill the entire room. Must be a secret stash hidden by someone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0xdeddaf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdeddaf0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0xebb45d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebb45d0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0xebe50d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebe50d0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Pristine Library
+The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. One of them is a black book that seems to be jutting out a little too far than the others though. A clear glass door is on the far side of the library along with a painting of a prestigious man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0x58c090" />
+    </children>
+  </item>
+  <item nodeId="node-0x58c090">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Facial Salon
+A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of silk and hair is scattered all over the checker-board floor and tabletops. Black leather seats around the mirrors make up almost the entire salon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0xdee82c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdee82c0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb08350" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb08350">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of trash is littered on the ground. The ground is made up of a thick green cushiony pad. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0xebf5a50" />
+    </children>
+  </item>
+  <item nodeId="node-0xebf5a50">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0x518eef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x518eef0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Pristine Library
@@ -44,28 +280,412 @@ The library is embedded with silver crystals all around the walls. There are abo
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="134">YES</temporary>
     <children>
-      <child nodeId="node-0x5476b20" />
-      <child nodeId="node-0x5435ff0" />
-      <child nodeId="node-0x54368b0" />
-      <child nodeId="node-0x5435f80" />
-      <child nodeId="node-0x5476ee0" />
+      <child nodeId="node-0xde71670" />
     </children>
   </item>
-  <item nodeId="node-0x5476ee0">
-    <command xml:space="preserve">east</command>
+  <item nodeId="node-0xde71670">
+    <command xml:space="preserve">west</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="31">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
     <children>
-      <child nodeId="node-0x5476f50" />
+      <child nodeId="node-0x5110860" />
     </children>
   </item>
-  <item nodeId="node-0x5476f50">
+  <item nodeId="node-0x5110860">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Facial Salon
+A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of silk and hair is scattered all over the checker-board floor and tabletops. Black leather seats around the mirrors make up almost the entire salon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0xebb1fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebb1fd0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of trash is littered on the ground. The ground is made up of a thick green cushiony pad. 
+
+You realize that you have only fifteen more minutes to get the cat into his carrier.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0x51167d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x51167d0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb2ce20" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb2ce20">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0x51b2940" />
+    </children>
+  </item>
+  <item nodeId="node-0x51b2940">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0x5f5ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5f5ad0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Pristine Library
+The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. One of them is a black book that seems to be jutting out a little too far than the others though. A clear glass door is on the far side of the library along with a painting of a prestigious man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0xebb59c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebb59c0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="133">YES</temporary>
+  </item>
+  <item nodeId="node-0x100a2a40">
+    <command xml:space="preserve">x racks</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="179">YES</temporary>
+    <children>
+      <child nodeId="node-0xaa0e650" />
+    </children>
+  </item>
+  <item nodeId="node-0xaa0e650">
+    <command xml:space="preserve">x tools</command>
+    <result xml:space="preserve">All of the tools are glowing different colors in this small garage. The only refined tool that you can make out seems to be a glowing red machete and some shears. The rest of the tools are just wands with a button on them. That seems interesting… 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="179">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e5c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e5c0">
+    <command xml:space="preserve">take tools</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="179">YES</temporary>
+    <children>
+      <child nodeId="node-0x52ab00" />
+    </children>
+  </item>
+  <item nodeId="node-0x52ab00">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a tools
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="178">YES</temporary>
+  </item>
+  <item nodeId="node-0x5fbf30">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Mysterious Room
+A hidden room lighted with lit candles instead of bright light bulbs. Piles of raw silk and stacks of golden bricks fill the entire room. Must be a secret stash hidden by someone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb7aee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb7aee0">
+    <command xml:space="preserve">move east</command>
+    <result xml:space="preserve">You must name something more substantial.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0x5331cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5331cf0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Pristine Library
+The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. One of them is a black book that seems to be jutting out a little too far than the others though. A clear glass door is on the far side of the library along with a painting of a prestigious man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0x5f5240" />
+    </children>
+  </item>
+  <item nodeId="node-0x5f5240">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0x5fb2f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5fb2f0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0x53cca30" />
+    </children>
+  </item>
+  <item nodeId="node-0x53cca30">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0x535a140" />
+    </children>
+  </item>
+  <item nodeId="node-0x535a140">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0x539da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x539da0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Facial Salon
+A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of silk and hair is scattered all over the checker-board floor and tabletops. Black leather seats around the mirrors make up almost the entire salon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb24cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb24cb0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of trash is littered on the ground. The ground is made up of a thick green cushiony pad. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0x592b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x592b10">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9994f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9994f0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xdefa8d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdefa8d0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xebb3960" />
+    </children>
+  </item>
+  <item nodeId="node-0xebb3960">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb90f20" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb90f20">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
+
+You realize that you have only fifteen more minutes to get the cat into his carrier.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0x54df00" />
+    </children>
+  </item>
+  <item nodeId="node-0x54df00">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Pristine Library
+The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. One of them is a black book that seems to be jutting out a little too far than the others though. A clear glass door is on the far side of the library along with a painting of a prestigious man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0x533b030" />
+    </children>
+  </item>
+  <item nodeId="node-0x533b030">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+  </item>
+  <item nodeId="node-0x11ad05e0">
+    <command xml:space="preserve">ast</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeba5220" />
+    </children>
+  </item>
+  <item nodeId="node-0xeba5220">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+The Pristine Library
+The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. One of them is a black book that seems to be jutting out a little too far than the others though. A clear glass door is on the far side of the library along with a painting of a prestigious man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x5243160" />
+    </children>
+  </item>
+  <item nodeId="node-0x5243160">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Lab Room
@@ -74,13 +694,42 @@ It is very gloomy in here with its spherical lights. You can vaguely see equpime
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="304">YES</temporary>
     <children>
-      <child nodeId="node-0x5437790" />
-      <child nodeId="node-0x5438480" />
+      <child nodeId="node-0xdec8aa0" />
     </children>
   </item>
-  <item nodeId="node-0x5438480">
+  <item nodeId="node-0xdec8aa0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb4e340" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb4e340">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb04d60" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb04d60">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Outback Dump
@@ -89,12 +738,12 @@ A room made specially for trash and filthy chemicals. It reeks of carbon and a l
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="304">YES</temporary>
     <children>
-      <child nodeId="node-0x5476d50" />
+      <child nodeId="node-0xa966380" />
     </children>
   </item>
-  <item nodeId="node-0x5476d50">
+  <item nodeId="node-0xa966380">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Lab Room
@@ -103,12 +752,539 @@ It is very gloomy in here with its spherical lights. You can vaguely see equpime
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="304">YES</temporary>
     <children>
-      <child nodeId="node-0x5438430" />
+      <child nodeId="node-0x557c10" />
     </children>
   </item>
-  <item nodeId="node-0x5438430">
+  <item nodeId="node-0x557c10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb78a80" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb78a80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Tech Building
+Miniature sized robots cover the floor around the building. Programers focused on their work on building more of these tiny robots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x53cd060" />
+    </children>
+  </item>
+  <item nodeId="node-0x53cd060">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Old Thirft Shop
+An old-school yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9cf340" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9cf340">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Floating Sidewalk
+A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x56d4e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x56d4e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x100b3a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x100b3a70">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Tech Building
+Miniature sized robots cover the floor around the building. Programers focused on their work on building more of these tiny robots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb72550" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb72550">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Jump
+A long and twelve foot wall that juts out of the land connected to the beach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xde1b690" />
+    </children>
+  </item>
+  <item nodeId="node-0xde1b690">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x119c3730" />
+    </children>
+  </item>
+  <item nodeId="node-0x119c3730">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many blankets and umbrella-like equipment cover the bed of sand. A red box lies underneath the sign.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb21130" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb21130">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Cruising Shack
+An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear and equipment from the automatic moving shelf.
+
+You realize that you have only fifteen more minutes to get the cat into his carrier.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x1199e040" />
+    </children>
+  </item>
+  <item nodeId="node-0x1199e040">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb920d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb920d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many blankets and umbrella-like equipment cover the bed of sand. A red box lies underneath the sign.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb3c4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb3c4c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of trash is littered on the ground. The ground is made up of a thick green cushiony pad. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb4e2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb4e2d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Facial Salon
+A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of silk and hair is scattered all over the checker-board floor and tabletops. Black leather seats around the mirrors make up almost the entire salon.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x1199d8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1199d8c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+The Pristine Library
+The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. One of them is a black book that seems to be jutting out a little too far than the others though. A clear glass door is on the far side of the library along with a painting of a prestigious man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x11977ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11977ce0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x1002e110" />
+    </children>
+  </item>
+  <item nodeId="node-0x1002e110">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb88850" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb88850">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Obscure Parking Lot
+An eighteen foot parking structure that allows you to park your car whenever you want.
+
+Your exhaustion is threatening to send you crashing to the floor, unable to move.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x11ab4100" />
+    </children>
+  </item>
+  <item nodeId="node-0x11ab4100">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Elevator Shaft
+Watch out! Yellow tape borders the edges of the elevator. Seems as though the elevator is out of function.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x11992160" />
+    </children>
+  </item>
+  <item nodeId="node-0x11992160">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Obscure Parking Lot
+An eighteen foot parking structure that allows you to park your car whenever you want.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb82bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb82bd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Skyscraper 057
+The largest building in the vicinity. Two steel doors open and close as you enter. The Skyscraper is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x54c140" />
+    </children>
+  </item>
+  <item nodeId="node-0x54c140">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Stairway
+Just an empty stairway. Wonder where this leads to.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb7a0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb7a0a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Skyscraper View
+What an amazing sight to see. Long metal poles stretch across the edges of the skyscraper for safety. There&apos;s a nice breeze at the top of the Skyscraper. You can see almost everything from here, how fantastic. Just don&apos;t look down.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb885c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb885c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Stairway
+Just an empty stairway. Wonder where this leads to.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x119a37d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x119a37d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Skyscraper 057
+The largest building in the vicinity. Two steel doors open and close as you enter. The Skyscraper is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. 
+
+You are about to drop dead of exhaustion. &quot;The cats will be the death of me,&quot; you always said.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x1197c150" />
+    </children>
+  </item>
+  <item nodeId="node-0x1197c150">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb66000" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb66000">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Plaza Streets
+People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is tiled with black and blue cement around the plaza. What a sight. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x1197bf10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1197bf10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You stumble to your knees and then collapse on the floor, quite surprised to find that the phrase &quot;drop dead of exhaustion&quot; can be literally true.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xde14580" />
+    </children>
+  </item>
+  <item nodeId="node-0xde14580">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x119aaec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x119aaec0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Pear Incorporation
+This is surprising to see that Apple has a rival in their industry. Hundreds of devices are scattered on the wooden desks around the room. The Pear Inc. workers are ready to assist anyone that needs help.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0xebf87b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebf87b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x119e2c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x119e2c20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Plaza Streets
+People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is tiled with black and blue cement around the plaza. What a sight. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
+    <children>
+      <child nodeId="node-0x119830e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x119830e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Skyscraper 057
+The largest building in the vicinity. Two steel doors open and close as you enter. The Skyscraper is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="303">YES</temporary>
+  </item>
+  <item nodeId="node-0x100c5840">
+    <command xml:space="preserve">orth</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x53f6120" />
+    </children>
+  </item>
+  <item nodeId="node-0x53f6120">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0xebaab60" />
+    </children>
+  </item>
+  <item nodeId="node-0xebaab60">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x11aaeaf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11aaeaf0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x119effc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x119effc0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb3cd70" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb3cd70">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Aurora Walk
@@ -117,12 +1293,12 @@ This seems to be the main walkway for many people. It is busy and lots of trash 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="264">YES</temporary>
     <children>
-      <child nodeId="node-0x54383c0" />
+      <child nodeId="node-0xde2c0e0" />
     </children>
   </item>
-  <item nodeId="node-0x54383c0">
+  <item nodeId="node-0xde2c0e0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Tech Building
@@ -131,12 +1307,52 @@ Miniature sized robots cover the floor around the building. Programers focused o
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="264">YES</temporary>
     <children>
-      <child nodeId="node-0x5438350" />
+      <child nodeId="node-0xeb9d430" />
     </children>
   </item>
-  <item nodeId="node-0x5438350">
+  <item nodeId="node-0xeb9d430">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Jump
+A long and twelve foot wall that juts out of the land connected to the beach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x542270" />
+    </children>
+  </item>
+  <item nodeId="node-0x542270">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Tech Building
+Miniature sized robots cover the floor around the building. Programers focused on their work on building more of these tiny robots.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x11a8f890" />
+    </children>
+  </item>
+  <item nodeId="node-0x11a8f890">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0xdeeccc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdeeccc0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Old Thirft Shop
@@ -145,24 +1361,12 @@ An old-school yet reimaged look of a Thirft Shop. The racks of clothes and hange
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="264">YES</temporary>
     <children>
-      <child nodeId="node-0x54382e0" />
+      <child nodeId="node-0x11abd5e0" />
     </children>
   </item>
-  <item nodeId="node-0x54382e0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5438270" />
-    </children>
-  </item>
-  <item nodeId="node-0x5438270">
+  <item nodeId="node-0x11abd5e0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Floating Sidewalk
@@ -171,12 +1375,12 @@ A luminated clear pathway slowly elevates as you walk farther up onto it. Metal 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="264">YES</temporary>
     <children>
-      <child nodeId="node-0x5438200" />
+      <child nodeId="node-0xeb38c90" />
     </children>
   </item>
-  <item nodeId="node-0x5438200">
+  <item nodeId="node-0xeb38c90">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Garage
@@ -187,470 +1391,96 @@ Such an incredible piece of work! The car is slick and skinny. A white coat of p
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="264">YES</temporary>
     <children>
-      <child nodeId="node-0x5438530" />
+      <child nodeId="node-0x119f8830" />
     </children>
   </item>
-  <item nodeId="node-0x5438530">
-    <command xml:space="preserve">est</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x54384d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54384d0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Floating Sidewalk
-A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437ff0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437ff0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Directional Path
-You are now on cement again. The texture of this pathway is much different from the Floating Sidewalk.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437f80" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437f80">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Elevator Shaft
-Watch out! Yellow tape borders the edges of the elevator. Seems as though the elevator is out of function.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437f10" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437f10">
-    <command xml:space="preserve">wets</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437ea0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437ea0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437e30" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437e30">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Obscure Parking Lot
-An eighteen foot parking structure that allows you to park your car whenever you want.
-
-You realize that you have only fifteen more minutes to get the cat into his carrier.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437dc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437dc0">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Skyscraper 057
-The largest building in the vicinity. Two steel doors open and close as you enter. The Skyscraper is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437d50" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437d50">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Plaza Streets
-People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is tiled with black and blue cement around the plaza. What a sight. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437ce0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437ce0">
-    <command xml:space="preserve">nort</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437c70" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437c70">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Epicenter
-It smells very musty in here. Seems as though many homeless stay here for shelter and food. Many old blankets and reusable bags cover the entire room. You can see tiny insects crawling in and out of the bags. Surprisingly, the infrastructure looks amazing! The entire building has built-in LED lights inside the clear glass walls that flicker when you touch it.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437c00" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437c00">
+  <item nodeId="node-0x119f8830">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="264">YES</temporary>
     <children>
-      <child nodeId="node-0x5437b90" />
+      <child nodeId="node-0x119eb650" />
     </children>
   </item>
-  <item nodeId="node-0x5437b90">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Plaza Streets
-People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is tiled with black and blue cement around the plaza. What a sight. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5438130" />
-    </children>
-  </item>
-  <item nodeId="node-0x5438130">
-    <command xml:space="preserve">souht</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5438080" />
-    </children>
-  </item>
-  <item nodeId="node-0x5438080">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Pear Incorporation
-This is surprising to see that Apple has a rival in their industry. Hundreds of devices are scattered on the wooden desks around the room. The Pear Inc. workers are ready to assist anyone that needs help.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x54380d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54380d0">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Plaza Streets
-People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is tiled with black and blue cement around the plaza. What a sight. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x54378e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54378e0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Skyscraper 057
-The largest building in the vicinity. Two steel doors open and close as you enter. The Skyscraper is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. 
-
-Your exhaustion is threatening to send you crashing to the floor, unable to move.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437870" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437870">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Medical Field
-This place is definately much more advanced than your old lab. The chemists are busy with their work. Seems as though a lot of the new technology is built here. Try and ask the chemists what they&apos;re creating now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437800" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437800">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="30">YES</temporary>
-  </item>
-  <item nodeId="node-0x5437790">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Aurora Walk
-This seems to be the main walkway for many people. It is busy and lots of trash is littered on the ground. The ground is made up of a thick green cushiony pad. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437720" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437720">
-    <command xml:space="preserve">south</command>
+  <item nodeId="node-0x119eb650">
+    <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Lab Room
-It is very gloomy. The spherical lights are dark blue. You can vaguely see equpiment that you have in your very own lab room. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The shelves are high up with shiny objects on the top. Other than that, there is nothing so futuristic about this room.
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="46">YES</temporary>
+    <temporary score="264">YES</temporary>
     <children>
-      <child nodeId="node-0x54376b0" />
+      <child nodeId="node-0x119edbc0" />
     </children>
   </item>
-  <item nodeId="node-0x54376b0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Outback Dump
-A room made specially for trash and filthy chemicals. It reeks of carbon and a large dumpster is in the center of the room. A bunch of dead spiders are scattered all over the place. Disgusting.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437640" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437640">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Lab Room
-It is very gloomy. The spherical lights are dark blue. You can vaguely see equpiment that you have in your very own lab room. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The shelves are high up with shiny objects on the top. Other than that, there is nothing so futuristic about this room.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x54375d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54375d0">
+  <item nodeId="node-0x119edbc0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Garage
-This must be your garage. You notice all of your very own tools hanging from the walls. A fabulous car is parked in the middle of it. What an upgrade indeed!
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
 
-Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.  
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="46">YES</temporary>
+    <temporary score="264">YES</temporary>
     <children>
-      <child nodeId="node-0x5437560" />
+      <child nodeId="node-0x11a90b80" />
     </children>
   </item>
-  <item nodeId="node-0x5437560">
+  <item nodeId="node-0x11a90b80">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Floating Sidewalk
 A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x54374f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54374f0">
-    <command xml:space="preserve">weset</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437480" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437480">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Lockdown
-The jail is extremely large. Chunks of the luminated ground emerge from underneath and move toward each cell. The cell bars and walls are too made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437410" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437410">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x54373a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54373a0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437330" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437330">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x54372c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54372c0">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Floating Sidewalk
-A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437250" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437250">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Old Thirft Shop
-An old-school yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x54371e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54371e0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">You can&apos;t go that way.
 
 You realize that you have only fifteen more minutes to get the cat into his carrier.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="46">YES</temporary>
+    <temporary score="264">YES</temporary>
     <children>
-      <child nodeId="node-0x5437930" />
+      <child nodeId="node-0xeb02f10" />
     </children>
   </item>
-  <item nodeId="node-0x5437930">
+  <item nodeId="node-0xeb02f10">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
-Tech Building
-Miniature sized robots cover the floor around the building. Programers focused on their work on building more of these tiny robots.
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="46">YES</temporary>
+    <temporary score="264">YES</temporary>
     <children>
-      <child nodeId="node-0x54379a0" />
+      <child nodeId="node-0x100f4840" />
     </children>
   </item>
-  <item nodeId="node-0x54379a0">
-    <command xml:space="preserve">east</command>
+  <item nodeId="node-0x100f4840">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="263">YES</temporary>
+  </item>
+  <item nodeId="node-0x5805a0">
+    <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Aurora Walk
 This seems to be the main walkway for many people. It is busy and lots of trash is littered on the ground. The ground is made up of a thick green cushiony pad. 
@@ -658,12 +1488,12 @@ This seems to be the main walkway for many people. It is busy and lots of trash 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="46">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x5437a10" />
+      <child nodeId="node-0x5eda20" />
     </children>
   </item>
-  <item nodeId="node-0x5437a10">
+  <item nodeId="node-0x5eda20">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Facial Salon
@@ -672,1032 +1502,650 @@ A pretty beautician in the back of the counter is waiting to greet people as the
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="46">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x5437a80" />
+      <child nodeId="node-0xeba8ac0" />
     </children>
   </item>
-  <item nodeId="node-0x5437a80">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437af0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437af0">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5437170" />
-    </children>
-  </item>
-  <item nodeId="node-0x5437170">
+  <item nodeId="node-0xeba8ac0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
-Pristine Library
-The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to my time. A clear glass door is on the far side of the library.
+The Pristine Library
+The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. One of them is a black book that seems to be jutting out a little too far than the others though. A clear glass door is on the far side of the library along with a painting of a prestigious man.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="46">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x5437100" />
+      <child nodeId="node-0xeb6fef0" />
     </children>
   </item>
-  <item nodeId="node-0x5437100">
+  <item nodeId="node-0xeb6fef0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Lab Room
-It is very gloomy. The spherical lights are dark blue. You can vaguely see equpiment that you have in your very own lab room. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The shelves are high up with shiny objects on the top. Other than that, there is nothing so futuristic about this room.
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="46">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x5437090" />
+      <child nodeId="node-0xeb6cd50" />
     </children>
   </item>
-  <item nodeId="node-0x5437090">
+  <item nodeId="node-0xeb6cd50">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Garage
-This must be your garage. You notice all of your very own tools hanging from the walls. A fabulous car is parked in the middle of it. What an upgrade indeed!
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
 
-Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.  
-
-Your exhaustion is threatening to send you crashing to the floor, unable to move.
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="46">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x5437020" />
+      <child nodeId="node-0xeb3a660" />
     </children>
   </item>
-  <item nodeId="node-0x5437020">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Obscure Parking Lot
-An eighteen foot parking structure that allows you to park your car whenever you want.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436fb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436fb0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436f40" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436f40">
+  <item nodeId="node-0xeb3a660">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
-Elevator Shaft
-Watch out! Yellow tape borders the edges of the elevator. Seems as though the elevator is out of function.
+Floating Sidewalk
+A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="46">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x5436ed0" />
+      <child nodeId="node-0xdeb6c40" />
     </children>
   </item>
-  <item nodeId="node-0x5436ed0">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Obscure Parking Lot
-An eighteen foot parking structure that allows you to park your car whenever you want.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436e60" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436e60">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Skyscraper 057
-The largest building in the vicinity. Two steel doors open and close as you enter. The Skyscraper is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436df0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436df0">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Plaza Streets
-People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is tiled with black and blue cement around the plaza. What a sight. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436d80" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436d80">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-You are about to drop dead of exhaustion. &quot;The cats will be the death of me,&quot; you always said.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436d10" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436d10">
+  <item nodeId="node-0xdeb6c40">
     <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Epicenter
-It smells very musty in here. Seems as though many homeless stay here for shelter and food. Many old blankets and reusable bags cover the entire room. You can see tiny insects crawling in and out of the bags. Surprisingly, the infrastructure looks amazing! The entire building has built-in LED lights inside the clear glass walls that flicker when you touch it.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436ca0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436ca0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Plaza Streets
-People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is tiled with black and blue cement around the plaza. What a sight. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436c30" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436c30">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Pear Incorporation
-This is surprising to see that Apple has a rival in their industry. Hundreds of devices are scattered on the wooden desks around the room. The Pear Inc. workers are ready to assist anyone that needs help.
-
-You stumble to your knees and then collapse on the floor, quite surprised to find that the phrase &quot;drop dead of exhaustion&quot; can be literally true.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436bc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436bc0">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Plaza Streets
-People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is tiled with black and blue cement around the plaza. What a sight. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436b50" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436b50">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Skyscraper 057
-The largest building in the vicinity. Two steel doors open and close as you enter. The Skyscraper is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436ae0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436ae0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Medical Field
-This place is definately much more advanced than your old lab. The chemists are busy with their work. Seems as though a lot of the new technology is built here. Try and ask the chemists what they&apos;re creating now.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436a70" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436a70">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436a00" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436a00">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Skyscraper 057
-The largest building in the vicinity. Two steel doors open and close as you enter. The Skyscraper is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436990" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436990">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Stairway
-Just an empty stairway. Wonder where this leads to.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436920" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436920">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Skyscraper View
-What an amazing sight to see. Long metal poles stretch across the edges of the skyscraper for safety. There&apos;s a nice breeze at the top of the Skyscraper. You can see almost everything from here, how fantastic. Just don&apos;t look down.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="45">YES</temporary>
-  </item>
-  <item nodeId="node-0x5435f80">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Lab
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x5435f10" />
-    </children>
-  </item>
-  <item nodeId="node-0x5435f10">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Aurora Walk
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x5435ea0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5435ea0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Tech Building
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x5435e30" />
-    </children>
-  </item>
-  <item nodeId="node-0x5435e30">
-    <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Old Thirft Shop
-s
+An old-school yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x5435dc0" />
+      <child nodeId="node-0xeb835a0" />
     </children>
   </item>
-  <item nodeId="node-0x5435dc0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Floating Sidewalk
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x5435d50" />
-    </children>
-  </item>
-  <item nodeId="node-0x5435d50">
+  <item nodeId="node-0xeb835a0">
     <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Garage
-s
-
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x5435ce0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5435ce0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Floating Sidewalk
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x5435c70" />
-    </children>
-  </item>
-  <item nodeId="node-0x5435c70">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-  </item>
-  <item nodeId="node-0x54368b0">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Fresh Barber Shop
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436840" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436840">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x54367d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54367d0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Aurora Walk
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436760" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436760">
-    <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Tech Building
-s
+Miniature sized robots cover the floor around the building. Programers focused on their work on building more of these tiny robots.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x54366f0" />
+      <child nodeId="node-0x520ca50" />
     </children>
   </item>
-  <item nodeId="node-0x54366f0">
-    <command xml:space="preserve">weset</command>
+  <item nodeId="node-0x520ca50">
+    <command xml:space="preserve">norht</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x5436680" />
+      <child nodeId="node-0xeb42810" />
     </children>
   </item>
-  <item nodeId="node-0x5436680">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Old Thirft Shop
-s
+  <item nodeId="node-0xeb42810">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x5436610" />
+      <child nodeId="node-0xdec1730" />
     </children>
   </item>
-  <item nodeId="node-0x5436610">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Floating Sidewalk
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x54365a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54365a0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Lockdown
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436530" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436530">
+  <item nodeId="node-0xdec1730">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
-Floating Sidewalk
-s
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of trash is littered on the ground. The ground is made up of a thick green cushiony pad. 
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x54364c0" />
+      <child nodeId="node-0xa9f0540" />
     </children>
   </item>
-  <item nodeId="node-0x54364c0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Pathway
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436450" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436450">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Elevator Shaft
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x54363e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54363e0">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Obscure Parking Lot
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436370" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436370">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Skyscraper
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436300" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436300">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Plaza
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436290" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436290">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Skyscraper
-s
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-    <children>
-      <child nodeId="node-0x5436220" />
-    </children>
-  </item>
-  <item nodeId="node-0x5436220">
+  <item nodeId="node-0xa9f0540">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
-Stairway
-s
+DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many blankets and umbrella-like equipment cover the bed of sand. A red box lies underneath the sign.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="245">YES</temporary>
+    <children>
+      <child nodeId="node-0xebb7130" />
+    </children>
+  </item>
+  <item nodeId="node-0xebb7130">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Cruising Shack
+An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear and equipment from the automatic moving shelf.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="245">YES</temporary>
+    <children>
+      <child nodeId="node-0x11a02b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x11a02b60">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many blankets and umbrella-like equipment cover the bed of sand. A red box lies underneath the sign.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="245">YES</temporary>
+    <children>
+      <child nodeId="node-0xaa00d20" />
+    </children>
+  </item>
+  <item nodeId="node-0xaa00d20">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Jump
+A long and twelve foot wall that juts out of the land connected to the beach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="245">YES</temporary>
+    <children>
+      <child nodeId="node-0x11a45710" />
+    </children>
+  </item>
+  <item nodeId="node-0x11a45710">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="245">YES</temporary>
+    <children>
+      <child nodeId="node-0x11a1cb10" />
+    </children>
+  </item>
+  <item nodeId="node-0x11a1cb10">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 You realize that you have only fifteen more minutes to get the cat into his carrier.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x54361b0" />
+      <child nodeId="node-0xaa0b850" />
     </children>
   </item>
-  <item nodeId="node-0x54361b0">
-    <command xml:space="preserve">north</command>
+  <item nodeId="node-0xaa0b850">
+    <command xml:space="preserve">east</command>
     <result xml:space="preserve">
-View
-s
+DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many blankets and umbrella-like equipment cover the bed of sand. A red box lies underneath the sign.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <temporary score="245">YES</temporary>
     <children>
-      <child nodeId="node-0x5436140" />
+      <child nodeId="node-0xeb8d8c0" />
     </children>
   </item>
-  <item nodeId="node-0x5436140">
+  <item nodeId="node-0xeb8d8c0">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Jump
+A long and twelve foot wall that juts out of the land connected to the beach.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="245">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb41670" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb41670">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="244">YES</temporary>
+  </item>
+  <item nodeId="node-0x100088f0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
-Stairway
-s
+Outback Dump
+A room made specially for trash and filthy chemicals. It reeks of carbon and a large dumpster is in the center of the room. A bunch of dead spiders are scattered all over the place. Disgusting.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="225">YES</temporary>
     <children>
-      <child nodeId="node-0x54360d0" />
+      <child nodeId="node-0xaa64f90" />
+      <child nodeId="node-0xaa09aa0" />
+      <child nodeId="node-0x50b820" />
     </children>
   </item>
-  <item nodeId="node-0x54360d0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Skyscraper
-s
+  <item nodeId="node-0x50b820">
+    <command xml:space="preserve">x dumpster</command>
+    <result xml:space="preserve">A dark-green colored dumpster with rust and dirt all over it. A pungent smell is coming from it too.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="209">YES</temporary>
     <children>
-      <child nodeId="node-0x5436060" />
+      <child nodeId="node-0x511d220" />
     </children>
   </item>
-  <item nodeId="node-0x5436060">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Alternative
-s
+  <item nodeId="node-0x511d220">
+    <command xml:space="preserve">take dumpster</command>
+    <result xml:space="preserve">That&apos;s hardly portable.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="30">YES</temporary>
-  </item>
-  <item nodeId="node-0x5435ff0">
-    <command xml:space="preserve">x door</command>
-    <result xml:space="preserve">An extremely clear door that automatically opens when it senses your movement.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-  </item>
-  <item nodeId="node-0x5476b20">
-    <command xml:space="preserve">x silver crystal</command>
-    <result xml:space="preserve">I only understood you as far as wanting to examine the Silver Crystals.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="209">YES</temporary>
     <children>
-      <child nodeId="node-0x5476b70" />
+      <child nodeId="node-0x538e520" />
     </children>
   </item>
-  <item nodeId="node-0x5476b70">
-    <command xml:space="preserve">take crystal</command>
+  <item nodeId="node-0x538e520">
+    <command xml:space="preserve">open dumpster</command>
+    <result xml:space="preserve">Yuck! Your fingers are all brown from the dirt when you opened the dumpster. 
+Broken glass bottles and an array of colored liquids all mixed together lay inside the dumpster.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="208">YES</temporary>
+  </item>
+  <item nodeId="node-0xaa09aa0">
+    <command xml:space="preserve">x dirt</command>
+    <result xml:space="preserve">Brown filthy dirt.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="225">YES</temporary>
+    <children>
+      <child nodeId="node-0x11a9e260" />
+      <child nodeId="node-0xde35400" />
+    </children>
+  </item>
+  <item nodeId="node-0xde35400">
+    <command xml:space="preserve">x dumpster</command>
+    <result xml:space="preserve">A dark-green colored dumpster with rust and dirt all over it. A pungent smell is coming from it too.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="215">YES</temporary>
+    <children>
+      <child nodeId="node-0x532bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x532bd0">
+    <command xml:space="preserve">x dirt</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="215">YES</temporary>
     <children>
-      <child nodeId="node-0x5476c00" />
+      <child nodeId="node-0x11a2c440" />
     </children>
   </item>
-  <item nodeId="node-0x5476c00">
-    <command xml:space="preserve">take silver crystal</command>
-    <result xml:space="preserve">I only understood you as far as wanting to take the Silver Crystals.
+  <item nodeId="node-0x11a2c440">
+    <command xml:space="preserve">open dumpster</command>
+    <result xml:space="preserve">Yuck! Your fingers are all brown from the dirt when you opened the dumpster. 
+Broken glass bottles and an array of colored liquids all mixed together lay inside the dumpster.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="215">YES</temporary>
     <children>
-      <child nodeId="node-0x5476c70" />
+      <child nodeId="node-0xeba8a30" />
     </children>
   </item>
-  <item nodeId="node-0x5476c70">
-    <command xml:space="preserve">take silver crystals</command>
-    <result xml:space="preserve">Taken.
+  <item nodeId="node-0xeba8a30">
+    <command xml:space="preserve">x dirt</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="214">YES</temporary>
+  </item>
+  <item nodeId="node-0x11a9e260">
+    <command xml:space="preserve">open dumpster</command>
+    <result xml:space="preserve">Yuck! Your fingers are all brown from the dirt when you opened the dumpster. 
+Broken glass bottles and an array of colored liquids all mixed together lay inside the dumpster.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="225">YES</temporary>
     <children>
-      <child nodeId="node-0x5476ce0" />
+      <child nodeId="node-0xdeea690" />
     </children>
   </item>
-  <item nodeId="node-0x5476ce0">
-    <command xml:space="preserve">x painting</command>
-    <result xml:space="preserve">The old man in the painting looks formally dressed in a black suit and red tie. Is he supposed to be important or something?
+  <item nodeId="node-0xdeea690">
+    <command xml:space="preserve">x dirt</command>
+    <result xml:space="preserve">Brown filthy dirt.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="225">YES</temporary>
+    <children>
+      <child nodeId="node-0x11a70880" />
+    </children>
+  </item>
+  <item nodeId="node-0x11a70880">
+    <command xml:space="preserve">x rust</command>
+    <result xml:space="preserve">Chalky brown particles of iron oxide.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="225">YES</temporary>
     <children>
-      <child nodeId="node-0x5476dd0" />
+      <child nodeId="node-0x11800640" />
     </children>
   </item>
-  <item nodeId="node-0x5476dd0">
-    <command xml:space="preserve">take painting</command>
+  <item nodeId="node-0x11800640">
+    <command xml:space="preserve">take rust</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x5476e20" />
-    </children>
+    <temporary score="224">YES</temporary>
   </item>
-  <item nodeId="node-0x5476e20">
-    <command xml:space="preserve">x door</command>
-    <result xml:space="preserve">You see nothing special about the glass door.
+  <item nodeId="node-0xaa64f90">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="197">YES</temporary>
     <children>
-      <child nodeId="node-0x5476e70" />
+      <child nodeId="node-0x53d4420" />
     </children>
   </item>
-  <item nodeId="node-0x5476e70">
-    <command xml:space="preserve">x glass door</command>
-    <result xml:space="preserve">You see nothing special about the glass door.
+  <item nodeId="node-0x53d4420">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Outback Dump
+A room made specially for trash and filthy chemicals. It reeks of carbon and a large dumpster is in the center of the room. A bunch of dead spiders are scattered all over the place. Disgusting.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="13">YES</temporary>
+    <temporary score="197">YES</temporary>
+    <children>
+      <child nodeId="node-0x536ca20" />
+    </children>
   </item>
-  <item nodeId="node-0x5435c00">
-    <command xml:space="preserve">x lights</command>
-    <result xml:space="preserve">You see nothing special about the lights.
+  <item nodeId="node-0x536ca20">
+    <command xml:space="preserve">x dumpster</command>
+    <result xml:space="preserve">A dark-green colored dumpster with rust and dirt all over it. A pungent smell is coming from it too.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="50">YES</temporary>
+    <temporary score="197">YES</temporary>
     <children>
-      <child nodeId="node-0x5435b90" />
+      <child nodeId="node-0x51593c0" />
     </children>
   </item>
-  <item nodeId="node-0x5435b90">
-    <command xml:space="preserve">xlight</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="50">YES</temporary>
-    <children>
-      <child nodeId="node-0x5435b20" />
-    </children>
-  </item>
-  <item nodeId="node-0x5435b20">
-    <command xml:space="preserve">x light</command>
+  <item nodeId="node-0x51593c0">
+    <command xml:space="preserve">take dupster</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="50">YES</temporary>
+    <temporary score="197">YES</temporary>
     <children>
-      <child nodeId="node-0x5435ab0" />
+      <child nodeId="node-0x54ddd0" />
     </children>
   </item>
-  <item nodeId="node-0x5435ab0">
-    <command xml:space="preserve">x the lights</command>
-    <result xml:space="preserve">You see nothing special about the lights.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="49">YES</temporary>
-  </item>
-  <item nodeId="node-0x5435a40">
-    <command xml:space="preserve">x equipment</command>
-    <result xml:space="preserve">Volumetric Flasks, beakers, work gloves, and goggles make up the equipment.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="5">YES</temporary>
-    <children>
-      <child nodeId="node-0x54358f0" />
-      <child nodeId="node-0x54359d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54359d0">
-    <command xml:space="preserve">x volumetric flasks</command>
-    <result xml:space="preserve">Used to mix different chemicals in, and create experiments.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
-    <children>
-      <child nodeId="node-0x5435960" />
-    </children>
-  </item>
-  <item nodeId="node-0x5435960">
-    <command xml:space="preserve">take flasks</command>
+  <item nodeId="node-0x54ddd0">
+    <command xml:space="preserve">take dumpster</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <temporary score="196">YES</temporary>
   </item>
-  <item nodeId="node-0x54358f0">
-    <command xml:space="preserve">x lights</command>
-    <result xml:space="preserve">You see nothing special about the lights.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="57">YES</temporary>
-    <children>
-      <child nodeId="node-0x5435880" />
-    </children>
-  </item>
-  <item nodeId="node-0x5435880">
-    <command xml:space="preserve">xlight</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="57">YES</temporary>
-    <children>
-      <child nodeId="node-0x5435810" />
-    </children>
-  </item>
-  <item nodeId="node-0x5435810">
-    <command xml:space="preserve">x light</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="56">YES</temporary>
-  </item>
-  <item nodeId="node-0x54357a0">
-    <command xml:space="preserve">x equpiment</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="53">YES</temporary>
-    <children>
-      <child nodeId="node-0x5435730" />
-    </children>
-  </item>
-  <item nodeId="node-0x5435730">
-    <command xml:space="preserve">x equipment</command>
-    <result xml:space="preserve">You see nothing special about Equipment.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="53">YES</temporary>
-    <children>
-      <child nodeId="node-0x54356c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x54356c0">
-    <command xml:space="preserve">x equipment</command>
-    <result xml:space="preserve">You see nothing special about Equipment.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="52">YES</temporary>
-  </item>
-  <item nodeId="node-0x5435650">
-    <command xml:space="preserve">ride dog</command>
-    <result xml:space="preserve">You mount Dog.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1">YES</temporary>
-  </item>
-  <item nodeId="node-0x54355e0">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">Hey stop that! All is disabled.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="2">YES</temporary>
-  </item>
-  <item nodeId="node-0x5435570">
+  <item nodeId="node-0xde854c0">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
-garage
-This must be your garage. You notice all of your very own tools hanging from the walls. A fabulous car is parked in the middle of it. What an upgrade indeed!
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
 
-Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.  
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="191">YES</temporary>
     <children>
-      <child nodeId="node-0x5435420" />
-      <child nodeId="node-0x5435500" />
+      <child nodeId="node-0x1007c7a0" />
+      <child nodeId="node-0x520aaa0" />
     </children>
   </item>
-  <item nodeId="node-0x5435500">
-    <command xml:space="preserve">ride car</command>
-    <result xml:space="preserve">The car cannot be ridden.
+  <item nodeId="node-0x520aaa0">
+    <command xml:space="preserve">x wands</command>
+    <result xml:space="preserve">Each of these wand-looking sticks, have a different glowing color from one another. The button can be promising…
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <temporary score="191">YES</temporary>
     <children>
-      <child nodeId="node-0x5435490" />
+      <child nodeId="node-0x100cc3a0" />
     </children>
   </item>
-  <item nodeId="node-0x5435490">
-    <command xml:space="preserve">drive car</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x100cc3a0">
+    <command xml:space="preserve">take wand</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-  </item>
-  <item nodeId="node-0x5435420">
-    <command xml:space="preserve">ride XD4</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <temporary score="191">YES</temporary>
     <children>
-      <child nodeId="node-0x54353b0" />
+      <child nodeId="node-0x1008f120" />
     </children>
   </item>
-  <item nodeId="node-0x54353b0">
-    <command xml:space="preserve">drie</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x1008f120">
+    <command xml:space="preserve">take wands</command>
+    <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <temporary score="191">YES</temporary>
     <children>
-      <child nodeId="node-0x5435340" />
+      <child nodeId="node-0x518110" />
     </children>
   </item>
-  <item nodeId="node-0x5435340">
-    <command xml:space="preserve">drive</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x518110">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Wands
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="190">YES</temporary>
+  </item>
+  <item nodeId="node-0x1007c7a0">
+    <command xml:space="preserve">x tools</command>
+    <result xml:space="preserve">All of the tools are glowing different colors in this small garage. The only refined tool that you can make out seems to be a glowing red machete and a shear. The rest of the tools are just wands with a button on them. That seems interesting… 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="186">YES</temporary>
+    <children>
+      <child nodeId="node-0x5158f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5158f0">
+    <command xml:space="preserve">x wands</command>
+    <result xml:space="preserve">Each of these wand-looking sticks, have a different glowing color from one another. The button can be promising…
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="186">YES</temporary>
+    <children>
+      <child nodeId="node-0x100ab6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x100ab6f0">
+    <command xml:space="preserve">take machete</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="186">YES</temporary>
+    <children>
+      <child nodeId="node-0x100815b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x100815b0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Red Machete
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="186">YES</temporary>
+    <children>
+      <child nodeId="node-0xde3df60" />
+    </children>
+  </item>
+  <item nodeId="node-0xde3df60">
+    <command xml:space="preserve">take shear</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="186">YES</temporary>
+    <children>
+      <child nodeId="node-0x50488a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50488a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Shear
+  Red Machete
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="185">YES</temporary>
+  </item>
+  <item nodeId="node-0x521fb90">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="172">YES</temporary>
+    <children>
+      <child nodeId="node-0x5143680" />
+    </children>
+  </item>
+  <item nodeId="node-0x5143680">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Pristine Library
+The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. One of them is a black book that seems to be jutting out a little too far than the others though. A clear glass door is on the far side of the library along with a painting of a prestigious man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="172">YES</temporary>
+    <children>
+      <child nodeId="node-0x518a5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x518a5b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="171">YES</temporary>
   </item>
 </Skein>
