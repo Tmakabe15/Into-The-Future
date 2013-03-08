@@ -23,12 +23,6 @@ The present health of a person is usually 1.
 Definition: a person is dead if his present health is less than 1.
 
 
-[Actions]
-
-Driving is an action applying to one visible thing.
-Understand "drive [somewhere]" as driving.
-
-
 [Introduction]
 
 Rule for deciding whether all includes something: it does not.
@@ -65,9 +59,16 @@ Chapter 1 Lab, Library, Mysterious Room, Garage, Floating Sidewalk, Lockdown, Di
 [Lab Room]
 
 
-The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange container is in here as well so that you can put all your findings into here and take them back home with you."
+The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange backpack is in here as well so that you can put all your findings into it and take them back home with you."
 
-The orange container is a openable and unlocked container.
+Understand the command "put [thing] in [something]" as something new.
+Putting it in is an action applying to two things.
+Understand "put [thing] in [something]" as putting it in.
+
+The orange backpack is a openable and unlocked container carried by the player.
+After putting something in the backpack:
+	say "Your score increased by 200 points!";
+	move the noun to the backpack.
 
 [Put all your stuff inside container and accumilate points depending on how much stuff you have in there at the end of the game]
 
@@ -82,9 +83,11 @@ Goggle is a thing. It is undescribed. It is in the Lab Room. The description of 
 
 Work gloves are things. It is undescribed. It is in the Lab Room. The description of the work gloves are "White elastic gloves that stretch onto your hand. Just in case you get the chemicals on your hand."
 
-The lab shelves are scenery. It is undescribed. It is in the Lab Room. "Old books that have cob webs on them line the shelves. A shiny object is located on the top of it all. "
+The lab shelves are scenery. It is undescribed. It is in the Lab Room. "Old books that have cob webs on them line the shelves. A shiny object and a pair of electrical batteries is located on the top of it all. "
 
 Shiny object is a thing. It is undescribed. It is in the Lab Room. "This seems to be a piece of Rubidium, I wonder what it's doing here…. It's very dangerous."
+
+Electrical Batteries is a thing. It is undescribed. It is on the lab shelves. The description of the electrical batteries is "A pair of functional batteries used for something."
 
 The wall is scenery. It is undescribed. It is in the Lab Room. "Smooth and very white colored plaster make up the walls of the Lab Room."
 
@@ -94,25 +97,45 @@ The wall is scenery. It is undescribed. It is in the Lab Room. "Smooth and very 
 [Pristine Library]
 
 
-The Pristine Library is a room. It is east of the lab room. "The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. One of them is a black book that seems to be jutting out a little too far than the others though. A clear glass door is on the far side of the library along with a painting of a prestigious man."
+The Pristine Library is a room. It is east of the lab room. "The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. A clear glass door is on the far side of the library along with a painting of a prestigious man."
 
 Silver Crystals are things. It is undescribed. It is in the Pristine Library. The description of the silver crystals is "Shiny and smooth crystals that gives the library an amazing glow."
 
-Historical Books are things. It is undescribed. It is in the Pristine Library. The description of the historical books is "Some of these books are brand new in your day and age. I guess they're historical treasures to the future now."
-
-Black Book is a thing. It is undescribed. It is in the Pristine Library. The description of the black book is "A book with no words on its spine. Looks more like a plastic prop than an actual book. Wonder why it's here."
-[make the book unlock a secret passage way by pushing the book inwards]
-
 Painting is scenery. It is undescribed. It is in the Pristine Library. The description of the painting is "The old man in the painting looks formally dressed in a black suit and red tie. Is he supposed to be important or something?" 
 
+Historical Books are things. It is undescribed. It is on the shelves. The description of the historical books is "Some of these books are brand new in your day and age. I guess they're historical treasures to the future now."
+
+Historical Book is a thing. It is undescribed. It is on the shelves. The description of the historical book is "Some of these books are brand new in your day and age. I guess they're historical treasures to the future now."
+
 Glass door is an open door. It is undescribed. It is south of the Pristine Library and north of Facial Salon. The glass door is not openable. The description of the glass door is "An extremely clear door that automatically opens diagonally when it senses your movement."
+
+Black Book is a thing. It is undescribed. It is in the Pristine Library. The description of the black book is "A book with no words on its spine. Looks more like a plastic prop than an actual book."
+
+The lever is a thing in the Pristine Library. It is undescribed. 
+	After pulling lever:
+		now the hidden door is revealed;
+		now the hidden door is open;
+		say "you found a door. whoptydoo. you scrub".
+
+Understand "take [something]" or "move [something]" or "examine [something]" as LeverTime. LeverTime is an action applying to one thing.
+Check Levertime:
+	if player is in the Pristine Library:
+		if noun is Black Book:
+			say "You found a lever. whoptydoo. you suck at life".
+
+BookShelves are scenery. The printed name is "Book Shelves". Understand "book shelves" or "shelves" as BookShelves. They are in the Pristine Library. "Glass shelves that hold many books arranged in alphabetical order. There is one black book that seems to be jutting out a little too far than the others."
+
+
+
+Hidden door is a secret door. The Hidden door is east of the Pristine Library and west of the Mysterious Room.
+
 
 
 
 [Mysterious Room]
 
 
-The Mysterious Room is a room. It is east of the Pristine Library. "A hidden room lighted with lit candles instead of bright light bulbs. Piles of raw silk and stacks of golden bricks fill the entire room. Must be a secret stash hidden by someone."
+The Mysterious Room is a room. It is east of the Hidden door. "A hidden room lighted with lit candles instead of bright light bulbs. Piles of raw silk and stacks of golden bricks fill the entire room. Must be a secret stash hidden by someone."
 
 
 Candles are scenery. It is undescribed. It is in the Mysterious Room. The description of the candles is "Low-lit candles are placed in tiny plates. There is a constant flame as melted wax drips down into the plate."
@@ -171,6 +194,8 @@ The handbars are scenery. It is undescribed. It is in the Floating Sidewalk. THe
 The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail."
 
 [Add NPC- Guards]
+Lewis is a man in the Lockdown. He is undescribed. The description of Lew is ""
+
 [Add more tangible items]
 
 The Luminated Steel is scenery. It is undescribed. It is in the Lockdown. The description of the luminated steel is "Tough steel that looks unbendable to human hands. Thick cylindrical wires are stuck to the bottom of the steel."
@@ -196,6 +221,9 @@ The Cement is scenery. It is undescribed. It is in the Directional Path. The des
 The Brown Silk Bag is a closed openable container. It is undescribed. It is in the Directional Path. The description of the brown silk bag is "A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair, and glasses. "
 
 Pepto Bismol is a thing. It is undescribed. It is inside the brown silk bag. The description of the pepto bismol is "Pink liquid inside a bottle that people drink to clear up indigestion and heartburn."
+
+
+
 [Drink pepto bismol and result in death. needed to give to the sick child in Skyscraper]
 
 Dollar Bills are things. It is undescribed. It is inside the brown silk bag. The description of the dollar bills is "Crispy green dollar bills with a picture of an old man on it. Must be a new type of bill, since it also doesn't have a dollar amount on it either."
@@ -217,27 +245,87 @@ Rust is scenery. It is undescribed. It is in the Outback Dump. "Chalky brown par
 
 Spiders are things. It is undescribed. It is in the Outback Dump. The description of the spiders is "Black medium-sized garden spiders that don't seem to be moving."	
 
+An every turn rule:
+	If player has spiders:
+		say "The black spider sinks its teeth into your flesh and poisons you instantly.";
+		end the game in death. 
+
 
 Chapter 2 Aurora Walk, Facial Salon, Tech Building, Old Thrift Shop
 
 [Aurora Walk]
 
-The Aurora Walk is a room. It is north of the lab room. "This seems to be the main walkway for many people. It is busy and lots of trash is littered on the ground. The ground is made up of a thick green cushiony pad. "
+[Add NPC's and the people walking by. Who don't want to talk at the moment]
 
+
+The Aurora Walk is a room. It is north of the lab room. "This seems to be the main walkway for many people. It is busy and lots of trash is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. "
+
+Green Cushiony Pad is scenery. It is undescribed. It is in the Aurora Walk. The description of the Green Cushiony Pad is "Green padding that creates a walkway that leads to different parts of the city."
+
+Trash is a thing. It is undescribed. It is in the Aurora Walk. The description of the Trash is "Remnants of used kleenex and recylable bottles that are scattered on the walkway."
+
+Kleenex is a thing. It is undescribed. It is in the Aurora Walk. The description of the Kleenex is "Shredded up pieces of tissue paper that is crumpled up and already used. Nasty!"
+Instead of taking the kleenex:
+	say "Are you sure you really want to take it? You really don't need it at all."
+
+[Make it so you are able to take trash and put into trash can]
+
+Trash can is a closed openable container. It is undescribed. It is in the Aurora Walk. The description of the trash can is "A dark blue trash can with a clear glass rim that opens automatically when it senses someone's hands nearby."
+
+ 
 
 [Facial Salon]
 
-The Facial Salon is a room. It is east of the Aurora Walk. It is north of the Pristine Library. "A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of silk and hair is scattered all over the checker-board floor and tabletops. Black leather seats around the mirrors make up almost the entire salon."
+The Facial Salon is a room. It is east of the Aurora Walk. It is north of the Pristine Library. "A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice 'cool' feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon."
+[NPC]
+Laquisha is a woman. 
+
+
+Thin silk is a thing. It is undescribed. It is in the Facial Salon. The description of the thin silk is "Long pieces of white soft silk that hang from the lights and drop onto the floor to be picked up later."
+
+Hair is a thing. It is undescribed. It is in the Facial Salon. The description of the hair is "Long and short strands of hair that have an array of colors that probably came from a lot of people."
+
+Floor is scenery. It is undescribed. It is in the Facial Salon. The description of the floor is "Sturdy tile that is alternating black and white colors."
+
+Light Blue Lights is scenery. It is undescribed. It is in the Facial Salon. The description of the light blue lights is "Pyramidal shaped lights that emits a faint light blue light into the room. Tiny circular holes excretes the thin silk for some reason."
+
+White leather seats is scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on."
+
+[Lay on seat and get massage from laquisha.]
+
+
 
 
 [Tech Building]
 
 The Tech Building is a room. It is west of the Aurora Walk. "Miniature sized robots cover the floor around the building. Programers focused on their work on building more of these tiny robots."
 
+Miniature Sized Robot is a man. It is undescribed. It is in the Tech Building.
+Instead of examining miniature sized robot:
+	say "Small toy robots that are able to do walk and say monotonous things.";
+	move the electrical batteries to the robot
+
+
+
+Programers is a man. 
+
+
 
 [Old Thrift Shop]
 
-The Old Thirft Shop is a room. It is west of the Tech Building. It is north of the Floating Sidewalk. "An old-school yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style."
+The Old Thirft Shop is a room. It is west of the Tech Building. It is north of the Floating Sidewalk. "An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style."
+
+
+Racks are scenery. It is undescribed. It is in the Old Thrift Shop. The description of the Racks is "Made from long titanium bars that sense your presence. It  automatically slides the clothes down when you gently push the clothes aside. Assorted shirts hang from these racks."
+
+Hangers are things. It is undescribed. It is in the Old Thrift Shop. The description of the hangers is "Plain old metal hangers that hold the shirts on it."
+[Create an action where you can push the clothes aside.]
+
+Clothes are things. It is undescribed. It is in the Old Thrift Shop. The description of the clothes is "Old, new, stylish, and formal assorted shirts."
+
+Assorted Shirts are things. It is undescribed. It is in the Old Thrift Shop. The description of the assorted shirts is "Colorful shirts that are for sale."
+
+
 
 
 
@@ -331,6 +419,12 @@ The sand is scenery in The Sandbox.  It is a closed openable container. "The san
 
 [Actions]
 Understand "dig [something]" as opening.
+
+Driving is an action applying to one visible thing.
+Understand "drive [somewhere]" as driving.
+
+Understand the command "mix" as something new. understand "mix [something] with [something]" as mixing it with. mixing it with is an action applying to two [carried?] things. [Assassin- Brandon]
+
 
 
 
