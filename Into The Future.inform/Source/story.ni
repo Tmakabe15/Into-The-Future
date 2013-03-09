@@ -23,6 +23,29 @@ The present health of a person is usually 1.
 Definition: a person is dead if his present health is less than 1.
 
 
+To say status of the player:
+	let x be the present health of the player;
+	if x is 100:
+		say "You are perfectly fine";
+	otherwise if x is at most 10:
+		say "You are about to die, watch out!";
+	otherwise if x is at most 20:
+		say "Don't get hurt anymore please.";
+	otherwise if x is at most 30:
+        		say "Take care of yourself.";
+    	otherwise if x is at most 60:
+      	  	say "Watch yourself";
+    	otherwise if x is at most 70:
+        		say "Feeling about average";
+    	otherwise if x is at most 80:
+        		say "Just shake it off, everything's fine";
+    	otherwise if x is at most 90:
+        		say "Not bad, but could be better";
+    	otherwise:
+        		say "Still very fine".
+
+
+
 [Introduction]
 
 Rule for deciding whether all includes something: it does not.
@@ -59,7 +82,7 @@ Chapter 1 Lab, Library, Mysterious Room, Garage, Floating Sidewalk, Lockdown, Di
 [Lab Room]
 
 
-The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs, with different flasks that contain unique chemicals inside them. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange backpack is in here as well so that you can put all your findings into it and take them back home with you."
+The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange backpack is in here as well so that you can put all your findings into it and take them back home with you."
 
 Understand the command "put [thing] in [something]" as something new.
 Putting it in is an action applying to two things.
@@ -97,38 +120,34 @@ The wall is scenery. It is undescribed. It is in the Lab Room. "Smooth and very 
 [Pristine Library]
 
 
-The Pristine Library is a room. It is east of the lab room. "The library is embedded with silver crystals all around the walls. There are about ten different shelves that contain thousands of historic books that date back to your time. A clear glass door is on the far side of the library along with a painting of a prestigious man."
+The Pristine Library is a room. It is east of the lab room. "The library is embedded with silver crystals all around the walls. There are shelves that contain thousands of historical books that date back to your time. A clear glass door is on the far side of the library along with a painting of a prestigious man."
 
 Silver Crystals are things. It is undescribed. It is in the Pristine Library. The description of the silver crystals is "Shiny and smooth crystals that gives the library an amazing glow."
 
 Painting is scenery. It is undescribed. It is in the Pristine Library. The description of the painting is "The old man in the painting looks formally dressed in a black suit and red tie. Is he supposed to be important or something?" 
 
-Historical Books are things. It is undescribed. It is on the shelves. The description of the historical books is "Some of these books are brand new in your day and age. I guess they're historical treasures to the future now."
-
-Historical Book is a thing. It is undescribed. It is on the shelves. The description of the historical book is "Some of these books are brand new in your day and age. I guess they're historical treasures to the future now."
+Historical Books are things. It is undescribed. It is in the Pristine Library. The description of the historical books is "Some of these books are brand new in your day and age. I guess they're historical treasures to the future now."
 
 Glass door is an open door. It is undescribed. It is south of the Pristine Library and north of Facial Salon. The glass door is not openable. The description of the glass door is "An extremely clear door that automatically opens diagonally when it senses your movement."
 
-Black Book is a thing. It is undescribed. It is in the Pristine Library. The description of the black book is "A book with no words on its spine. Looks more like a plastic prop than an actual book."
+Black Book is a thing. It is undescribed. It is in the Pristine Library. The description of the black book is "A book with no words on its spine. There is no cover, nor any words in it either. Looks more like a plastic prop than an actual book."
 
 The lever is a thing in the Pristine Library. It is undescribed. 
 	After pulling lever:
 		now the hidden door is revealed;
 		now the hidden door is open;
-		say "you found a door. whoptydoo. you scrub".
+		say "You found a hidden door! Wonder where that leads to.".
 
 Understand "take [something]" or "move [something]" or "examine [something]" as LeverTime. LeverTime is an action applying to one thing.
 Check Levertime:
 	if player is in the Pristine Library:
 		if noun is Black Book:
-			say "You found a lever. whoptydoo. you suck at life".
+			say "You found a hidden lever!".
 
 BookShelves are scenery. The printed name is "Book Shelves". Understand "book shelves" or "shelves" as BookShelves. They are in the Pristine Library. "Glass shelves that hold many books arranged in alphabetical order. There is one black book that seems to be jutting out a little too far than the others."
 
 
-
 Hidden door is a secret door. The Hidden door is east of the Pristine Library and west of the Mysterious Room.
-
 
 
 
@@ -154,9 +173,6 @@ Golden Brick is a thing. It is undescribed. The description is "One 24 karat gol
 Instead of taking golden bricks:
 	say "Unfortunately, you are only strong enough to hold one of the bars.";
 	now player has a golden brick.
-
-[add secret door]
-
 
 
 
@@ -194,7 +210,7 @@ The handbars are scenery. It is undescribed. It is in the Floating Sidewalk. THe
 The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail."
 
 [Add NPC- Guards]
-Lewis is a man in the Lockdown. He is undescribed. The description of Lew is ""
+Lewis is a man in the Lockdown. He is undescribed. The description of Lewis is "A burly man with a black uniform, belt, and black glasses."
 
 [Add more tangible items]
 
@@ -215,16 +231,22 @@ The Cell Walls are scenery. It is undescribed. It is in the Lockdown. The descri
 
 The Directional Path is a room. It is south of the Floating Sidewalk. It is north of the Elevator Shaft. "You are now on cement again. The texture of this pathway is much different from the Floating Sidewalk. A brown silk bag is lying on the side of the pathway."
 
-[Add items that are inside the bag]
 The Cement is scenery. It is undescribed. It is in the Directional Path. The description of the cement is "Plain old cement used to pave roads and walkways. Nothing too special about it."
 
-The Brown Silk Bag is a closed openable container. It is undescribed. It is in the Directional Path. The description of the brown silk bag is "A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair, and glasses. "
+The Brown Silk Bag is a closed openable container. It is undescribed. It is in the Directional Path. The description of the brown silk bag is "A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair and glasses."
+
+
+Instead of opening the Brown Silk Bag:
+	say "You find a bottle of Pepto Bismol and dollar bills inside it as well."
+	
+Instead of drinking the Pepto Bismol:
+	say "It tastes like a mint candy, but doesn't settle too well in your stomach." [deduct health]
+Instead of taking the Pepto Bismol:
+	say "This looks like you can give it to someone to treat their sickness."
+	
+
 
 Pepto Bismol is a thing. It is undescribed. It is inside the brown silk bag. The description of the pepto bismol is "Pink liquid inside a bottle that people drink to clear up indigestion and heartburn."
-
-
-
-[Drink pepto bismol and result in death. needed to give to the sick child in Skyscraper]
 
 Dollar Bills are things. It is undescribed. It is inside the brown silk bag. The description of the dollar bills is "Crispy green dollar bills with a picture of an old man on it. Must be a new type of bill, since it also doesn't have a dollar amount on it either."
 
@@ -232,7 +254,7 @@ Dollar Bills are things. It is undescribed. It is inside the brown silk bag. The
 [Outback Dump]
 
 
-The Outback Dump is a room. It is south of the lab room. "A room made specially for trash and filthy chemicals. It reeks of carbon and a large dumpster is in the center of the room. A bunch of dead spiders are scattered all over the place. Disgusting."
+The Outback Dump is a room. It is south of the lab room. "A room made specially for trash and filthy chemicals. It reeks of carbon and a large dumpster is in the center of the room. A bunch of spiders are scattered all over the place. Disgusting."
 
 Dumpster is scenery. It is a closed openable container. It is undescribed. It is in the Outback Dump.
 The description of the dumpster is "A dark-green colored dumpster with rust and dirt all over it. A pungent smell is coming from it too."
@@ -258,11 +280,11 @@ Chapter 2 Aurora Walk, Facial Salon, Tech Building, Old Thrift Shop
 [Add NPC's and the people walking by. Who don't want to talk at the moment]
 
 
-The Aurora Walk is a room. It is north of the lab room. "This seems to be the main walkway for many people. It is busy and lots of trash is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. "
+The Aurora Walk is a room. It is north of the lab room. "This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. "
 
 Green Cushiony Pad is scenery. It is undescribed. It is in the Aurora Walk. The description of the Green Cushiony Pad is "Green padding that creates a walkway that leads to different parts of the city."
 
-Trash is a thing. It is undescribed. It is in the Aurora Walk. The description of the Trash is "Remnants of used kleenex and recylable bottles that are scattered on the walkway."
+Rubbish are things. It is undescribed. It is in the Aurora Walk. The description of the Rubbish is "Remnants of used kleenex and recylable bottles that are scattered on the walkway."
 
 Kleenex is a thing. It is undescribed. It is in the Aurora Walk. The description of the Kleenex is "Shredded up pieces of tissue paper that is crumpled up and already used. Nasty!"
 Instead of taking the kleenex:
@@ -289,7 +311,7 @@ Floor is scenery. It is undescribed. It is in the Facial Salon. The description 
 
 Light Blue Lights is scenery. It is undescribed. It is in the Facial Salon. The description of the light blue lights is "Pyramidal shaped lights that emits a faint light blue light into the room. Tiny circular holes excretes the thin silk for some reason."
 
-White leather seats is scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on."
+White leather seats is an scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on."
 
 [Lay on seat and get massage from laquisha.]
 
@@ -298,13 +320,14 @@ White leather seats is scenery. It is undescribed. It is in the Facial Salon. Th
 
 [Tech Building]
 
-The Tech Building is a room. It is west of the Aurora Walk. "Miniature sized robots cover the floor around the building. Programers focused on their work on building more of these tiny robots."
+The Tech Building is a room. It is west of the Aurora Walk. "A Medium Sized robot is the only thing on the floor around the building. Programers are focused on their work on building more of these robots."
 
-Miniature Sized Robot is a man. It is undescribed. It is in the Tech Building.
-Instead of examining miniature sized robot:
-	say "Small toy robots that are able to do walk and say monotonous things.";
-	move the electrical batteries to the robot
+Medium Sized Robot is a man. It is undescribed. It is in the Tech Building.
 
+Instead of examining Medium Sized robot:
+	say "A metal robot with cylindrical pieces of tin stuck to it. The robot is able to do limit things such as walking, and say monotonous things.";
+	move the electrical batteries to the robot.
+[Give batteries to robot to do something cool]
 
 
 Programers is a man. 
@@ -334,12 +357,32 @@ Chapter 3 DNA Beach, Analysis Sign, Sandy Ocean, Cruising Shack, The Jump
 
 [DNA Beach]
 
-The DNA Beach is a room. It is north of the Aurora Walk. "Surfs-up! Seems as though everyone's at the beach today. A sign shows the reports of the day. Many blankets and umbrella-like equipment cover the bed of sand. A red box lies underneath the sign."
+The DNA Beach is a room. It is north of the Aurora Walk. "Surfs-up! Seems as though everyone's at the beach today. A sign shows the reports of the day. Many beach blankets cover the bed of sand. A red box lies underneath the analysis sign."
 
+Beach Blankets are scenery. It is undescribed. It is in the DNA Beach. The description of the Beach Blankets is "An assortment of blankets people lie on so that they don't get themselves covered in sand."
 
-[Analysis Sign]
+Instead of taking beach blankets:
+	say "That is not yours. Do not take it."
+[Unable to take blankets]
+	
+[Add Key needed]
+Red Box is a locked and lockable container. It is in the DNA Beach. The description of the Red Box is "A titanium sturdy red box that looks like a toy chest."
 
 The Analysis Sign is scenery. It is in the DNA Beach. "Welcome to DNA Beach! Today is low tide, what a nice day to learn how to hoverboard guys! Hoverboards and food can be bought and rented in The Shack. Have a nice day everyone!"
+
+The shovel is a thing. The shovel is undescribed. The shovel is in the Red Box. The shovel unlocks the sand. The description of the shovel is "A metallic blue shovel with a silky green handle."
+
+The sand is scenery in DNA Beach.  It is a closed openable container. "The sand is yellow-colored with tiny specs of black rocks mixed in it too. There is too much sand for you to uncover with your own hands."
+
+Instead of opening the sand:
+	if player has shovel:
+		say "You dig out the sand and see diamonds and amber!";
+		change sand to open;
+	else:
+		say "You can't dig out all the sand with just your hands. This sand is thicker than the sand you're famliar with back in your time.".
+
+
+
 
 
 [Sandy Ocean]
@@ -347,14 +390,32 @@ The Analysis Sign is scenery. It is in the DNA Beach. "Welcome to DNA Beach! Tod
 The Sandy Ocean is a room. It is north of DNA Beach. "The ocean is surprisingly clear blue. It looks like coral and large rocks on the bottom of the ocean have been coated with a layer of paint."
 
 
+Coral is scenery. It is undescribed. It is in the Sandy Ocean. The description of the coral is ""
+
+Large Rocks are scenery. It is undescribed. It is in the Sandy Ocean. The description of the large rocks is ""
+
+
+[understanding swim and surf a wave with a surfboard]
+
+
+
+
 [Cruising Shack]
 
-The Cruising Shack is a room. It is east of the DNA Beach. "An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear and equipment from the automatic moving shelf."
+The Cruising Shack is a room. It is east of the DNA Beach. "An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear and swim suit from the automatic moving shelf."
+
+Wooden Planks is scenery. It is undescribed. It is in the Cruising Shack. The description of the wooden planks is ""
+
+Beach Gear are things. It is undescribed. It is in the Cruising Shack. The description of the beach gear is ""
+
+Swim Suit is a thing. It is undescribed. It is in the Cruising Shack. The description of the swim suit is ""
+
+Shelf is scenery. It is undescribed. It is in the Cruising Shack. The description of the shelf is ""
 
 
-[The Jump]
 
-The Jump is a room. It is west of the DNA Beach and north of the Tech Building. "A long and twelve foot wall that juts out of the land connected to the beach."
+[NPC runs cashier and helps you form a surfboard]
+
 
 
 
@@ -411,9 +472,6 @@ The Pear Incorporation is a room. It is south of the Plaza Streets. "This is sur
 
 The tabletops is a thing. It is in the fancy salon.
 
-The shovel is a thing. The shovel is undescribed. The shovel is in the Sandbox. The shovel unlocks the sand. The description of the shovel is "A metallic blue shovel with a silky green handle."
-
-The sand is scenery in The Sandbox.  It is a closed openable container. "The sand is very mushy and rough. There is too much sand for you to uncover with your own hands."
 
 
 
@@ -426,15 +484,6 @@ Understand "drive [somewhere]" as driving.
 Understand the command "mix" as something new. understand "mix [something] with [something]" as mixing it with. mixing it with is an action applying to two [carried?] things. [Assassin- Brandon]
 
 
-
-
-
-Instead of opening the sand:
-	if player has shovel:
-		say "You dig out the sand and see diamonds and amber!";
-		change sand to open;
-	else:
-		say "You can't dig out all the sand with just your hands. This sand is thicker than the sand you're famliar with back in your time.".
 
 
 
