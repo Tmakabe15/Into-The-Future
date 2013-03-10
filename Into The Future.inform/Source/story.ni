@@ -22,6 +22,8 @@ The present health of a person is usually 1.
 
 Definition: a person is dead if his present health is less than 1.
 
+x is a number variable.
+
 
 To say status of the player:
 	let x be the present health of the player;
@@ -43,8 +45,6 @@ To say status of the player:
         		say "Not bad, but could be better";
     	otherwise:
         		say "Still very fine".
-
-
 
 [Introduction]
 
@@ -91,9 +91,12 @@ Understand "put [thing] in [something]" as putting it in.
 The orange backpack is a openable and unlocked container carried by the player.
 After putting something in the backpack:
 	say "Your score increased by 200 points!";
-	move the noun to the backpack.
+	move the noun to the backpack;
+	increase score by 200.
+	
 
 [Put all your stuff inside container and accumilate points depending on how much stuff you have in there at the end of the game]
+
 
 The lights are scenery. The lights are undescribed. It is in the Lab Room. "A shady dark blue light that compliments that white walls of the lab room."
 
@@ -136,13 +139,11 @@ The lever is a thing in the Pristine Library. It is undescribed.
 	After pulling lever:
 		now the hidden door is revealed;
 		now the hidden door is open;
-		say "You found a hidden door! Wonder where that leads to.".
+		say "You found a hidden door to the east! Wonder where that leads to.".
 
-Understand "take [something]" or "move [something]" or "examine [something]" as LeverTime. LeverTime is an action applying to one thing.
-Check Levertime:
-	if player is in the Pristine Library:
-		if noun is Black Book:
-			say "You found a hidden lever!".
+Instead of taking or pulling the book when the book has not been handled:
+	say "You found a hidden lever!";
+		continue the action.
 
 BookShelves are scenery. The printed name is "Book Shelves". Understand "book shelves" or "shelves" as BookShelves. They are in the Pristine Library. "Glass shelves that hold many books arranged in alphabetical order. There is one black book that seems to be jutting out a little too far than the others."
 
@@ -240,12 +241,11 @@ Instead of opening the Brown Silk Bag:
 	say "You find a bottle of Pepto Bismol and dollar bills inside it as well."
 	
 Instead of drinking the Pepto Bismol:
-	say "It tastes like a mint candy, but doesn't settle too well in your stomach." [deduct health]
+	say "It tastes like a mint candy, but doesn't settle too well in your stomach.";
+	decrease x by 30.
+
 Instead of taking the Pepto Bismol:
 	say "This looks like you can give it to someone to treat their sickness."
-	
-
-
 Pepto Bismol is a thing. It is undescribed. It is inside the brown silk bag. The description of the pepto bismol is "Pink liquid inside a bottle that people drink to clear up indigestion and heartburn."
 
 Dollar Bills are things. It is undescribed. It is inside the brown silk bag. The description of the dollar bills is "Crispy green dollar bills with a picture of an old man on it. Must be a new type of bill, since it also doesn't have a dollar amount on it either."
@@ -287,21 +287,34 @@ Green Cushiony Pad is scenery. It is undescribed. It is in the Aurora Walk. The 
 Rubbish are things. It is undescribed. It is in the Aurora Walk. The description of the Rubbish is "Remnants of used kleenex and recylable bottles that are scattered on the walkway."
 
 Kleenex is a thing. It is undescribed. It is in the Aurora Walk. The description of the Kleenex is "Shredded up pieces of tissue paper that is crumpled up and already used. Nasty!"
-Instead of taking the kleenex:
-	say "Are you sure you really want to take it? You really don't need it at all."
 
+Instead of taking the kleenex:
+	say "Are you sure you really want to take it? You really don't need it at all.";
+	continue the action.
 [Make it so you are able to take trash and put into trash can]
 
-Trash can is a closed openable container. It is undescribed. It is in the Aurora Walk. The description of the trash can is "A dark blue trash can with a clear glass rim that opens automatically when it senses someone's hands nearby."
+Trash Can is a closed openable container. It is undescribed. It is in the Aurora Walk. The description of the trash can is "A dark blue trash can with a clear glass rim that opens automatically when it senses someone's hands nearby."
 
- 
+Instead of putting the rubbish in Trash Can:
+	say "Your score increased by 100.";
+	increase score by 100.
+
+
+Instead of putting the kleenex in Trash Can:
+	say "Your score increased by 100.";
+	increase score by 100.
+[fix scoring problem]
+
+
 
 [Facial Salon]
+
 
 The Facial Salon is a room. It is east of the Aurora Walk. It is north of the Pristine Library. "A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice 'cool' feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon."
 [NPC]
 Laquisha is a woman. 
 
+Counter is scenery. It is undescribed. It is in the Facial Salon. The description of the counter is "A long table made out of dark-green granite."
 
 Thin silk is a thing. It is undescribed. It is in the Facial Salon. The description of the thin silk is "Long pieces of white soft silk that hang from the lights and drop onto the floor to be picked up later."
 
@@ -317,22 +330,24 @@ White leather seats is an scenery. It is undescribed. It is in the Facial Salon.
 
 
 
-
 [Tech Building]
 
 The Tech Building is a room. It is west of the Aurora Walk. "A Medium Sized robot is the only thing on the floor around the building. Programers are focused on their work on building more of these robots."
 
-Medium Sized Robot is a man. It is undescribed. It is in the Tech Building.
+Medium Sized Robot is a man. The medium sized robot is in the Tech Building. The description of the robot is "[if robot does not have batteries]A metal robot with cylindrical pieces of tin stuck to it. The robot is able to do things such as walking, and dancing. It doesn't seem to have batteries though. [end if] [if medium sized robot has batteries]A metal robot with cylindrical pieces of tin stuck to it. Man, that thing could dance! [end if]".
 
-Instead of examining Medium Sized robot:
-	say "A metal robot with cylindrical pieces of tin stuck to it. The robot is able to do limit things such as walking, and say monotonous things.";
-	move the electrical batteries to the robot.
-[Give batteries to robot to do something cool]
+Instead of giving batteries to medium sized robot:
+	say "The robot starts to dance to the tune of Call Me Maybe by Carly Rae Jepson. It walks all over the place.";
+	move batteries to robot.
 
-
+Instead of taking batteries:
+	If robot has batteries:
+		say "You just put the batteires in, don't end the robot's fun now!";
+	else:
+		move batteries to player;
+		say "You pick up the electrical batteries.".
+		
 Programers is a man. 
-
-
 
 [Old Thrift Shop]
 
@@ -384,10 +399,13 @@ Instead of opening the sand:
 
 
 
-
 [Sandy Ocean]
 
 The Sandy Ocean is a room. It is north of DNA Beach. "The ocean is surprisingly clear blue. It looks like coral and large rocks on the bottom of the ocean have been coated with a layer of paint."
+
+[The combining action]
+Understand "combine [something] with [something]" as combining it with.
+Combining it with is an action applying to two things.
 
 
 Coral is scenery. It is undescribed. It is in the Sandy Ocean. The description of the coral is ""
@@ -395,7 +413,8 @@ Coral is scenery. It is undescribed. It is in the Sandy Ocean. The description o
 Large Rocks are scenery. It is undescribed. It is in the Sandy Ocean. The description of the large rocks is ""
 
 
-[understanding swim and surf a wave with a surfboard]
+[understanding swim and surf a wave with a surfboard.
+Cannot go into the ocean w/out a surfboard.]
 
 
 
@@ -414,7 +433,7 @@ Shelf is scenery. It is undescribed. It is in the Cruising Shack. The descriptio
 
 
 
-[NPC runs cashier and helps you form a surfboard]
+[NPC runs cashier and tells you how to make the surfboard]
 
 
 
@@ -428,9 +447,14 @@ Chapter 4 Obscure Parking Lot, Elevator Shaft, Skyscraper, Stairway, The View, P
 The Obscure Parking Lot is south of the Garage. "An eighteen foot parking structure that allows you to park your car whenever you want."
 
 
+
+
 [Elevator Shaft]
 
 The Elevator Shaft is a room. It is west of the Obscure Parking Lot. "Watch out! Yellow tape borders the edges of the elevator. Seems as though the elevator is out of function."
+
+
+
 
 
 [Skyscraper]
@@ -439,9 +463,13 @@ The Skyscraper 057 is a room. It is east of the Obscure Parking Lot. "The larges
 
 
 
+
+
 [Stairway]
 
 The Stairway is a room. It is north of the Skyscraper. "Just an empty stairway. Wonder where this leads to."
+
+
 
 
 
@@ -454,9 +482,14 @@ The Skyscraper View is a room. It is north of the stairway. "What an amazing sig
 
 
 
+
+
 [Plaza Streets]
 
 The Plaza Streets is a room. It is east of the Skyscraper. "People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is tiled with black and blue cement around the plaza. What a sight. "
+
+
+
 
 
 
@@ -470,7 +503,9 @@ The Pear Incorporation is a room. It is south of the Plaza Streets. "This is sur
 
 
 
-The tabletops is a thing. It is in the fancy salon.
+
+
+
 
 
 
@@ -496,9 +531,10 @@ An every turn rule:
 
 
 
-At 9:15 AM: say "You realize that you have only fifteen more minutes to get the cat into his carrier." 
-At 9:23 AM: say "Your exhaustion is threatening to send you crashing to the floor, unable to move." 
-At 9:30 AM: say "You are about to drop dead of exhaustion. 'The cats will be the death of me,' you always said."
-At 9:33 AM:
-    say "You stumble to your knees and then collapse on the floor, quite surprised to find that the phrase 'drop dead of exhaustion' can be literally true."
+At 9:40 AM: say "40 minutes passed already. Wow! You haven't been checking your time lately."
+At 9:50 AM: say "No worries, 50 minutes passed. About 40 minutes to go."
+At 10:00 AM: say "Your watch is starting to beep. Probably is trying to remind you to hurry up!"
+At 10:15 AM: say "No time to waste, do what you gotta do now. And quick!"
+At 10:30 AM: say "You are out of time… Your watch has teleported you back to your very own lab with your orange backpack. Hopefully you managed to take enough stuff with you back home.";
+end the game in victory.
 
