@@ -2,6 +2,12 @@
 
 
 
+
+
+[Add compass] 
+[Add scoring system]
+[Add more extras]
+
 [Extentions]
 
 Include Rideable Vehicles by Graham Nelson.
@@ -98,6 +104,8 @@ After putting something in the backpack:
 [Put all your stuff inside container and accumilate points depending on how much stuff you have in there at the end of the game]
 
 
+
+
 The lights are scenery. The lights are undescribed. It is in the Lab Room. "A shady dark blue light that compliments that white walls of the lab room."
 
 Equipment is a thing. It is undescribed. It is in the Lab Room. The description of the equipment is "A Volumetric Flask, beaker, work gloves, and a goggle make up the equipment."
@@ -117,7 +125,7 @@ Electrical Batteries is a thing. It is undescribed. It is on the lab shelves. Th
 
 The wall is scenery. It is undescribed. It is in the Lab Room. "Smooth and very white colored plaster make up the walls of the Lab Room."
 
-
+[Able to make chemicals? Mix stuff together. "You have made an unkown liquid. Wonder how it tastes like."]
 
 
 [Pristine Library]
@@ -219,12 +227,15 @@ The Luminated Steel is scenery. It is undescribed. It is in the Lockdown. The de
 
 The Cylindrical Wires are scenery. It is undescribed. It is in the Lockdown. The description of the cylindrical wires is "Wires that conduct pressure and electricity. Probably what makes the Steel able to float and move to certain cells."
 
-The Prison Cell is scenery. It is undescribed. It is in the Lockdown. The description of the prison cell is "Contains cell bars, walls, and bed for the prisoner. Not very luxurious but suitable for reprobates."
+The Prison Cell is scenery. It is undescribed. It is in the Lockdown. The description of the prison cell is "Contains cell bars, walls, and bed for the prisoner. Not very luxurious but suitable for reprobates. [Line break]There seems to be a pocket knife here too."
 
 The Cell Bars are scenery. It is undescribed. It is in the Lockdown. The description of the Cell Bars is "Metal bars that keep the criminals inside their room."
 
 The Cell Walls are scenery. It is undescribed. It is in the Lockdown. The description of the Cell Walls is "The walls are surfaced with pure white material, just like the luminated steel."
 
+Pocket Knife is a thing. It is undescribed. It is in the Lockdown. The description of the pocket knife is "A silver knife with a sharp point to it."
+
+The Beds are scenery. It is undescribed. It is in the Lockdown. The description of the Beds is "A rectangular cushion that is on a piece of thick metal make up the beds."
 
 
 [DIrectional Path]
@@ -242,14 +253,15 @@ Instead of opening the Brown Silk Bag:
 	
 Instead of drinking the Pepto Bismol:
 	say "It tastes like a mint candy, but doesn't settle too well in your stomach.";
-	decrease x by 30.
+	decrease x by 70.
 
 Instead of taking the Pepto Bismol:
 	say "This looks like you can give it to someone to treat their sickness."
-Pepto Bismol is a thing. It is undescribed. It is inside the brown silk bag. The description of the pepto bismol is "Pink liquid inside a bottle that people drink to clear up indigestion and heartburn."
+	
+Pepto Bismol is a thing. It is inside the brown silk bag. The description of the pepto bismol is "Pink liquid inside a bottle that people drink to clear up indigestion and heartburn."
 
 Dollar Bills are things. It is undescribed. It is inside the brown silk bag. The description of the dollar bills is "Crispy green dollar bills with a picture of an old man on it. Must be a new type of bill, since it also doesn't have a dollar amount on it either."
-
+[wont examine.]
 
 [Outback Dump]
 
@@ -324,7 +336,10 @@ Floor is scenery. It is undescribed. It is in the Facial Salon. The description 
 
 Light Blue Lights is scenery. It is undescribed. It is in the Facial Salon. The description of the light blue lights is "Pyramidal shaped lights that emits a faint light blue light into the room. Tiny circular holes excretes the thin silk for some reason."
 
-White leather seats is an scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on."
+White leather seats is an scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on. A thin plastic triangular cutout is laying on one of the white leather seats."
+
+Triangular Cutout is a thing. It is undescribed. It is in the Facial Salon. The description of the rectangular cutout is "A plastic triangular figure that someone left on the seat."
+
 
 [Lay on seat and get massage from laquisha.]
 
@@ -347,7 +362,7 @@ Instead of taking batteries:
 		move batteries to player;
 		say "You pick up the electrical batteries.".
 		
-Programers is a man. 
+Programers are men. 
 
 [Old Thrift Shop]
 
@@ -378,10 +393,9 @@ Beach Blankets are scenery. It is undescribed. It is in the DNA Beach. The descr
 
 Instead of taking beach blankets:
 	say "That is not yours. Do not take it."
-[Unable to take blankets]
 	
 [Add Key needed]
-Red Box is a locked and lockable container. It is in the DNA Beach. The description of the Red Box is "A titanium sturdy red box that looks like a toy chest."
+Red Box is a locked and lockable container. It is undescribed. It is in the DNA Beach. The description of the Red Box is "A titanium sturdy red box that looks like a toy chest."
 
 The Analysis Sign is scenery. It is in the DNA Beach. "Welcome to DNA Beach! Today is low tide, what a nice day to learn how to hoverboard guys! Hoverboards and food can be bought and rented in The Shack. Have a nice day everyone!"
 
@@ -408,9 +422,10 @@ Understand "combine [something] with [something]" as combining it with.
 Combining it with is an action applying to two things.
 
 
-Coral is scenery. It is undescribed. It is in the Sandy Ocean. The description of the coral is ""
+Coral are scenery. It is undescribed. It is in the Sandy Ocean. The description of the coral is "The coral have stunning colors of the rainbow. It looks too good to be true."
 
-Large Rocks are scenery. It is undescribed. It is in the Sandy Ocean. The description of the large rocks is ""
+
+Large Rocks are scenery. It is undescribed. It is in the Sandy Ocean. The description of the large rocks is "Massive rocks that have not been eroded enough through out the years. One day these large rocks will soon become tiny pebbles of sand one day."
 
 
 [understanding swim and surf a wave with a surfboard.
@@ -421,20 +436,55 @@ Cannot go into the ocean w/out a surfboard.]
 
 [Cruising Shack]
 
-The Cruising Shack is a room. It is east of the DNA Beach. "An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear and swim suit from the automatic moving shelf."
+The Cruising Shack is a room. It is east of the DNA Beach. "An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear from the automatic moving beach shelf. Looks like you can just borrow the gear instead of paying."
 
-Wooden Planks is scenery. It is undescribed. It is in the Cruising Shack. The description of the wooden planks is ""
+Wooden Planks are things. It is undescribed. It is in the Cruising Shack. The description of the wooden planks is "Beige colored strips of wood that are not too thick and not too thin."
 
-Beach Gear are things. It is undescribed. It is in the Cruising Shack. The description of the beach gear is ""
+Wooden Plank is a thing. It is undescribed. It is in the Cruising Shack. The description of the wooden plank is "A beige colored strip of wood that is not too thick and not too thin."
 
-Swim Suit is a thing. It is undescribed. It is in the Cruising Shack. The description of the swim suit is ""
+Instead of taking wooden planks:
+	say "Don't be greedy, you only need one wooden plank strip. Save some for everyone else..";
+	now player has a wooden plank.
+	
+[Use knife to carve the wooden plank into a surfboard and stick the triangular cutout onto it too. Need silk to sew it onto the board.]
 
-Shelf is scenery. It is undescribed. It is in the Cruising Shack. The description of the shelf is ""
+
+
+
+Beach Gear are things. It is undescribed. It is in the Cruising Shack. The description of the beach gear is "Consists of swim suits, fins, and snorkels."
+
+Swim Suits are things. It is undescribed. It is in the Cruising Shack. The description of the swim suits is "Entire suits made out of polyester and nylon."
+
+Swim Suit is a thing. It is undescribed. It is in the Cruising Shack. The description of the swim suit is "An entire suits made out of polyester and nylon."
+
+Instead of taking swim suits:
+	say "You only need one suit.";
+	now player has a swim suit.
+	
+
+Fins are things. It is undescribed. It is in the Cruising Shack. The description of the fins is "A pair of plastic webbed shoes for you to wear in the ocean."
+
+
+Snorkels are things. It is undescribed. It is in the Cruising Shack. The description of the snorkels is "Face masks, with snorkel keeper tubes."
+
+Snorkel is a thing. It is undescribed. It is in the Cruising Shack. The description of the snorkel is "A face mask, with a snorkel keeper tube."
+
+Instead of taking snorkels:
+	say "You only need one snorkel for your face.";
+	now player has a snorkel.
+
+[Make it so you can wear them]
+
+Beach Shelf is scenery. It is undescribed. It is in the Cruising Shack. The description of the shelf is "A conveyor belt is formed into the shelf so that the gear can easily be displayed quickly."
+
+Conveyor Belt is scenery. It is undescribed. It is in the Cruising Shack. The description of the Conveyor Belt is "A rubber belt that automatically moves around all the shelves to transport various objects."
+
+
 
 
 
 [NPC runs cashier and tells you how to make the surfboard]
-
+Sunny is a woman. 
 
 
 
@@ -452,7 +502,9 @@ The Obscure Parking Lot is south of the Garage. "An eighteen foot parking struct
 [Elevator Shaft]
 
 The Elevator Shaft is a room. It is west of the Obscure Parking Lot. "Watch out! Yellow tape borders the edges of the elevator. Seems as though the elevator is out of function."
-
+Yellow Tape is scenery. It is undescribed. It is in the Elevator Shaft. The description of the yellow tape is "Thin yellow plastic that has 'Warning' in big black bold letters."
+[Able to cut tape]
+[If cut, walk through the elevator shaft and fall to your death.]
 
 
 
@@ -472,14 +524,13 @@ The Stairway is a room. It is north of the Skyscraper. "Just an empty stairway. 
 
 
 
-
 [Skyscraper View]
 
 
 The Skyscraper View is a room. It is north of the stairway. "What an amazing sight to see. Long metal poles stretch across the edges of the skyscraper for safety. There's a nice breeze at the top of the Skyscraper. You can see almost everything from here, how fantastic. Just don't look down."
 
 [Action: Look down, and notice how all the people and cars look like ants from up here.]
-
+[Able to jump off and fall to death.]
 
 
 
