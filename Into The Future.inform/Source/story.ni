@@ -221,6 +221,10 @@ The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells a
 [Add NPC- Guards]
 Lewis is a man in the Lockdown. He is undescribed. The description of Lewis is "A burly man with a black uniform, belt, and black glasses."
 
+
+[change convo]
+Instead of talking to Lewis:say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he repliescasually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
+
 [Add more tangible items]
 
 The Luminated Steel is scenery. It is undescribed. It is in the Lockdown. The description of the luminated steel is "Tough steel that looks unbendable to human hands. Thick cylindrical wires are stuck to the bottom of the steel."
@@ -326,6 +330,11 @@ The Facial Salon is a room. It is east of the Aurora Walk. It is north of the Pr
 [NPC]
 Laquisha is a woman. 
 
+
+[Change convo]
+Instead of talking to Laquisha:say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he repliescasually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
+
+
 Counter is scenery. It is undescribed. It is in the Facial Salon. The description of the counter is "A long table made out of dark-green granite."
 
 Thin silk is a thing. It is undescribed. It is in the Facial Salon. The description of the thin silk is "Long pieces of white soft silk that hang from the lights and drop onto the floor to be picked up later."
@@ -363,6 +372,8 @@ Instead of taking batteries:
 		say "You pick up the electrical batteries.".
 		
 Programers are men. 
+
+
 
 [Old Thrift Shop]
 
@@ -428,8 +439,10 @@ Coral are scenery. It is undescribed. It is in the Sandy Ocean. The description 
 Large Rocks are scenery. It is undescribed. It is in the Sandy Ocean. The description of the large rocks is "Massive rocks that have not been eroded enough through out the years. One day these large rocks will soon become tiny pebbles of sand one day."
 
 
+Waves are vehicles. It is in the Sandy Ocean. The description of the waves is "Waves of water that come crashing towards you in various sizes."
+
 [understanding swim and surf a wave with a surfboard.
-Cannot go into the ocean w/out a surfboard.]
+Cannot catch waves w/out a surfboard.]
 
 
 
@@ -484,7 +497,14 @@ Conveyor Belt is scenery. It is undescribed. It is in the Cruising Shack. The de
 
 
 [NPC runs cashier and tells you how to make the surfboard]
-Sunny is a woman. 
+Understand "young" and "woman" as Sunny. 
+
+Sunny is a woman in the Cruising Shack. "Sunny is leaning on the counter inside the Shack waiting for someone to ask for assistance." The description is "Sunny is a very young lady wearing a polka-dot bikini with dark black sunglasses."
+Sunny is wearing a bikini.
+
+[Change convo]
+
+Instead of talking to Sunny:say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he repliescasually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
 
 
 
@@ -511,15 +531,36 @@ Yellow Tape is scenery. It is undescribed. It is in the Elevator Shaft. The desc
 
 [Skyscraper]
 
-The Skyscraper 057 is a room. It is east of the Obscure Parking Lot. "The largest building in the vicinity. Two steel doors open and close as you enter. The Skyscraper is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. "
+The Skyscraper 057 is a room. It is east of the Obscure Parking Lot. "The largest building in the vicinity. It is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. You can go through the sliding door that leads to the top of the Skyscraper. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. "
+
+Sliding Door is north of Skyscraper 057 and south of the Stairway. sliding door is a door. The sliding door is scenery. It is closed. ""
+
+Square Desks are scenery. It is in Skyscraper 057. The description of the square desks is "Wooden square desks that are low to the ground almost like ones used in Japanese households."
+
+Pillows is a thing. It is in Skyscraper 057. The description of the pillows is "Cushiony rectangular pillows that are comfortable to sit on."
+Instead of taking pillows:
+	say "These are not yours. People need the pillows to sit on."
+
+[NPC]
 
 
+Understand "little girl" and "girl" as Missy.
+Missy is a woman.
+
+[Change convo]
+Instead of talking to Missy:say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he repliescasually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
+
+Instead of giving the Pepto Bismol to Missy:say "Missy drinks the Pepto Bismol and starts to feel much better."; 
+remove the pepto bismol from play.
+
+
+[NPC: People?]
 
 
 
 [Stairway]
 
-The Stairway is a room. It is north of the Skyscraper. "Just an empty stairway. Wonder where this leads to."
+The Stairway is a room. It is north of the sliding door. "Just an empty stairway. Wonder where this leads to."
 
 
 
@@ -531,6 +572,8 @@ The Skyscraper View is a room. It is north of the stairway. "What an amazing sig
 
 [Action: Look down, and notice how all the people and cars look like ants from up here.]
 [Able to jump off and fall to death.]
+
+
 
 
 
@@ -569,8 +612,7 @@ Understand "drive [somewhere]" as driving.
 
 Understand the command "mix" as something new. understand "mix [something] with [something]" as mixing it with. mixing it with is an action applying to two [carried?] things. [Assassin- Brandon]
 
-
-
+Talking to is an action applying to one visible thing. Understand "talk to [someone]" or “converse with [someone]” as talking to.Check talking to: say "[The noun] doesn't reply."
 
 
 
