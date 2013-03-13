@@ -4,7 +4,6 @@
 
 
 
-[Add compass] 
 [Add scoring system]
 [Add more extras]
 
@@ -223,7 +222,9 @@ Lewis is a man in the Lockdown. He is undescribed. The description of Lewis is "
 
 
 [change convo]
-Instead of talking to Lewis:say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he repliescasually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
+Instead of talking to Lewis:
+say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he replies
+casually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
 
 [Add more tangible items]
 
@@ -332,7 +333,9 @@ Laquisha is a woman.
 
 
 [Change convo]
-Instead of talking to Laquisha:say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he repliescasually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
+Instead of talking to Laquisha:
+say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he replies
+casually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
 
 
 Counter is scenery. It is undescribed. It is in the Facial Salon. The description of the counter is "A long table made out of dark-green granite."
@@ -406,7 +409,7 @@ Instead of taking beach blankets:
 	say "That is not yours. Do not take it."
 	
 [Add Key needed]
-Red Box is a locked and lockable container. It is undescribed. It is in the DNA Beach. The description of the Red Box is "A titanium sturdy red box that looks like a toy chest."
+Red Box is a locked and lockable container. The orange key unlocks the red box. It is undescribed. It is in the DNA Beach. The description of the Red Box is "A titanium sturdy red box that looks like a toy chest."
 
 The Analysis Sign is scenery. It is in the DNA Beach. "Welcome to DNA Beach! Today is low tide, what a nice day to learn how to hoverboard guys! Hoverboards and food can be bought and rented in The Shack. Have a nice day everyone!"
 
@@ -456,7 +459,7 @@ Wooden Planks are things. It is undescribed. It is in the Cruising Shack. The de
 Wooden Plank is a thing. It is undescribed. It is in the Cruising Shack. The description of the wooden plank is "A beige colored strip of wood that is not too thick and not too thin."
 
 Instead of taking wooden planks:
-	say "Don't be greedy, you only need one wooden plank strip. Save some for everyone else..";
+	say "Don't be greedy, you only need one wooden plank strip. Save some for everyone else.";
 	now player has a wooden plank.
 	
 [Use knife to carve the wooden plank into a surfboard and stick the triangular cutout onto it too. Need silk to sew it onto the board.]
@@ -504,7 +507,9 @@ Sunny is wearing a bikini.
 
 [Change convo]
 
-Instead of talking to Sunny:say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he repliescasually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
+Instead of talking to Sunny:
+say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he replies
+casually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
 
 
 
@@ -520,12 +525,25 @@ The Obscure Parking Lot is south of the Garage. "An eighteen foot parking struct
 
 
 [Elevator Shaft]
+A thing can be broken or unbroken.
+Instead of going West in Elevator Shaft:
+	if Yellow Tape is broken:
+		say "You enter the elevator shaft and fall to your death.";
+		end the game in death;
+	otherwise:
+		say "There is a string of yellow tape blocking your path."
+The Elevator Shaft is a room. It is west of the Obscure Parking Lot. "Yellow tape borders the edges of the elevator. Near the elevator shaft are tools probably left from the workers. Seems as though the elevator is out of function and the workers are on their lunch break."
+Yellow Tape is scenery. It is undescribed. It is in the Elevator Shaft. The description of the yellow tape is "[if broken] The yellow tape has been cut. [otherwise]Thin yellow plastic that has 'Warning' in big black bold letters."
 
-The Elevator Shaft is a room. It is west of the Obscure Parking Lot. "Watch out! Yellow tape borders the edges of the elevator. Seems as though the elevator is out of function."
-Yellow Tape is scenery. It is undescribed. It is in the Elevator Shaft. The description of the yellow tape is "Thin yellow plastic that has 'Warning' in big black bold letters."
-[Able to cut tape]
-[If cut, walk through the elevator shaft and fall to your death.]
+Scissors is a thing. It is undescribed. It is in the Elevator Shaft. The description of the scissors is "Pointy black scissors that is in bad condition."
 
+Understand "cut [something] with [something]" as TapeCut. TapeCut is an action applying to two things.
+Check TapeCut:
+	if noun is Yellow Tape and second noun is Scissors:
+		say "You cut the tape! Now you can walk through the shaft.";
+		now Yellow Tape is broken;
+	otherwise:
+		say "Why would you cut that?".
 
 
 
@@ -533,7 +551,7 @@ Yellow Tape is scenery. It is undescribed. It is in the Elevator Shaft. The desc
 
 The Skyscraper 057 is a room. It is east of the Obscure Parking Lot. "The largest building in the vicinity. It is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. You can go through the sliding door that leads to the top of the Skyscraper. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. "
 
-Sliding Door is north of Skyscraper 057 and south of the Stairway. sliding door is a door. The sliding door is scenery. It is closed. ""
+Sliding Door is north of Skyscraper 057 and south of the Stairway. sliding door is a door. The sliding door is scenery. It is closed. "An opaque door that leads to the stairway."
 
 Square Desks are scenery. It is in Skyscraper 057. The description of the square desks is "Wooden square desks that are low to the ground almost like ones used in Japanese households."
 
@@ -548,9 +566,12 @@ Understand "little girl" and "girl" as Missy.
 Missy is a woman.
 
 [Change convo]
-Instead of talking to Missy:say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he repliescasually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
+Instead of talking to Missy:
+say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he replies
+casually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
 
-Instead of giving the Pepto Bismol to Missy:say "Missy drinks the Pepto Bismol and starts to feel much better."; 
+Instead of giving the Pepto Bismol to Missy:
+say "Missy drinks the Pepto Bismol and starts to feel much better."; 
 remove the pepto bismol from play.
 
 
@@ -570,6 +591,7 @@ The Stairway is a room. It is north of the sliding door. "Just an empty stairway
 
 The Skyscraper View is a room. It is north of the stairway. "What an amazing sight to see. Long metal poles stretch across the edges of the skyscraper for safety. There's a nice breeze at the top of the Skyscraper. You can see almost everything from here, how fantastic. Just don't look down."
 
+
 [Action: Look down, and notice how all the people and cars look like ants from up here.]
 [Able to jump off and fall to death.]
 
@@ -580,10 +602,18 @@ The Skyscraper View is a room. It is north of the stairway. "What an amazing sig
 
 [Plaza Streets]
 
-The Plaza Streets is a room. It is east of the Skyscraper. "People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is tiled with black and blue cement around the plaza. What a sight. "
+The Plaza Streets is a room. It is east of the Skyscraper. "People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is filled with black and blue tiles around the plaza. What a sight. "
+
+Fish Fountain is a closed openable container. It is in the Plaza Streets. It is undescribed. The description of the Fish Fountain is "An amazing fountain that spews water majesticallly from the top portion of the fountain, into the bottom of the fountain. It is made purely out of glass and fish lurk inside it too. On the very top, a small sculpture of an old man."
+
+
+Tiles are scenery. It is undescribed. It is in the Plaza Streets. The description of the tiles is "Tough and sturdy tiles in the shape of squares that alternate different colors."
+
+Colored Fish are things. It is undescribed. It is in the Plaza Streets. The description of the Colored Fish is "Many colorful fish swim through the water and around the fountain."
 
 
 
+[NPC: People too busy to talk?]
 
 
 
@@ -591,6 +621,7 @@ The Plaza Streets is a room. It is east of the Skyscraper. "People hustle and bu
 [Pear Inc.]
 
 The Pear Incorporation is a room. It is south of the Plaza Streets. "This is surprising to see that Apple has a rival in their industry. Hundreds of devices are scattered on the wooden desks around the room. The Pear Inc. workers are ready to assist anyone that needs help."
+
 
 
 
@@ -612,7 +643,8 @@ Understand "drive [somewhere]" as driving.
 
 Understand the command "mix" as something new. understand "mix [something] with [something]" as mixing it with. mixing it with is an action applying to two [carried?] things. [Assassin- Brandon]
 
-Talking to is an action applying to one visible thing. Understand "talk to [someone]" or “converse with [someone]” as talking to.Check talking to: say "[The noun] doesn't reply."
+Talking to is an action applying to one visible thing. Understand "talk to [someone]" or “converse with [someone]” as talking to.
+Check talking to: say "[The noun] doesn't reply."
 
 
 
