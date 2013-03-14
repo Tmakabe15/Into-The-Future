@@ -442,10 +442,72 @@ Coral are scenery. It is undescribed. It is in the Sandy Ocean. The description 
 Large Rocks are scenery. It is undescribed. It is in the Sandy Ocean. The description of the large rocks is "Massive rocks that have not been eroded enough through out the years. One day these large rocks will soon become tiny pebbles of sand one day."
 
 
-Waves are vehicles. It is in the Sandy Ocean. The description of the waves is "Waves of water that come crashing towards you in various sizes."
 
-[understanding swim and surf a wave with a surfboard.
-Cannot catch waves w/out a surfboard.]
+[Added in by Mrs. Kiang. Thank you so much!]
+[Point System]
+SurfScore is a number variable. 
+
+[Surfboard]
+Surfboard is a rideable vehicle.
+Understand "board" as surfboard. The description of the surfboard is "All waxed up and ready to go!"
+Surf waves are scenery in Sandy Ocean.
+
+Instead of examining the surf waves when player is on surfboard in Ocean: 
+[This part of the code generates a random number that determines the kind of wave the player gets and asks whether the player wants to try surfing it.]
+	let the WS be a random number from 1 to 8;
+	if WS is 8:
+		say "An epic wave set. Surf it?";
+	otherwise if WS is at most 2:
+		say "Just mush. Surf it?";
+	otherwise if WS is at most 5:
+		say "An OK wave. Surf it?";
+	otherwise if WS is at most 7:
+		say "A nice looking wave. Surf it?";
+	if player consents: 
+[if the player says 'yes' or 'y', I coded for some random printed text...]
+		say "[one of]Cowabunga! You paddle your heart out to catch that wave.[or]Off you go![or]The smaller the wave, the smaller the risk, the bigger the wave…[or]You got this![at random]";
+[...then, here's the part where the wave difficulty, chance of wipeout, and scoring happens.]
+		if WS is 8: [as determined above]
+			if a random chance of 3 in 10 succeeds: [successful ride]
+				say "You ride this epic wave to glory!"; [tell player he succeeded]
+				now SurfScore is 8; [up his score]
+			otherwise: [if player does not succeed, as determined randomly above]
+				say "WIPEOUT![line break]That was spectacular, but not in the way you wanted it to be. All your surf cred is gone.";
+				now SurfScore is 0; [player loses it all!]
+				move player to Beach; [and gets moved back to the start]
+				move surfboard to player;	
+[NOTE: The rest of the code here is just more of the same, for the different wave types]
+		otherwise if WS is at most 2:
+			say "You cannot believe you did all that paddling for such a wimpy wave.[line break]At least your surf cred has gone up by 1.";
+			increase SurfScore by 1;
+		otherwise if WS is at most 5:
+			if a random chance of 7 in 10 succeeds:
+				say "You get a pretty nice ride from this mediocre wave.[line break]Your surf cred has gone up by 2.";
+				increase SurfScore by 2;
+			otherwise:
+				say "WIPEOUT![line break]On such a mediocre wave, too. How embarrassing. Your face is as red as a Waikiki tourist. All your surf cred is gone.";
+				now SurfScore is 0;
+				move player to Beach;
+				move surfboard to player;
+		otherwise if WS is at most 7:
+			if a random chance of 5 in 10 succeeds:
+				say "Sweet ride![line break]Your surf cred has gone up by 4.";
+				increase SurfScore by 4;
+			otherwise:
+				say "WIPEOUT![line break]Well, no guts, no glory. The bigger the wave…and all your surf cred is gone.";
+				now SurfScore is 0;
+				move player to Beach;
+				move surfboard to player;
+[This last 'otherwise' is to have a response if the player decides NOT to ride a particular wave, perhaps because they don't want to risk wiping out again. I wrote a bunch of random responses, for variety's sake.]
+	otherwise: 
+		say "You decide to pass on this set.[line break][one of]You rest on the water, watching the waves roll by.[or]You quietly hum a Beach Boys tune.[or]A couple dolphins cruise past you and out of sight.[or]You make a promise to yourself to get in better shape.[or]You contemplate the meaning of life…OK, it's surfing.[or]Just enjoying the lull.[at random]";
+		stop the action. 
+
+[And then a rule to check for end of game]
+		
+An every turn rule:
+	if the SurfScore is at least 8:
+		end the game saying "Yahoo you! ***[line break]You've earned enough surf cred that the Dude will now speak to you."
 
 
 
@@ -622,6 +684,17 @@ Colored Fish are things. It is undescribed. It is in the Plaza Streets. The desc
 
 The Pear Incorporation is a room. It is south of the Plaza Streets. "This is surprising to see that Apple has a rival in their industry. Hundreds of devices are scattered on the wooden desks around the room. The Pear Inc. workers are ready to assist anyone that needs help."
 
+
+Wooden desks are scenery. It is in the Pear Incorporation. The description of the wooden desks is "Mahogany and Hard Maple wood make up most of the desks. They are in the shape of a circle, so that more devices can be held on them."
+
+
+[Mayor of the city. Can give you an item to stay in the future forever.]
+Dante is a man. 
+
+[Change convo]
+Instead of talking to Dante:
+say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he replies
+casually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
 
 
 
