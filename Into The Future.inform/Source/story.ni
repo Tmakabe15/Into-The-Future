@@ -4,7 +4,18 @@
 
 
 
+
+
+
+
 [Add scoring system]
+After taking the surfboard for the first time: award 500 points;
+say "Now you can finally surf the waves at DNA Beach!"
+The maximum score is 1500.
+
+
+
+
 [Add more extras]
 
 [Extentions]
@@ -67,7 +78,7 @@ You have successfully teleported into the future. Keep an eye on your watch at a
 
 [Player Description]
 
-The description of the player is "You are a tall young man, about 6 foot 2 inches. You are wearing a plain white T-shirt, black slim jeans, white shoes, prescription glasses, and your prototype watch."
+The description of the player is "You are a tall young man, about 6 foot 2 inches. You are wearing a plain white T-shirt, black slim jeans, white shoes, prescription glasses, your prototype watch, and the orange backpack. "
 
 White shirt is a thing. The player is holding the white shirt. 
 The description of the white shirt is "Just your ordinary white T-shirt."
@@ -83,11 +94,10 @@ The description of the prototype watch is "The Prototype Watch is a cyan color, 
 
 Chapter 1 Lab, Library, Mysterious Room, Garage, Floating Sidewalk, Lockdown, Directional Path, and Outback Dump
 
-
 [Lab Room]
 
 
-The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange backpack is in here as well so that you can put all your findings into it and take them back home with you."
+The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange backpack is in here as well so that you can put all your findings into it and take them back home with you. [Line Break]"
 
 Understand the command "put [thing] in [something]" as something new.
 Putting it in is an action applying to two things.
@@ -110,11 +120,12 @@ The lights are scenery. The lights are undescribed. It is in the Lab Room. "A sh
 Equipment is a thing. It is undescribed. It is in the Lab Room. The description of the equipment is "A Volumetric Flask, beaker, work gloves, and a goggle make up the equipment."
 
 Volumetric Flask is a thing. It is undescribed. It is in the Lab Room. The description of the volumetric flask is "Used to mix different chemicals in, and create experiments."
+
 Beaker is a thing. It is undescribed. It is in the Lab Room. The description of the beaker is "A lipped cylindrical glass container used by chemists."
 
-Goggle is a thing. It is undescribed. It is in the Lab Room. The description of the goggle is "A black rubber goggle used to protect your eyes from dangerous chemicals."
+Goggle is a thing. It is undescribed. It is in the Lab Room. It is wearable. The description of the goggle is "A black rubber goggle used to protect your eyes from dangerous chemicals."
 
-Work gloves are things. It is undescribed. It is in the Lab Room. The description of the work gloves are "White elastic gloves that stretch onto your hand. Just in case you get the chemicals on your hand."
+Work gloves are things. It is undescribed. It is in the Lab Room. It is wearable. The description of the work gloves are "White elastic gloves that stretch onto your hand. Just in case you get the chemicals on your hand."
 
 The lab shelves are scenery. It is undescribed. It is in the Lab Room. "Old books that have cob webs on them line the shelves. A shiny object and a pair of electrical batteries is located on the top of it all. "
 
@@ -123,6 +134,7 @@ Shiny object is a thing. It is undescribed. It is in the Lab Room. "This seems t
 Electrical Batteries is a thing. It is undescribed. It is on the lab shelves. The description of the electrical batteries is "A pair of functional batteries used for something."
 
 The wall is scenery. It is undescribed. It is in the Lab Room. "Smooth and very white colored plaster make up the walls of the Lab Room."
+
 
 [Able to make chemicals? Mix stuff together. "You have made an unkown liquid. Wonder how it tastes like."]
 
@@ -191,7 +203,7 @@ The Garage is a room. It is west of the lab room and south of the Tech Building.
 
 Tools are things. It is undescribed. It is in the Garage. The description of the tools is "All of the tools are glowing different colors in this small garage. The only refined tool that you can make out seems to be a glowing red machete and a shear. The rest of the tools are just wands with a button on them. That seems interesting… "
 
-Red Machete is a thing. It is undescribed. It is in the garage. The description of the red machete is "A broad, large knife with a dark red glow on the ends of it."
+Red Machete is a thing. It is undescribed. It is in the garage. The description of the red machete is "A broad, large blade with a dark red glow on the ends of it."
 
 Shear is a thing. It is undescribed. It is in the Garage. The description of the Shears is "An unusally pair of shears. They are surprisingly very thick and long; could possibly be mistaken for two spears tied together."
 
@@ -242,7 +254,6 @@ Pocket Knife is a thing. It is undescribed. It is in the Lockdown. The descripti
 
 The Beds are scenery. It is undescribed. It is in the Lockdown. The description of the Beds is "A rectangular cushion that is on a piece of thick metal make up the beds."
 
-
 [DIrectional Path]
 
 
@@ -263,10 +274,9 @@ Instead of drinking the Pepto Bismol:
 Instead of taking the Pepto Bismol:
 	say "This looks like you can give it to someone to treat their sickness."
 	
-Pepto Bismol is a thing. It is inside the brown silk bag. The description of the pepto bismol is "Pink liquid inside a bottle that people drink to clear up indigestion and heartburn."
+Pepto Bismol is a thing. It is undescribed. It is inside the brown silk bag. The description of the pepto bismol is "Pink liquid inside a bottle that people drink to clear up indigestion and heartburn."
 
 Dollar Bills are things. It is undescribed. It is inside the brown silk bag. The description of the dollar bills is "Crispy green dollar bills with a picture of an old man on it. Must be a new type of bill, since it also doesn't have a dollar amount on it either."
-[wont examine.]
 
 [Outback Dump]
 
@@ -290,18 +300,27 @@ An every turn rule:
 		end the game in death. 
 
 
-Chapter 2 Aurora Walk, Facial Salon, Tech Building, Old Thrift Shop
+Chapter 2 Aurora Walk, Facial Salon, Tech Building, Thrift Shop
 
 [Aurora Walk]
 
-[Add NPC's and the people walking by. Who don't want to talk at the moment]
+[NPC who are people walking by, who don't want to talk at the moment]
+Pedestrians is a man. He is in Aurora Walk. He is undescribed. The description of pedestrians is "They are walking by too fast to actually examine them in detail."
+
+Instead of talking to pedestrians:
+	say "They don't seem to be interested in talking right now."
 
 
-The Aurora Walk is a room. It is north of the lab room. "This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. "
+
+The Aurora Walk is a room. It is north of the lab room. "This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness. "
 
 Green Cushiony Pad is scenery. It is undescribed. It is in the Aurora Walk. The description of the Green Cushiony Pad is "Green padding that creates a walkway that leads to different parts of the city."
 
 Rubbish are things. It is undescribed. It is in the Aurora Walk. The description of the Rubbish is "Remnants of used kleenex and recylable bottles that are scattered on the walkway."
+Instead of taking rubbish:
+	say "You need to be more specific."
+	
+Recyclable Bottles are things. It is undescribed. It is in the Aurora Walk. The description of the Recyclable bottles is "Empty plastic bottles that come in different sizes and shapes."
 
 Kleenex is a thing. It is undescribed. It is in the Aurora Walk. The description of the Kleenex is "Shredded up pieces of tissue paper that is crumpled up and already used. Nasty!"
 
@@ -311,7 +330,7 @@ Instead of taking the kleenex:
 [Make it so you are able to take trash and put into trash can]
 
 Trash Can is a closed openable container. It is undescribed. It is in the Aurora Walk. The description of the trash can is "A dark blue trash can with a clear glass rim that opens automatically when it senses someone's hands nearby."
-
+Understand "trashcan" as Trash Can.
 Instead of putting the rubbish in Trash Can:
 	say "Your score increased by 100.";
 	increase score by 100.
@@ -320,8 +339,10 @@ Instead of putting the rubbish in Trash Can:
 Instead of putting the kleenex in Trash Can:
 	say "Your score increased by 100.";
 	increase score by 100.
-[fix scoring problem]
-
+[fixed scoring problem]
+Instead of putting recyclable bottles in Trash Can:
+	say "Your score increased by 100.";
+	increase score by 100.
 
 
 [Facial Salon]
@@ -349,8 +370,13 @@ Floor is scenery. It is undescribed. It is in the Facial Salon. The description 
 Light Blue Lights is scenery. It is undescribed. It is in the Facial Salon. The description of the light blue lights is "Pyramidal shaped lights that emits a faint light blue light into the room. Tiny circular holes excretes the thin silk for some reason."
 
 White leather seats is an scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on. A thin plastic triangular cutout is laying on one of the white leather seats."
+Understand "white leather seat" as white leather seats.
 
-Triangular Cutout is a thing. It is undescribed. It is in the Facial Salon. The description of the rectangular cutout is "A plastic triangular figure that someone left on the seat."
+Triangular Cutout is a thing. It is undescribed. It is in the Facial Salon. The description of the triangular cutout is "A plastic triangular figure that someone left on the seat."
+
+
+
+
 
 
 [Lay on seat and get massage from laquisha.]
@@ -378,19 +404,22 @@ Programers are men.
 
 
 
-[Old Thrift Shop]
+[Thrift Shop] 
+[Cannot examine items in thrift shop]
 
-The Old Thirft Shop is a room. It is west of the Tech Building. It is north of the Floating Sidewalk. "An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style."
 
 
-Racks are scenery. It is undescribed. It is in the Old Thrift Shop. The description of the Racks is "Made from long titanium bars that sense your presence. It  automatically slides the clothes down when you gently push the clothes aside. Assorted shirts hang from these racks."
+The Thirft Shop is a room. It is west of the Tech Building. It is north of the Floating Sidewalk. "An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style."
 
+Racks are a supporter. Racks are in the Thrift Shop. The description of the Racks is "Made from long titanium bars that sense your presence. It  automatically slides the clothes down when you gently push the clothes aside. Assorted shirts hang from these racks. On the top of one of the racks there is a silver key.".
+
+Orange Key is a thing. It unlocks the red box. It is undescribed. It is in the Old Thrift Shop. The description of the orange key is "A bright shiny orange key that unlocks something."
 Hangers are things. It is undescribed. It is in the Old Thrift Shop. The description of the hangers is "Plain old metal hangers that hold the shirts on it."
 [Create an action where you can push the clothes aside.]
 
-Clothes are things. It is undescribed. It is in the Old Thrift Shop. The description of the clothes is "Old, new, stylish, and formal assorted shirts."
+Clothes are things. It is undescribed. The clothes are on the racks. The description of the clothes is "Old, new, stylish, and formal assorted shirts."
 
-Assorted Shirts are things. It is undescribed. It is in the Old Thrift Shop. The description of the assorted shirts is "Colorful shirts that are for sale."
+Assorted Shirts are things. It is undescribed. It is in the Thrift Shop. The description of the assorted shirts is "Colorful shirts that are for sale."
 
 
 
@@ -409,7 +438,7 @@ Instead of taking beach blankets:
 	say "That is not yours. Do not take it."
 	
 [Add Key needed]
-Red Box is a locked and lockable container. The orange key unlocks the red box. It is undescribed. It is in the DNA Beach. The description of the Red Box is "A titanium sturdy red box that looks like a toy chest."
+Red Box is a locked and lockable container. It is undescribed. It is in the DNA Beach. The description of the Red Box is "A titanium sturdy red box that looks like a toy chest."
 
 The Analysis Sign is scenery. It is in the DNA Beach. "Welcome to DNA Beach! Today is low tide, what a nice day to learn how to hoverboard guys! Hoverboards and food can be bought and rented in The Shack. Have a nice day everyone!"
 
@@ -424,16 +453,15 @@ Instead of opening the sand:
 	else:
 		say "You can't dig out all the sand with just your hands. This sand is thicker than the sand you're famliar with back in your time.".
 
+Diamonds are things. It is undescribed. It is in the sand. The description of the diamonds is "Two cystal clear diamonds that have a faint light-blue color to it. The diamonds are somewhat small, yet are so sharp at its point, that it can probably cut through glass!"
 
+Amber is a thing. It is undescribed. It is in the sand. The description of the amber is "Tough fossilized resin that has a faint green and yellow color to it."
 
 
 [Sandy Ocean]
 
 The Sandy Ocean is a room. It is north of DNA Beach. "The ocean is surprisingly clear blue. It looks like coral and large rocks on the bottom of the ocean have been coated with a layer of paint."
 
-[The combining action]
-Understand "combine [something] with [something]" as combining it with.
-Combining it with is an action applying to two things.
 
 
 Coral are scenery. It is undescribed. It is in the Sandy Ocean. The description of the coral is "The coral have stunning colors of the rainbow. It looks too good to be true."
@@ -524,34 +552,75 @@ Instead of taking wooden planks:
 	say "Don't be greedy, you only need one wooden plank strip. Save some for everyone else.";
 	now player has a wooden plank.
 	
-[Use knife to carve the wooden plank into a surfboard and stick the triangular cutout onto it too. Need silk to sew it onto the board.]
 
+[Use pocket knife to carve the wooden plank into a surfboard and stick the triangular cutout onto it too. Need silk to sew it onto the board.]
+[Make sure combining those things work]
+
+
+
+Understand "combine [something] with [something]" as combining it with. Combining it with is an action applying to two carried things. 
+
+The combining it with action has an object called the item built.
+
+Setting action variables for combining something with something: 
+	let X be a list of objects; 
+	add the noun to X; 
+	add the second noun to X; 
+	sort X; 
+	repeat through the Table of Outcome Objects: 
+		let Y be the component list entry; 
+		sort Y; 
+		if X is Y: 
+			now the item built is the result entry.
+Check combining it with: 
+	if the item built is nothing, 
+		say "I can't combine [the noun] and [the second noun] and into anything useful." instead.
+Carry out combining it with: 
+	move the item built to the holder of the noun; 
+	move the noun to room1; 
+	move the second noun to room1.
+Report combining it with: 
+	say "I now have a [an item built]!".
+
+
+Table of Outcome objects
+component list			result
+{wooden plank, triangular cutout}			Fragile Board
+{Fragile Board, silk}			Surfboard
+
+Fragile Board is a thing. the printed name is "Fragile Board".
+
+Surfboard is a thing. the printed name is "Surfboard".
+understand "board" as the surfboard.
+room1 is a room.
 
 
 
 Beach Gear are things. It is undescribed. It is in the Cruising Shack. The description of the beach gear is "Consists of swim suits, fins, and snorkels."
+Instead of taking beach gear:
+	say "Make sure you examine and take each gear individually, so you know what you're putting on."
 
 Swim Suits are things. It is undescribed. It is in the Cruising Shack. The description of the swim suits is "Entire suits made out of polyester and nylon."
 
-Swim Suit is a thing. It is undescribed. It is in the Cruising Shack. The description of the swim suit is "An entire suits made out of polyester and nylon."
+Swim Suit is a thing. It is undescribed. It is in the Cruising Shack. It is wearable. The description of the swim suit is "An entire suits made out of polyester and nylon."
 
 Instead of taking swim suits:
 	say "You only need one suit.";
 	now player has a swim suit.
 	
 
-Fins are things. It is undescribed. It is in the Cruising Shack. The description of the fins is "A pair of plastic webbed shoes for you to wear in the ocean."
+Fins are things. It is undescribed. It is in the Cruising Shack. It is wearable. The description of the fins is "A pair of plastic webbed shoes for you to wear in the ocean."
 
 
-Snorkels are things. It is undescribed. It is in the Cruising Shack. The description of the snorkels is "Face masks, with snorkel keeper tubes."
+Snorkels are things. It is undescribed. It is in the Cruising Shack. It is wearable. The description of the snorkels is "Face masks, with snorkel keeper tubes."
 
-Snorkel is a thing. It is undescribed. It is in the Cruising Shack. The description of the snorkel is "A face mask, with a snorkel keeper tube."
+Snorkel is a thing. It is undescribed. It is in the Cruising Shack. It is wearable. The description of the snorkel is "A face mask, with a snorkel keeper tube."
 
 Instead of taking snorkels:
 	say "You only need one snorkel for your face.";
 	now player has a snorkel.
 
-[Make it so you can wear them]
+[Make it so you can wear them only if your other clothes is off.]
 
 Beach Shelf is scenery. It is undescribed. It is in the Cruising Shack. The description of the shelf is "A conveyor belt is formed into the shelf so that the gear can easily be displayed quickly."
 
@@ -716,10 +785,8 @@ Understand "drive [somewhere]" as driving.
 
 Understand the command "mix" as something new. understand "mix [something] with [something]" as mixing it with. mixing it with is an action applying to two [carried?] things. [Assassin- Brandon]
 
-Talking to is an action applying to one visible thing. Understand "talk to [someone]" or “converse with [someone]” as talking to.
+Talking to is an action applying to one visible thing. Understand "talk to [someone]" or "converse with [someone]" as talking to.
 Check talking to: say "[The noun] doesn't reply."
-
-
 
 
 An every turn rule: 
