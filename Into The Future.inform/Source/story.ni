@@ -5,10 +5,27 @@
 
 
 
-
-
-
 [Add scoring system]
+The orange backpack is a openable and unlocked container carried by the player.
+
+[Put all your stuff inside container and accumilate points depending on how much stuff you have in there at the end of the game]
+
+[Scoring not working]
+After putting silver crystals in the backpack:
+	say "Your score increased by 200 points!";
+	move the noun to the backpack;
+	increase score by 5.
+After putting silver crystals in the backpack for the first time: award 5 points;
+After taking the silver crystals for the first time: award 5 points;
+After taking the golden brick for the first time: award 5 points;
+After taking the raw silk for the first time: award 5 points;
+After taking the diamonds for the first time: award 20 points;
+After taking the amber for the first time: award 20 points;
+After wearing the swim suit for the first time: award 2 points;
+After wearing the fins for the first time: award 2 points;
+After wearing the snorkel for the first time: award 2 points;
+
+
 After taking the surfboard for the first time: award 500 points;
 say "Now you can finally surf the waves at DNA Beach!"
 The maximum score is 1500.
@@ -40,7 +57,7 @@ Definition: a person is dead if his present health is less than 1.
 
 x is a number variable.
 
-
+[Assassin Brandon]
 To say status of the player:
 	let x be the present health of the player;
 	if x is 100:
@@ -73,7 +90,7 @@ When play begins: say "You are an intelligent scientist who has invented a proto
 
 You have successfully teleported into the future. Keep an eye on your watch at all times.
 
-'Whoa!!!' you say. 'I guess this is what my laboratory will look like 40 years from now… How magnificent!'"
+'Whoa!!!' you say. 'I guess this is what my laboratory will look like 40 years from now… How magnificent!' [line break]Make sure you remember to put significnt items inside your backpack to bring back with you later on."
 
 
 [Player Description]
@@ -97,20 +114,12 @@ Chapter 1 Lab, Library, Mysterious Room, Garage, Floating Sidewalk, Lockdown, Di
 [Lab Room]
 
 
-The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them. An orange backpack is in here as well so that you can put all your findings into it and take them back home with you. [Line Break]"
+The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them.[Line Break]The outback dump is to the south, pristine library is to the east, garage to the west, and aurora walk is to the north."
 
 Understand the command "put [thing] in [something]" as something new.
 Putting it in is an action applying to two things.
 Understand "put [thing] in [something]" as putting it in.
 
-The orange backpack is a openable and unlocked container carried by the player.
-After putting something in the backpack:
-	say "Your score increased by 200 points!";
-	move the noun to the backpack;
-	increase score by 200.
-	
-
-[Put all your stuff inside container and accumilate points depending on how much stuff you have in there at the end of the game]
 
 
 
@@ -142,7 +151,7 @@ The wall is scenery. It is undescribed. It is in the Lab Room. "Smooth and very 
 [Pristine Library]
 
 
-The Pristine Library is a room. It is east of the lab room. "The library is embedded with silver crystals all around the walls. There are shelves that contain thousands of historical books that date back to your time. A clear glass door is on the far side of the library along with a painting of a prestigious man."
+The Pristine Library is a room. It is east of the lab room. "The library is embedded with silver crystals all around the walls. There are shelves that contain thousands of historical books that date back to your time. A clear glass door is on the far side of the library along with a painting of a prestigious man.[line break]The facial salon is to the north, and lab room is to the west."
 
 Silver Crystals are things. It is undescribed. It is in the Pristine Library. The description of the silver crystals is "Shiny and smooth crystals that gives the library an amazing glow."
 
@@ -158,11 +167,13 @@ The lever is a thing in the Pristine Library. It is undescribed.
 	After pulling lever:
 		now the hidden door is revealed;
 		now the hidden door is open;
-		say "You found a hidden door to the east! Wonder where that leads to.".
+		say "You found a hidden door to the east! Wonder where that leads to.";
+		increase score by 150.
 
 Instead of taking or pulling the book when the book has not been handled:
 	say "You found a hidden lever!";
-		continue the action.
+	continue the action.
+
 
 BookShelves are scenery. The printed name is "Book Shelves". Understand "book shelves" or "shelves" as BookShelves. They are in the Pristine Library. "Glass shelves that hold many books arranged in alphabetical order. There is one black book that seems to be jutting out a little too far than the others."
 
@@ -174,14 +185,13 @@ Hidden door is a secret door. The Hidden door is east of the Pristine Library an
 [Mysterious Room]
 
 
-The Mysterious Room is a room. It is east of the Hidden door. "A hidden room lighted with lit candles instead of bright light bulbs. Piles of raw silk and stacks of golden bricks fill the entire room. Must be a secret stash hidden by someone."
-
+The Mysterious Room is a room. It is east of the Hidden door. "A hidden room lighted with lit candles instead of bright light bulbs.[if golden bricks are in mysterious room] Stacks of golden bricks fill the entire room.[end if] [if raw silk is in mysterious room]Another pile of raw silk is in the side corner.[end if] Must be a secret stash hidden by someone.[line break]The pristine library is to the west."
 
 Candles are scenery. It is undescribed. It is in the Mysterious Room. The description of the candles is "Low-lit candles are placed in tiny plates. There is a constant flame as melted wax drips down into the plate."
 
 Plates are things.  It is undescribed. It is in the Mysterious Room. The description of the plate is "Mini-sized blue plates with white wax on the bottom of it."
 
-Raw Silk are things.  It is undescribed. It is in the Mysterious Room. The description of the raw silk is "Very curly white silk."
+Raw Silk are things. It is undescribed. It is in the Mysterious Room. The description of the raw silk is "Very curly white silk."
 Instead of taking raw silk:
 	say "You take a handful of the silk. It is so soft and smooth, almost as if you're grabbing air!";
 	now player has raw silk.
@@ -199,7 +209,7 @@ Instead of taking golden bricks:
 [The Garage]
 
 
-The Garage is a room. It is west of the lab room and south of the Tech Building. "This must be someone's garage. Definately not yours, that's for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!"
+The Garage is a room. It is west of the lab room and south of the Tech Building. "This must be someone's garage. Definately not yours, that's for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it![line break]The lab room is to the east, floating sidewalk to the west, tech building to the north, and obscure parking lot to the south."
 
 Tools are things. It is undescribed. It is in the Garage. The description of the tools is "All of the tools are glowing different colors in this small garage. The only refined tool that you can make out seems to be a glowing red machete and a shear. The rest of the tools are just wands with a button on them. That seems interesting… "
 
@@ -216,7 +226,7 @@ The car is a vehicle. It is in the garage. "Such an incredible piece of work! Th
 
 [Floating Sidewalk]
 
-The Floating Sidewalk is a room. It is west of the Garage. "A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you're walking on a cloud, but looks like a beam of light!"
+The Floating Sidewalk is a room. It is west of the Garage. "A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you're walking on a cloud, but looks like a beam of light![line break]The garage is to the east, the lockdown to the west, thrift shop to the north, and directional path to the south."
 
 The pathway is scenery. It is undescribed. It is in the Floating Sidewalk. The description of the pathway is "A functional surface that glows a bright orange. "
 
@@ -227,7 +237,7 @@ The handbars are scenery. It is undescribed. It is in the Floating Sidewalk. THe
 [Lockdown]
 
 
-The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail."
+The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail.[line break]The floating sidewalk is to the east."
 
 [Add NPC- Guards]
 Lewis is a man in the Lockdown. He is undescribed. The description of Lewis is "A burly man with a black uniform, belt, and black glasses."
@@ -257,15 +267,18 @@ The Beds are scenery. It is undescribed. It is in the Lockdown. The description 
 [DIrectional Path]
 
 
-The Directional Path is a room. It is south of the Floating Sidewalk. It is north of the Elevator Shaft. "You are now on cement again. The texture of this pathway is much different from the Floating Sidewalk. A brown silk bag is lying on the side of the pathway."
+The Directional Path is a room. It is south of the Floating Sidewalk. It is north of the Elevator Shaft. "You are now on cement again. The texture of this pathway is much different from the Floating Sidewalk. [if bag is in directional path]A brown silk bag is lying on the side of the pathway.[end if][line break]The floating sidewalk is to the north, and elevator shaft to the south."
 
 The Cement is scenery. It is undescribed. It is in the Directional Path. The description of the cement is "Plain old cement used to pave roads and walkways. Nothing too special about it."
 
-The Brown Silk Bag is a closed openable container. It is undescribed. It is in the Directional Path. The description of the brown silk bag is "A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair and glasses."
+The bag is a closed openable container. It is in the Directional Path. The description of the bag is "A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair and glasses."
 
 
-Instead of opening the Brown Silk Bag:
-	say "You find a bottle of Pepto Bismol and dollar bills inside it as well."
+[does not describe?]
+
+Instead of opening the bag:
+	say "You find a bottle of Pepto Bismol and a pin inside it as well.";
+	continue the action.
 	
 Instead of drinking the Pepto Bismol:
 	say "It tastes like a mint candy, but doesn't settle too well in your stomach.";
@@ -274,14 +287,18 @@ Instead of drinking the Pepto Bismol:
 Instead of taking the Pepto Bismol:
 	say "This looks like you can give it to someone to treat their sickness."
 	
-Pepto Bismol is a thing. It is undescribed. It is inside the brown silk bag. The description of the pepto bismol is "Pink liquid inside a bottle that people drink to clear up indigestion and heartburn."
+Pepto Bismol is a thing. It is undescribed. It is inside bag. The description of the pepto bismol is "Pink liquid inside a bottle that people drink to clear up indigestion and heartburn."
 
-Dollar Bills are things. It is undescribed. It is inside the brown silk bag. The description of the dollar bills is "Crispy green dollar bills with a picture of an old man on it. Must be a new type of bill, since it also doesn't have a dollar amount on it either."
+Pin is a thing. It is undescribed. It is inside the bag. The description of the pin is "A small, yet extremely sharp pin that is a turquoise color."
+Instead of taking pin:
+	say "Ouch! You poked yourself on accident.";
+	decrease x by 30;
+	continue the action.
 
 [Outback Dump]
 
 
-The Outback Dump is a room. It is south of the lab room. "A room made specially for trash and filthy chemicals. It reeks of carbon and a large dumpster is in the center of the room. A bunch of spiders are scattered all over the place. Disgusting."
+The Outback Dump is a room. It is south of the lab room. "A room made specially for trash and filthy chemicals. It reeks of carbon and a large dumpster is in the center of the room. A bunch of spiders are scattered all over the place. Disgusting.[line break]The lab room is to the north."
 
 Dumpster is scenery. It is a closed openable container. It is undescribed. It is in the Outback Dump.
 The description of the dumpster is "A dark-green colored dumpster with rust and dirt all over it. A pungent smell is coming from it too."
@@ -292,14 +309,19 @@ Instead of opening Dumpster:
 Dirt is scenery. It is undescribed. It is in the Outback Dump. "Brown filthy dirt."
 Rust is scenery. It is undescribed. It is in the Outback Dump. "Chalky brown particles of iron oxide." 
 
-Spiders are things. It is undescribed. It is in the Outback Dump. The description of the spiders is "Black medium-sized garden spiders that don't seem to be moving."	
+Spiders are things. It is undescribed. It is in the Outback Dump. The description of the spiders is "Black medium-sized garden spiders that don't seem to be moving."
+Spider is a thing. It is undescribed. It is in the Outback Dump. The description of the spider is "Black medium-sized garden spider that doesn't seem to be moving."
+
+An every turn rule:
+	If player has spider:
+		say "The black spider sinks its teeth into your flesh and poisons you instantly.";
+		end the game in death. 
 
 An every turn rule:
 	If player has spiders:
 		say "The black spider sinks its teeth into your flesh and poisons you instantly.";
 		end the game in death. 
-
-
+		
 Chapter 2 Aurora Walk, Facial Salon, Tech Building, Thrift Shop
 
 [Aurora Walk]
@@ -312,7 +334,7 @@ Instead of talking to pedestrians:
 
 
 
-The Aurora Walk is a room. It is north of the lab room. "This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness. "
+The Aurora Walk is a room. It is north of the lab room. "This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.[line break]The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north."
 
 Green Cushiony Pad is scenery. It is undescribed. It is in the Aurora Walk. The description of the Green Cushiony Pad is "Green padding that creates a walkway that leads to different parts of the city."
 
@@ -348,7 +370,7 @@ Instead of putting recyclable bottles in Trash Can:
 [Facial Salon]
 
 
-The Facial Salon is a room. It is east of the Aurora Walk. It is north of the Pristine Library. "A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice 'cool' feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon."
+The Facial Salon is a room. It is east of the Aurora Walk. It is north of the Pristine Library. "A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice 'cool' feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon.[line break]The aurora walk is to the west, and pristine library to the south."
 [NPC]
 Laquisha is a woman. 
 
@@ -372,7 +394,7 @@ Light Blue Lights is scenery. It is undescribed. It is in the Facial Salon. The 
 White leather seats is an scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on. A thin plastic triangular cutout is laying on one of the white leather seats."
 Understand "white leather seat" as white leather seats.
 
-Triangular Cutout is a thing. It is undescribed. It is in the Facial Salon. The description of the triangular cutout is "A plastic triangular figure that someone left on the seat."
+Triangular Cutout is a thing. It is undescribed. It is in the Facial Salon. The description of the triangular cutout is "A plastic triangular figure that someone left on the seat. Maybe you can combine[roman type] this with something else."
 
 
 
@@ -385,13 +407,14 @@ Triangular Cutout is a thing. It is undescribed. It is in the Facial Salon. The 
 
 [Tech Building]
 
-The Tech Building is a room. It is west of the Aurora Walk. "A Medium Sized robot is the only thing on the floor around the building. Programers are focused on their work on building more of these robots."
+The Tech Building is a room. It is west of the Aurora Walk. "A Medium Sized robot is the only thing on the floor around the building. Programers are focused on their work on building more of these robots.[line break]The garage is to the south, aurora walk to the east, and thrift shop to the west."
 
 Medium Sized Robot is a man. The medium sized robot is in the Tech Building. The description of the robot is "[if robot does not have batteries]A metal robot with cylindrical pieces of tin stuck to it. The robot is able to do things such as walking, and dancing. It doesn't seem to have batteries though. [end if] [if medium sized robot has batteries]A metal robot with cylindrical pieces of tin stuck to it. Man, that thing could dance! [end if]".
 
 Instead of giving batteries to medium sized robot:
 	say "The robot starts to dance to the tune of Call Me Maybe by Carly Rae Jepson. It walks all over the place.";
-	move batteries to robot.
+	move batteries to robot;
+	increase score by 150.
 
 Instead of taking batteries:
 	If robot has batteries:
@@ -399,19 +422,21 @@ Instead of taking batteries:
 	else:
 		move batteries to player;
 		say "You pick up the electrical batteries.".
-		
-Programers are men. 
+	
+Programers are men.
 
 
 
 [Thrift Shop] 
+
+
 [Cannot examine items in thrift shop]
 
 
 
-The Thirft Shop is a room. It is west of the Tech Building. It is north of the Floating Sidewalk. "An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style."
+The Thirft Shop is a room. It is west of the Tech Building. It is north of the Floating Sidewalk. "An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.[line break]The tech building is to the east, and floating sidewalk to the south."
 
-Racks are a supporter. Racks are in the Thrift Shop. The description of the Racks is "Made from long titanium bars that sense your presence. It  automatically slides the clothes down when you gently push the clothes aside. Assorted shirts hang from these racks. On the top of one of the racks there is a silver key.".
+Racks are a supporter. Racks are in the Thrift Shop. The description of the Racks is "Made from long titanium bars that sense your presence. It  automatically slides the clothes down when you gently push the clothes aside. Assorted shirts hang from these racks. On the top of one of the racks there is an orange key.".
 
 Orange Key is a thing. It unlocks the red box. It is undescribed. It is in the Old Thrift Shop. The description of the orange key is "A bright shiny orange key that unlocks something."
 Hangers are things. It is undescribed. It is in the Old Thrift Shop. The description of the hangers is "Plain old metal hangers that hold the shirts on it."
@@ -430,7 +455,7 @@ Chapter 3 DNA Beach, Analysis Sign, Sandy Ocean, Cruising Shack, The Jump
 
 [DNA Beach]
 
-The DNA Beach is a room. It is north of the Aurora Walk. "Surfs-up! Seems as though everyone's at the beach today. A sign shows the reports of the day. Many beach blankets cover the bed of sand. A red box lies underneath the analysis sign."
+The DNA Beach is a room. It is north of the Aurora Walk. "Surfs-up! Seems as though everyone's at the beach today. A sign shows the reports of the day. Many beach blankets cover the bed of sand. A red box lies underneath the analysis sign.[line break]The aurora walk is to the south, sandy ocean to the north, and cruising shack to the east."
 
 Beach Blankets are scenery. It is undescribed. It is in the DNA Beach. The description of the Beach Blankets is "An assortment of blankets people lie on so that they don't get themselves covered in sand."
 
@@ -460,7 +485,7 @@ Amber is a thing. It is undescribed. It is in the sand. The description of the a
 
 [Sandy Ocean]
 
-The Sandy Ocean is a room. It is north of DNA Beach. "The ocean is surprisingly clear blue. It looks like coral and large rocks on the bottom of the ocean have been coated with a layer of paint."
+The Sandy Ocean is a room. It is north of DNA Beach. "The ocean is surprisingly clear blue. It looks like coral and large rocks on the bottom of the ocean have been coated with a layer of paint.[line break]The DNA beach is to the south."
 
 
 
@@ -542,7 +567,7 @@ An every turn rule:
 
 [Cruising Shack]
 
-The Cruising Shack is a room. It is east of the DNA Beach. "An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear from the automatic moving beach shelf. Looks like you can just borrow the gear instead of paying."
+The Cruising Shack is a room. It is east of the DNA Beach. "An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear from the automatic moving beach shelf. Looks like you can just borrow the gear instead of paying.[line break]The DNA Beach is to the west."
 
 Wooden Planks are things. It is undescribed. It is in the Cruising Shack. The description of the wooden planks is "Beige colored strips of wood that are not too thick and not too thin."
 
@@ -557,7 +582,7 @@ Instead of taking wooden planks:
 [Make sure combining those things work]
 
 
-
+[Kai Wong's help]
 Understand "combine [something] with [something]" as combining it with. Combining it with is an action applying to two carried things. 
 
 The combining it with action has an object called the item built.
@@ -650,7 +675,7 @@ Chapter 4 Obscure Parking Lot, Elevator Shaft, Skyscraper, Stairway, The View, P
 
 [Obscure Parking Lot]
 
-The Obscure Parking Lot is south of the Garage. "An eighteen foot parking structure that allows you to park your car whenever you want."
+The Obscure Parking Lot is south of the Garage. "An eighteen foot parking structure that allows you to park your car whenever you want.[line break]The garage is to the north, elevator shaft to the west, and skyscraper 057 to the east."
 
 
 
@@ -663,7 +688,7 @@ Instead of going West in Elevator Shaft:
 		end the game in death;
 	otherwise:
 		say "There is a string of yellow tape blocking your path."
-The Elevator Shaft is a room. It is west of the Obscure Parking Lot. "Yellow tape borders the edges of the elevator. Near the elevator shaft are tools probably left from the workers. Seems as though the elevator is out of function and the workers are on their lunch break."
+The Elevator Shaft is a room. It is west of the Obscure Parking Lot. "Yellow tape borders the edges of the elevator. Near the elevator shaft are tools probably left from the workers. Seems as though the elevator is out of function and the workers are on their lunch break.[line break]The obscure parking lot is to the east, and directional path to the north."
 Yellow Tape is scenery. It is undescribed. It is in the Elevator Shaft. The description of the yellow tape is "[if broken] The yellow tape has been cut. [otherwise]Thin yellow plastic that has 'Warning' in big black bold letters."
 
 Scissors is a thing. It is undescribed. It is in the Elevator Shaft. The description of the scissors is "Pointy black scissors that is in bad condition."
@@ -680,7 +705,7 @@ Check TapeCut:
 
 [Skyscraper]
 
-The Skyscraper 057 is a room. It is east of the Obscure Parking Lot. "The largest building in the vicinity. It is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. You can go through the sliding door that leads to the top of the Skyscraper. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange. "
+The Skyscraper 057 is a room. It is east of the Obscure Parking Lot. "The largest building in the vicinity. It is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. You can go through the sliding door that leads to the top of the Skyscraper. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange.[line break]The obscure parking lot is to the west, stairway to the north, and plaza streets to the east."
 
 Sliding Door is north of Skyscraper 057 and south of the Stairway. sliding door is a door. The sliding door is scenery. It is closed. "An opaque door that leads to the stairway."
 
@@ -712,7 +737,7 @@ remove the pepto bismol from play.
 
 [Stairway]
 
-The Stairway is a room. It is north of the sliding door. "Just an empty stairway. Wonder where this leads to."
+The Stairway is a room. It is north of the sliding door. "Just an empty stairway. Wonder where this leads to.[line break]The skyscraper 057 is to the south, and skyscraper view to the north."
 
 
 
@@ -720,7 +745,7 @@ The Stairway is a room. It is north of the sliding door. "Just an empty stairway
 [Skyscraper View]
 
 
-The Skyscraper View is a room. It is north of the stairway. "What an amazing sight to see. Long metal poles stretch across the edges of the skyscraper for safety. There's a nice breeze at the top of the Skyscraper. You can see almost everything from here, how fantastic. Just don't look down."
+The Skyscraper View is a room. It is north of the stairway. "What an amazing sight to see. Long metal poles stretch across the edges of the skyscraper for safety. There's a nice breeze at the top of the Skyscraper. You can see almost everything from here, how fantastic. Just don't look down.[line break]The Stairway is to the south."
 
 
 [Action: Look down, and notice how all the people and cars look like ants from up here.]
@@ -733,7 +758,7 @@ The Skyscraper View is a room. It is north of the stairway. "What an amazing sig
 
 [Plaza Streets]
 
-The Plaza Streets is a room. It is east of the Skyscraper. "People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is filled with black and blue tiles around the plaza. What a sight. "
+The Plaza Streets is a room. It is east of the Skyscraper. "People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is filled with black and blue tiles around the plaza. What a sight.[line break]The skyscraper 057 is to the west, and pear incorporation to the east."
 
 Fish Fountain is a closed openable container. It is in the Plaza Streets. It is undescribed. The description of the Fish Fountain is "An amazing fountain that spews water majesticallly from the top portion of the fountain, into the bottom of the fountain. It is made purely out of glass and fish lurk inside it too. On the very top, a small sculpture of an old man."
 
@@ -751,7 +776,7 @@ Colored Fish are things. It is undescribed. It is in the Plaza Streets. The desc
 
 [Pear Inc.]
 
-The Pear Incorporation is a room. It is south of the Plaza Streets. "This is surprising to see that Apple has a rival in their industry. Hundreds of devices are scattered on the wooden desks around the room. The Pear Inc. workers are ready to assist anyone that needs help."
+The Pear Incorporation is a room. It is south of the Plaza Streets. "This is surprising to see that Apple has a rival in their industry. Hundreds of devices are scattered on the wooden desks around the room. The Pear Inc. workers are ready to assist anyone that needs help.[line break]The plaza streets is to the north."
 
 
 Wooden desks are scenery. It is in the Pear Incorporation. The description of the wooden desks is "Mahogany and Hard Maple wood make up most of the desks. They are in the shape of a circle, so that more devices can be held on them."
