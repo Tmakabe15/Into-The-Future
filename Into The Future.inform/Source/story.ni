@@ -2,9 +2,6 @@
 
 
 
-
-
-
 [Add scoring system]
 The orange backpack is a openable and unlocked container carried by the player.
 
@@ -243,10 +240,12 @@ The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells a
 Lewis is a man in the Lockdown. He is undescribed. The description of Lewis is "A burly man with a black uniform, belt, and black glasses."
 
 
+[Mayor Lucas. the old man with the glasses. etc.]
+
 [change convo]
 Instead of talking to Lewis:
-say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he replies
-casually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
+say "[one of]'Hi, there,' you say confidently.[paragraph break]'Do you have any questions?' he asks
+casually.[or]'Nice black outfit you got there,' you comment. 'Where did you get it?'[paragraph break]'It's fashionable, but I have to wear it since people recognize me as a watch guard. It's also Lucas' new law for this city too.' Troy replies, looking down as his uniform. 'Who is this Lucas person that you speak of?'[or]'Who is Lucas?' you say sternly. [paragraph break]Troy laughs heartily. 'You don't know who Lucas is? You're so silly, you've probably seen his picture somewhere around. He is the mayor of this city.'[or]Are you serious?! Lucas is our mayor… How do you not know this?[stopping]".
 
 [Add more tangible items]
 
@@ -684,24 +683,27 @@ The Obscure Parking Lot is south of the Garage. "An eighteen foot parking struct
 A thing can be broken or unbroken.
 Instead of going West in Elevator Shaft:
 	if Yellow Tape is broken:
-		say "You enter the elevator shaft and fall to your death.";
+		say "You enter the elevator shaft and fall to your death. Maybe that's why there was yellow tape covering up the elevator...";
 		end the game in death;
 	otherwise:
-		say "There is a string of yellow tape blocking your path."
-The Elevator Shaft is a room. It is west of the Obscure Parking Lot. "Yellow tape borders the edges of the elevator. Near the elevator shaft are tools probably left from the workers. Seems as though the elevator is out of function and the workers are on their lunch break.[line break]The obscure parking lot is to the east, and directional path to the north."
+		say "There are strips of yellow tape blocking your path."
+The Elevator Shaft is a room. It is west of the Obscure Parking Lot. "Yellow tape borders the edges of the elevator to the west. [if scissors is in elevator shaft]Near the elevator shaft are scissors probably left out by the workers.[end if] Seems as though the elevator is out of function and the workers are on their lunch break.[line break]The obscure parking lot is to the east, and directional path to the north."
 Yellow Tape is scenery. It is undescribed. It is in the Elevator Shaft. The description of the yellow tape is "[if broken] The yellow tape has been cut. [otherwise]Thin yellow plastic that has 'Warning' in big black bold letters."
+
+
 
 Scissors is a thing. It is undescribed. It is in the Elevator Shaft. The description of the scissors is "Pointy black scissors that is in bad condition."
 
 Understand "cut [something] with [something]" as TapeCut. TapeCut is an action applying to two things.
 Check TapeCut:
 	if noun is Yellow Tape and second noun is Scissors:
-		say "You cut the tape! Now you can walk through the shaft.";
+		say "You cut the tape! Now you can walk through the broken elevator shaft to the west.";
+		increase score by 150;
 		now Yellow Tape is broken;
 	otherwise:
 		say "Why would you cut that?".
-
-
+Instead of cutting tape:
+	say "You need to cut the yellow tape with something.".
 
 [Skyscraper]
 
