@@ -234,18 +234,13 @@ The handbars are scenery. It is undescribed. It is in the Floating Sidewalk. THe
 [Lockdown]
 
 
-The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail. One of the guards[line break]The floating sidewalk is to the east."
+The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail.[line break]The floating sidewalk is to the east."
 
-[Add NPC- Guards]
-Lewis is a man in the Lockdown. He is undescribed. The description of Lewis is "A burly man with a black uniform, belt, and black glasses."
+[NPC Guards]
+Guards is a man in the Lockdown. He is undescribed. The description of guards is "Burly men with a black uniform, belt, and black glasses."
+Instead of talking to guards:
+	say "They don't look like they want to talk right now."
 
-
-[Mayor Lucas. the old man with the glasses. etc.]
-
-[change convo]
-Instead of talking to Lewis:
-say "[one of]'Hi, there,' you say confidently.[paragraph break]'Do you have any questions?' he asks
-casually.[or]'Nice black outfit you got there,' you comment. 'Where did you get it?'[paragraph break]'It's fashionable, but I have to wear it since people recognize me as a watch guard. It's also Lucas' new law for this city too.' Troy replies, looking down as his uniform. 'Who is this Lucas person that you speak of?'[or]'Who is Lucas?' you say sternly. [paragraph break]Troy laughs heartily. 'You don't know who Lucas is? You're so silly, you've probably seen his picture somewhere around. He is the mayor of this city.'[or]Are you serious?! Lucas is our mayor… How do you not know this?[stopping]".
 
 [Add more tangible items]
 
@@ -253,9 +248,11 @@ The Luminated Steel is scenery. It is undescribed. It is in the Lockdown. The de
 
 The Cylindrical Wires are scenery. It is undescribed. It is in the Lockdown. The description of the cylindrical wires is "Wires that conduct pressure and electricity. Probably what makes the Steel able to float and move to certain cells."
 
-The Prison Cell is scenery. It is undescribed. It is in the Lockdown. The description of the prison cell is "Contains cell bars, walls, and bed for the prisoner. Not very luxurious but suitable for reprobates. [Line break]There seems to be a pocket knife here too."
+The Prison Cell is scenery. It is undescribed. It is in the Lockdown. The description of the prison cell is "Contains cell bars, walls, and bed for the prisoner. Not very luxurious but suitable for reprobates. [Line break]There seems to be a pocket knife and saw here too."
 
 The Cell Bars are scenery. It is undescribed. It is in the Lockdown. The description of the Cell Bars is "Metal bars that keep the criminals inside their room."
+
+Saw is a thing. It is undescribed. It is in the Lockdown. The description of the Saw is "A long metal saw with sharp ridges."
 
 The Cell Walls are scenery. It is undescribed. It is in the Lockdown. The description of the Cell Walls is "The walls are surfaced with pure white material, just like the luminated steel."
 
@@ -282,7 +279,7 @@ Instead of drinking the Pepto Bismol:
 Instead of taking the Pepto Bismol:
 	say "This looks like you can give it to someone to treat their sickness."
 	
-Pepto Bismol is a thing. It is undescribed. It is inside bag. The description of the pepto bismol is "Pink liquid inside a bottle that people drink to clear up indigestion and heartburn."
+Pepto Bismol is a thing. It is undescribed. It is inside bag. The description of the pepto bismol is "Pink liquid inside a bottle that someone can drink to clear up indigestion and heartburn."
 
 Pin is a thing. It is undescribed. It is inside the bag. The description of the pin is "A small, yet extremely sharp pin that is a turquoise color."
 Instead of taking pin:
@@ -575,12 +572,27 @@ Instead of taking wooden planks:
 	say "Don't be greedy, you only need one wooden plank strip. Save some for everyone else.";
 	now player has a wooden plank.
 
-Understand "cut [something] with [something]" as cutting it with. Cutting it with is an action applying to two things.
-Instead of cutting something: say "You need to specify what to cut [noun] with."
-[Cutting wooden plank with knife]
+Understand "cut [something]" as cutting.
 
-[Use pocket knife to carve the wooden plank into a surfboard and stick the triangular cutout onto it too. Need silk to sew it onto the board.]
+[Cutting wooden plank with saw]
+[Use saw to carve the wooden plank into a surfboard and stick the triangular cutout onto it too. Need silk to sew it onto the board.]
 [Make sure combining those things work]
+w is a number variable. w is 0.
+Instead of cutting wooden plank:
+	if w is greater than 0:
+		say "You already cut the wooden plank to the right size.";
+	if w is less than 1:
+		if the player is carrying the saw:
+			say "You successfully cut the wooden plank into an oval plank.";
+			move oval plank to player;
+			remove wooden plank from play;
+			increase w by 1;
+		if player is not carrying the saw:
+			say "you have nothing to cut the plank with.".
+Oval Plank is a thing. It is undescribed. "A cut-up wooden plank into the shape of an oval."
+
+
+
 
 
 [Kai Wong's help]
@@ -611,7 +623,7 @@ Report combining it with:
 
 Table of Outcome objects
 component list			result
-{wooden plank, triangular cutout}			Fragile Board
+{oval plank, triangular cutout}			Fragile Board
 {Fragile Board, silk}			surfboard
 
 Fragile Board is a thing. the printed name is "Fragile Board".
@@ -763,7 +775,7 @@ The Skyscraper View is a room. It is north of the stairway. "What an amazing sig
 
 [Plaza Streets]
 
-The Plaza Streets is a room. It is east of the Skyscraper. "People hustle and bustle around the plaza. A large fish fountain with a statue of a person is located in the center of it. The ground is filled with black and blue tiles around the plaza. What a sight.[line break]The skyscraper 057 is to the west, and pear incorporation to the east."
+The Plaza Streets is a room. It is east of the Skyscraper. "A large fish fountain with a statue of a person is located in the center of it. The ground is filled with black and blue tiles around the plaza. What a sight.[line break]The skyscraper 057 is to the west, and pear incorporation to the east."
 
 Fish Fountain is a closed openable container. It is in the Plaza Streets. It is undescribed. The description of the Fish Fountain is "An amazing fountain that spews water majesticallly from the top portion of the fountain, into the bottom of the fountain. It is made purely out of glass and fish lurk inside it too. On the very top, a small sculpture of an old man."
 
@@ -773,8 +785,6 @@ Tiles are scenery. It is undescribed. It is in the Plaza Streets. The descriptio
 Colored Fish are things. It is undescribed. It is in the Plaza Streets. The description of the Colored Fish is "Many colorful fish swim through the water and around the fountain."
 
 
-
-[NPC: People too busy to talk?]
 
 
 
@@ -788,16 +798,16 @@ Wooden desks are scenery. It is in the Pear Incorporation. The description of th
 
 
 [Mayor of the city. Can give you an item to stay in the future forever.]
-Dante is a man. 
 
-[Change convo]
-Instead of talking to Dante:
-say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he replies
-casually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
+[Mayor Lucas. the old man with the glasses. etc.]
+[change convo]
+Lewis is a man.
+Instead of talking to Lewis:
+say "[one of]'Hi, there,' you say confidently.[paragraph break]'Do you have any questions?' he asks
+casually.[or]'Nice black outfit you got there,' you comment. 'Where did you get it?'[paragraph break]'It's fashionable, but I have to wear it since people recognize me as a watch guard. It's also Lucas' new law for this city too.' Troy replies, looking down as his uniform. 'Who is this Lucas person that you speak of?'[or]'Who is Lucas?' you say sternly. [paragraph break]Troy laughs heartily. 'You don't know who Lucas is? You're so silly, you've probably seen his picture somewhere around. He is the mayor of this city.'[or]Are you serious?! Lucas is our mayor… How do you not know this?[stopping]".
 
 
-
-
+Lucas is man. He is in the Pear Incorporation. The description of Lucas is "A short old man with circular glasses."
 
 
 
@@ -826,10 +836,10 @@ An every turn rule:
 
 
 
-At 9:40 AM: say "40 minutes passed already. Wow! You haven't been checking your time lately."
-At 9:50 AM: say "No worries, 50 minutes passed. About 40 minutes to go."
-At 10:00 AM: say "Your watch is starting to beep. Probably is trying to remind you to hurry up!"
-At 10:15 AM: say "No time to waste, do what you gotta do now. And quick!"
-At 10:30 AM: say "You are out of time… Your watch has teleported you back to your very own lab with your orange backpack. Hopefully you managed to take enough stuff with you back home.";
+At 9:50 AM: say "No worries, only 50 minutes passed already."
+At 10:05 AM: say "65 minutes passed. Wow! You haven't been checking your time lately."
+At 10:20 AM: say "Your watch is starting to beep. Probably is trying to remind you to hurry up!"
+At 10:35 AM: say "No time to waste, do what you gotta do now. And quick!"
+At 10:45 AM: say "You are out of time… Your watch has teleported you back to your very own lab with your orange backpack. Hopefully you managed to take enough stuff with you back home.";
 end the game in victory.
 

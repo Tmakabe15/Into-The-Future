@@ -10,8 +10,8 @@ release to "/Users/tmakabe15/Desktop/Into The Future/Into The Future/Into The Fu
 
 ! Blorb instructions
 
-storyfile leafname "Into The Future.gblorb"
-storyfile "/Users/tmakabe15/Desktop/Into The Future/Into The Future/Into The Future.inform/Build/output.ulx" include
+storyfile leafname "Into The Future.zblorb"
+storyfile "/Users/tmakabe15/Desktop/Into The Future/Into The Future/Into The Future.inform/Build/output.z8" include
 ifiction "/Users/tmakabe15/Desktop/Into The Future/Into The Future/Into The Future.inform/Metadata.iFiction" include
 cover "/Users/tmakabe15/Desktop/Comp Sci./Inform/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
 picture 1 "/Users/tmakabe15/Desktop/Comp Sci./Inform/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
