@@ -1,11 +1,2294 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x507cc70" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x5004670" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x507cc70" />
-  <item nodeId="node-0x507cc70">
+  <activeNode nodeId="node-0x5004670" />
+  <item nodeId="node-0x5004670">
     <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+You are an intelligent scientist who has invented a prototype watch that allows you to travel 40 years into the future. You have exactly an hour and a half in the future day before your watch teleports you back home. In the mean time, you can do anything your heart desires, but use your time wisely!
+
+You have successfully teleported into the future. Keep an eye on your watch at all times.
+
+&quot;Whoa!!!&quot; you say. &quot;I guess this is what my laboratory will look like 40 years from now… How magnificent!곓&quot; 
+Make sure you remember to put significnt items inside your backpack to bring back with you later on.
+
+Into The Future
+An Interactive Fiction by Tyler Makabe
+Release 1 / Serial number 130317 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them.
+The outback dump is to the south, pristine library is to the east, garage to the west, and aurora walk is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">NO</temporary>
+    <children>
+      <child nodeId="node-0x503fd40" />
+      <child nodeId="node-0x503d2c0" />
+      <child nodeId="node-0x50046c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50046c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x5004840" />
+    </children>
+  </item>
+  <item nodeId="node-0x5004840">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Facial Salon
+A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice &quot;cool&quot; feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon.
+The aurora walk is to the west, and pristine library to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x5004890" />
+    </children>
+  </item>
+  <item nodeId="node-0x5004890">
+    <command xml:space="preserve">x seats</command>
+    <result xml:space="preserve">A white leather seat that has a circlular opening for you to lay your head on. A thin plastic triangular cutout is laying on one of the white leather seats.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x5004920" />
+    </children>
+  </item>
+  <item nodeId="node-0x5004920">
+    <command xml:space="preserve">x cutout</command>
+    <result xml:space="preserve">A plastic triangular figure that someone left on the seat. Maybe you can combine this with something else.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x5004990" />
+    </children>
+  </item>
+  <item nodeId="node-0x5004990">
+    <command xml:space="preserve">take cutout</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x5004a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x5004a00">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Triangular Cutout
+  an orange backpack (open but empty)
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x5004af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5004af0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Facial Salon
+A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice &quot;cool&quot; feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon.
+The aurora walk is to the west, and pristine library to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x5004b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x5004b40">
+    <command xml:space="preserve">x seats</command>
+    <result xml:space="preserve">A white leather seat that has a circlular opening for you to lay your head on. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x5004b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x5004b90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x5004c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x5004c00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Facial Salon
+A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice &quot;cool&quot; feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon.
+The aurora walk is to the west, and pristine library to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x5004c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x5004c70">
+    <command xml:space="preserve">take silk</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503c830" />
+    </children>
+  </item>
+  <item nodeId="node-0x503c830">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x5004a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x5004a70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Tech Building
+A Medium Sized robot is the only thing on the floor around the building. Programers are focused on their work on building more of these robots.
+The garage is to the south, aurora walk to the east, and thrift shop to the west.
+
+You can see Medium Sized Robot here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503c880" />
+    </children>
+  </item>
+  <item nodeId="node-0x503c880">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Thrift Shop
+An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.
+The tech building is to the east, and floating sidewalk to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503c8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503c8f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Floating Sidewalk
+A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
+The garage is to the east, the lockdown to the west, thrift shop to the north, and directional path to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503c960" />
+    </children>
+  </item>
+  <item nodeId="node-0x503c960">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Lockdown
+The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail. One of the guards
+The floating sidewalk is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503c9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503c9d0">
+    <command xml:space="preserve">x prison</command>
+    <result xml:space="preserve">Contains cell bars, walls, and bed for the prisoner. Not very luxurious but suitable for reprobates. 
+There seems to be a pocket knife here too.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ca40" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ca40">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503cab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503cab0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Floating Sidewalk
+A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
+The garage is to the east, the lockdown to the west, thrift shop to the north, and directional path to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503c770" />
+    </children>
+  </item>
+  <item nodeId="node-0x503c770">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+The lab room is to the east, floating sidewalk to the west, tech building to the north, and obscure parking lot to the south.
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503c7c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503c7c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Tech Building
+A Medium Sized robot is the only thing on the floor around the building. Programers are focused on their work on building more of these robots.
+The garage is to the south, aurora walk to the east, and thrift shop to the west.
+
+You can see Medium Sized Robot here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503cca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503cca0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503cd10" />
+    </children>
+  </item>
+  <item nodeId="node-0x503cd10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many beach blankets cover the bed of sand. A red box lies underneath the analysis sign.
+The aurora walk is to the south, sandy ocean to the north, and cruising shack to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503cd80" />
+    </children>
+  </item>
+  <item nodeId="node-0x503cd80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Cruising Shack
+An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear from the automatic moving beach shelf. Looks like you can just borrow the gear instead of paying.
+The DNA Beach is to the west.
+
+Sunny is leaning on the counter inside the Shack waiting for someone to ask for assistance.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503cdf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503cdf0">
+    <command xml:space="preserve">x planks</command>
+    <result xml:space="preserve">Beige colored strips of wood that are not too thick and not too thin.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ce60" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ce60">
+    <command xml:space="preserve">take plank</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ced0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ced0">
+    <command xml:space="preserve">combine plank with cutout</command>
+    <result xml:space="preserve">I now have a Fragile Board!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503cf40" />
+    </children>
+  </item>
+  <item nodeId="node-0x503cf40">
+    <command xml:space="preserve">combine fragile board with silk</command>
+    <result xml:space="preserve">I can&apos;t combine Fragile Board and Thin silk and into anything useful.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503cfb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503cfb0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many beach blankets cover the bed of sand. A red box lies underneath the analysis sign.
+The aurora walk is to the south, sandy ocean to the north, and cruising shack to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d020" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d020">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d090" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d090">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d100" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d100">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Tech Building
+A Medium Sized robot is the only thing on the floor around the building. Programers are focused on their work on building more of these robots.
+The garage is to the south, aurora walk to the east, and thrift shop to the west.
+
+You can see Medium Sized Robot here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503cb20" />
+    </children>
+  </item>
+  <item nodeId="node-0x503cb20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Thrift Shop
+An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.
+The tech building is to the east, and floating sidewalk to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503cb90" />
+    </children>
+  </item>
+  <item nodeId="node-0x503cb90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Floating Sidewalk
+A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
+The garage is to the east, the lockdown to the west, thrift shop to the north, and directional path to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503cc00" />
+    </children>
+  </item>
+  <item nodeId="node-0x503cc00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Lockdown
+The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail. One of the guards
+The floating sidewalk is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d3b0">
+    <command xml:space="preserve">x guard</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d420" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d420">
+    <command xml:space="preserve">talk to lewis</command>
+    <result xml:space="preserve">&quot;Hi, there,&quot; you say confidently.
+
+&quot;Do you have any questions?&quot; he asks casually.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d490" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d490">
+    <command xml:space="preserve">talk to lewis</command>
+    <result xml:space="preserve">&quot;Nice black outfit you got there,&quot; you comment. &quot;Where did you get it?&quot;
+
+&quot;It&apos;s fashionable, but I have to wear it since people recognize me as a watch guard. It&apos;s also Lucas&quot; new law for this city too.&quot; Troy replies, looking down as his uniform. &quot;Who is this Lucas person that you speak of?&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d500" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d500">
+    <command xml:space="preserve">say hi</command>
+    <result xml:space="preserve">(to Lewis)
+There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d570" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d570">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to Lewis)
+&quot;Who is Lucas?&quot; you say sternly. 
+
+Troy laughs heartily. &quot;You don&apos;t know who Lucas is? You&apos;re so silly, you&apos;ve probably seen his picture somewhere around. He is the mayor of this city.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d5e0">
+    <command xml:space="preserve">really?</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d650" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d650">
+    <command xml:space="preserve">say really</command>
+    <result xml:space="preserve">(to Lewis)
+There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d6c0">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to Lewis)
+Are you serious?! Lucas is our mayor… How do you not know this?
+
+40 minutes passed already. Wow! You haven&apos;t been checking your time lately.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d730" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d730">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to Lewis)
+Are you serious?! Lucas is our mayor… How do you not know this?湵!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d7a0">
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">(to Lewis)
+Are you serious?! Lucas is our mayor… How do you not know this?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d810" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d810">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Floating Sidewalk
+A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
+The garage is to the east, the lockdown to the west, thrift shop to the north, and directional path to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d880" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d880">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Directional Path
+You are now on cement again. The texture of this pathway is much different from the Floating Sidewalk. A brown silk bag is lying on the side of the pathway.
+The floating sidewalk is to the north, and elevator shaft to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d8f0">
+    <command xml:space="preserve">x bag</command>
+    <result xml:space="preserve">A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair and glasses.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d960" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d960">
+    <command xml:space="preserve">take bag</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d9d0">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">You open the bag, revealing Pepto Bismol and Pin.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503da40" />
+    </children>
+  </item>
+  <item nodeId="node-0x503da40">
+    <command xml:space="preserve">take pepto bismol</command>
+    <result xml:space="preserve">This looks like you can give it to someone to treat their sickness.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503dab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503dab0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a bag (open)
+    Pepto Bismol
+    Pin
+  Fragile Board
+  Pocket Knife
+  Thin silk
+  an orange backpack (open but empty)
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d170" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d170">
+    <command xml:space="preserve">drink pepto bismol</command>
+    <result xml:space="preserve">It tastes like a mint candy, but doesn&apos;t settle too well in your stomach.
+
+No worries, 50 minutes passed. About 40 minutes to go.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d1e0">
+    <command xml:space="preserve">health</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="537">YES</temporary>
+    <children>
+      <child nodeId="node-0x503d250" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d250">
+    <command xml:space="preserve">x health</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="0">NO</temporary>
+    <temporary score="536">YES</temporary>
+  </item>
+  <item nodeId="node-0x503d2c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+The Pristine Library
+The library is embedded with silver crystals all around the walls. There are shelves that contain thousands of historical books that date back to your time. A clear glass door is on the far side of the library along with a painting of a prestigious man.
+The facial salon is to the north, and lab room is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f790" />
+      <child nodeId="node-0x503f3a0" />
+      <child nodeId="node-0x503d330" />
+    </children>
+  </item>
+  <item nodeId="node-0x503d330">
+    <command xml:space="preserve">x shelf</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503db20" />
+    </children>
+  </item>
+  <item nodeId="node-0x503db20">
+    <command xml:space="preserve">x shelves</command>
+    <result xml:space="preserve">Glass shelves that hold many books arranged in alphabetical order. There is one black book that seems to be jutting out a little too far than the others.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503db90" />
+    </children>
+  </item>
+  <item nodeId="node-0x503db90">
+    <command xml:space="preserve">take book</command>
+    <result xml:space="preserve">You found a hidden lever!
+
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503dc00" />
+    </children>
+  </item>
+  <item nodeId="node-0x503dc00">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You found a hidden door to the east! Wonder where that leads to.
+
+[Your score has just gone up by one hundred and fifty points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503dc70" />
+    </children>
+  </item>
+  <item nodeId="node-0x503dc70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mysterious Room
+A hidden room lighted with lit candles instead of bright light bulbs. Stacks of golden bricks fill the entire room. Another pile of raw silk is in the side corner. Must be a secret stash hidden by someone.
+The pristine library is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503dce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503dce0">
+    <command xml:space="preserve">take golden brick</command>
+    <result xml:space="preserve">[Your score has just gone up by five points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503dd50" />
+    </children>
+  </item>
+  <item nodeId="node-0x503dd50">
+    <command xml:space="preserve">put golden brick into backpack</command>
+    <result xml:space="preserve">You put Golden Brick into the orange backpack.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ddc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ddc0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Black Book
+  an orange backpack (open)
+    Golden Brick
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503de30" />
+    </children>
+  </item>
+  <item nodeId="node-0x503de30">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503dea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503dea0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503df10" />
+    </children>
+  </item>
+  <item nodeId="node-0x503df10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+The Pristine Library
+The library is embedded with silver crystals all around the walls. There are shelves that contain thousands of historical books that date back to your time. A clear glass door is on the far side of the library along with a painting of a prestigious man.
+The facial salon is to the north, and lab room is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503df80" />
+    </children>
+  </item>
+  <item nodeId="node-0x503df80">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them.
+The outback dump is to the south, pristine library is to the east, garage to the west, and aurora walk is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503dff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503dff0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e060" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e060">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Facial Salon
+A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice &quot;cool&quot; feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon.
+The aurora walk is to the west, and pristine library to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e0d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e140" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e140">
+    <command xml:space="preserve">x seasts</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e1b0">
+    <command xml:space="preserve">x seats</command>
+    <result xml:space="preserve">A white leather seat that has a circlular opening for you to lay your head on. A thin plastic triangular cutout is laying on one of the white leather seats.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e220" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e220">
+    <command xml:space="preserve">take cutout</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e290" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e290">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Facial Salon
+A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice &quot;cool&quot; feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon.
+The aurora walk is to the west, and pristine library to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e300" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e300">
+    <command xml:space="preserve">x seats</command>
+    <result xml:space="preserve">A white leather seat that has a circlular opening for you to lay your head on. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e370" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e370">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e3e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Tech Building
+A Medium Sized robot is the only thing on the floor around the building. Programers are focused on their work on building more of these robots.
+The garage is to the south, aurora walk to the east, and thrift shop to the west.
+
+You can see Medium Sized Robot here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e450" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e450">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Thrift Shop
+An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.
+The tech building is to the east, and floating sidewalk to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e4c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e530" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e530">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Floating Sidewalk
+A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
+The garage is to the east, the lockdown to the west, thrift shop to the north, and directional path to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e5a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Lockdown
+The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail.
+The floating sidewalk is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e610" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e610">
+    <command xml:space="preserve">x prison cell</command>
+    <result xml:space="preserve">Contains cell bars, walls, and bed for the prisoner. Not very luxurious but suitable for reprobates. 
+There seems to be a pocket knife here too.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e680" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e680">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e6f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Floating Sidewalk
+A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
+The garage is to the east, the lockdown to the west, thrift shop to the north, and directional path to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e760" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e760">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Thrift Shop
+An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.
+The tech building is to the east, and floating sidewalk to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e7d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Tech Building
+A Medium Sized robot is the only thing on the floor around the building. Programers are focused on their work on building more of these robots.
+The garage is to the south, aurora walk to the east, and thrift shop to the west.
+
+You can see Medium Sized Robot here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e840" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e840">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e8b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e920" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e920">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Facial Salon
+A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice &quot;cool&quot; feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon.
+The aurora walk is to the west, and pristine library to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503e990" />
+    </children>
+  </item>
+  <item nodeId="node-0x503e990">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ea00" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ea00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many beach blankets cover the bed of sand. A red box lies underneath the analysis sign.
+The aurora walk is to the south, sandy ocean to the north, and cruising shack to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ea70" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ea70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Cruising Shack
+An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear from the automatic moving beach shelf. Looks like you can just borrow the gear instead of paying.
+The DNA Beach is to the west.
+
+Sunny is leaning on the counter inside the Shack waiting for someone to ask for assistance.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503eae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503eae0">
+    <command xml:space="preserve">take wooden planks</command>
+    <result xml:space="preserve">Don&apos;t be greedy, you only need one wooden plank strip. Save some for everyone else.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503eb50" />
+    </children>
+  </item>
+  <item nodeId="node-0x503eb50">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Wooden Plank
+  Pocket Knife
+  Triangular Cutout
+  Black Book
+  an orange backpack (open)
+    Golden Brick
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ebc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ebc0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many beach blankets cover the bed of sand. A red box lies underneath the analysis sign.
+The aurora walk is to the south, sandy ocean to the north, and cruising shack to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ec30" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ec30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503eca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503eca0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Facial Salon
+A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice &quot;cool&quot; feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon.
+The aurora walk is to the west, and pristine library to the south.
+
+40 minutes passed already. Wow! You haven&apos;t been checking your time lately.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ed10" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ed10">
+    <command xml:space="preserve">drop black book</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ed80" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ed80">
+    <command xml:space="preserve">take silk</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503edf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503edf0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ee60" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ee60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503eed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503eed0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many beach blankets cover the bed of sand. A red box lies underneath the analysis sign.
+The aurora walk is to the south, sandy ocean to the north, and cruising shack to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ef40" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ef40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Cruising Shack
+An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear from the automatic moving beach shelf. Looks like you can just borrow the gear instead of paying.
+The DNA Beach is to the west.
+
+Sunny is leaning on the counter inside the Shack waiting for someone to ask for assistance.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503efb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503efb0">
+    <command xml:space="preserve">combine woodne plank and silk</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f020" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f020">
+    <command xml:space="preserve">combine wooden plank and cutout</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f090" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f090">
+    <command xml:space="preserve">combine plank and silk</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f100" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f100">
+    <command xml:space="preserve">combine plank with silk</command>
+    <result xml:space="preserve">I can&apos;t combine Wooden Plank and Thin silk and into anything useful.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f170" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f170">
+    <command xml:space="preserve">combine plank with cutout</command>
+    <result xml:space="preserve">I now have a Fragile Board!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f1e0">
+    <command xml:space="preserve">combine fragile board with silk</command>
+    <result xml:space="preserve">I can&apos;t combine Fragile Board and Thin silk and into anything useful.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f250" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f250">
+    <command xml:space="preserve">combine board with silk</command>
+    <result xml:space="preserve">I can&apos;t combine Fragile Board and Thin silk and into anything useful.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f2c0">
+    <command xml:space="preserve">combine silk with board</command>
+    <result xml:space="preserve">I can&apos;t combine Thin silk and Fragile Board and into anything useful.
+
+No worries, 50 minutes passed. About 40 minutes to go.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="322">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f330" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f330">
+    <command xml:space="preserve">cut board</command>
+    <result xml:space="preserve">Cutting that up would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="321">YES</temporary>
+  </item>
+  <item nodeId="node-0x503f3a0">
+    <command xml:space="preserve">x shelves</command>
+    <result xml:space="preserve">Glass shelves that hold many books arranged in alphabetical order. There is one black book that seems to be jutting out a little too far than the others.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f410" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f410">
+    <command xml:space="preserve">shelf</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f480" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f480">
+    <command xml:space="preserve">x shelf</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f4f0">
+    <command xml:space="preserve">x crystals</command>
+    <result xml:space="preserve">Shiny and smooth crystals that gives the library an amazing glow.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f560" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f560">
+    <command xml:space="preserve">take crystals</command>
+    <result xml:space="preserve">[Your score has just gone up by five points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f5d0">
+    <command xml:space="preserve">put crystal into backpack</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f640" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f640">
+    <command xml:space="preserve">put crystals into backpack</command>
+    <result xml:space="preserve">You put Silver Crystals into the orange backpack.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f6b0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  an orange backpack (open)
+    Silver Crystals
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f720" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f720">
+    <command xml:space="preserve">x bookshelves</command>
+    <result xml:space="preserve">Glass shelves that hold many books arranged in alphabetical order. There is one black book that seems to be jutting out a little too far than the others.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+  </item>
+  <item nodeId="node-0x503f790">
+    <command xml:space="preserve">xshelves</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f800" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f800">
+    <command xml:space="preserve">x shelves</command>
+    <result xml:space="preserve">Glass shelves that hold many books arranged in alphabetical order. There is one black book that seems to be jutting out a little too far than the others.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f870" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f870">
+    <command xml:space="preserve">take black book</command>
+    <result xml:space="preserve">You found a hidden lever!
+
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f8e0">
+    <command xml:space="preserve">pull lever</command>
+    <result xml:space="preserve">You found a hidden door to the east! Wonder where that leads to.
+
+[Your score has just gone up by one hundred and fifty points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f950" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f950">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Mysterious Room
+A hidden room lighted with lit candles instead of bright light bulbs. Stacks of golden bricks fill the entire room. Another pile of raw silk is in the side corner. Must be a secret stash hidden by someone.
+The pristine library is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503f9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503f9c0">
+    <command xml:space="preserve">x silk</command>
+    <result xml:space="preserve">Very curly white silk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503fa30" />
+    </children>
+  </item>
+  <item nodeId="node-0x503fa30">
+    <command xml:space="preserve">take silk</command>
+    <result xml:space="preserve">You take a handful of the silk. It is so soft and smooth, almost as if you&apos;re grabbing air!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503faa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503faa0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Raw Silk
+  Black Book
+  an orange backpack (open but empty)
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503fb10" />
+    </children>
+  </item>
+  <item nodeId="node-0x503fb10">
+    <command xml:space="preserve">take golden brick</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take Golden Bricks.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503fb80" />
+    </children>
+  </item>
+  <item nodeId="node-0x503fb80">
+    <command xml:space="preserve">take golden brick</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take Golden Bricks.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503fbf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503fbf0">
+    <command xml:space="preserve">take golden bricks</command>
+    <result xml:space="preserve">Unfortunately, you are only strong enough to hold one of the bars.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503fc60" />
+    </children>
+  </item>
+  <item nodeId="node-0x503fc60">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Golden Brick
+  Raw Silk
+  Black Book
+  an orange backpack (open but empty)
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x503fcd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503fcd0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Mysterious Room
+A hidden room lighted with lit candles instead of bright light bulbs. Stacks of golden bricks fill the entire room.  Must be a secret stash hidden by someone.
+The pristine library is to the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+  </item>
+  <item nodeId="node-0x503fd40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Outback Dump
+A room made specially for trash and filthy chemicals. It reeks of carbon and a large dumpster is in the center of the room. A bunch of spiders are scattered all over the place. Disgusting.
+The lab room is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x503fdb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503fdb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x503fe20" />
+    </children>
+  </item>
+  <item nodeId="node-0x503fe20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x503fe90" />
+    </children>
+  </item>
+  <item nodeId="node-0x503fe90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ff00" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ff00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Lab Room
+It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them.
+The outback dump is to the south, pristine library is to the east, garage to the west, and aurora walk is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ff70" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ff70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Garage
+This must be someone&apos;s garage. Definately not yours, that&apos;s for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it!
+The lab room is to the east, floating sidewalk to the west, tech building to the north, and obscure parking lot to the south.
+
+Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x503ffe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x503ffe0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Floating Sidewalk
+A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you&apos;re walking on a cloud, but looks like a beam of light!
+The garage is to the east, the lockdown to the west, thrift shop to the north, and directional path to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040050" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040050">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Thrift Shop
+An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.
+The tech building is to the east, and floating sidewalk to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x50400c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50400c0">
+    <command xml:space="preserve">x racks</command>
+    <result xml:space="preserve">Made from long titanium bars that sense your presence. It  automatically slides the clothes down when you gently push the clothes aside. Assorted shirts hang from these racks. On the top of one of the racks there is an orange key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040130" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040130">
+    <command xml:space="preserve">x clothes</command>
+    <result xml:space="preserve">Old, new, stylish, and formal assorted shirts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x50401a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50401a0">
+    <command xml:space="preserve">take clothes</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040210" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040210">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Clothes
+  an orange backpack (open but empty)
+  White shirt
+  Jeans
+  Glasses
+  Prototype watch
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040280" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040280">
+    <command xml:space="preserve">x key</command>
+    <result xml:space="preserve">A bright shiny orange key that unlocks something.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x50402f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50402f0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040360" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040360">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Tech Building
+A Medium Sized robot is the only thing on the floor around the building. Programers are focused on their work on building more of these robots.
+The garage is to the south, aurora walk to the east, and thrift shop to the west.
+
+You can see Medium Sized Robot here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x50403d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50403d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Aurora Walk
+This seems to be the main walkway for many people. It is busy and lots of rubbish is littered on the ground. A trash can is always available yet no one has the decency to throw the trash into it. The ground is made up of a thick green cushiony pad. Many of the pedestrians are walking by and minding their own buisiness.
+The lab room is to the south, facial salon to the east, tech building to the west, and DNA beach to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040440" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040440">
+    <command xml:space="preserve">nn</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x50404b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50404b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many beach blankets cover the bed of sand. A red box lies underneath the analysis sign.
+The aurora walk is to the south, sandy ocean to the north, and cruising shack to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040520" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040520">
+    <command xml:space="preserve">x sign</command>
+    <result xml:space="preserve">Welcome to DNA Beach! Today is low tide, what a nice day to learn how to hoverboard guys! Hoverboards and food can be bought and rented in The Shack. Have a nice day everyone!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040590" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040590">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">DNA Beach
+Surfs-up! Seems as though everyone&apos;s at the beach today. A sign shows the reports of the day. Many beach blankets cover the bed of sand. A red box lies underneath the analysis sign.
+The aurora walk is to the south, sandy ocean to the north, and cruising shack to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040600" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040600">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve">A titanium sturdy red box that looks like a toy chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040670" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040670">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x50406e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50406e0">
+    <command xml:space="preserve">open box with orange key</command>
+    <result xml:space="preserve">You unlock the red box.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040750" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040750">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open the red box, revealing a shovel.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x50407c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50407c0">
+    <command xml:space="preserve">take shovel</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040830" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040830">
+    <command xml:space="preserve">x shovle</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x50408a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50408a0">
+    <command xml:space="preserve">x shovel</command>
+    <result xml:space="preserve">A metallic blue shovel with a silky green handle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040910" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040910">
+    <command xml:space="preserve">dig sand</command>
+    <result xml:space="preserve">You dig out the sand and see diamonds and amber!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x5040980" />
+    </children>
+  </item>
+  <item nodeId="node-0x5040980">
+    <command xml:space="preserve">take diamonds</command>
+    <result xml:space="preserve">[Your score has just gone up by twenty points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x50409f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x50409f0">
+    <command xml:space="preserve">take amber</command>
+    <result xml:space="preserve">[Your score has just gone up by twenty points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
   </item>
 </Skein>

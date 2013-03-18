@@ -9,7 +9,7 @@ The orange backpack is a openable and unlocked container carried by the player.
 
 [Scoring not working]
 After putting silver crystals in the backpack:
-	say "Your score increased by 200 points!";
+	say "Your score increased by 5 points!";
 	move the noun to the backpack;
 	increase score by 5.
 After putting silver crystals in the backpack for the first time: award 5 points;
@@ -21,7 +21,7 @@ After taking the amber for the first time: award 20 points;
 After wearing the swim suit for the first time: award 2 points;
 After wearing the fins for the first time: award 2 points;
 After wearing the snorkel for the first time: award 2 points;
-
+After putting the golden brick in the backpack for the first time: award 5 points;
 
 After taking the surfboard for the first time: award 500 points;
 say "Now you can finally surf the waves at DNA Beach!"
@@ -174,7 +174,7 @@ Instead of taking or pulling the book when the book has not been handled:
 
 BookShelves are scenery. The printed name is "Book Shelves". Understand "book shelves" or "shelves" as BookShelves. They are in the Pristine Library. "Glass shelves that hold many books arranged in alphabetical order. There is one black book that seems to be jutting out a little too far than the others."
 
-
+Understand "shelf" as shelves.
 Hidden door is a secret door. The Hidden door is east of the Pristine Library and west of the Mysterious Room.
 
 
@@ -182,7 +182,7 @@ Hidden door is a secret door. The Hidden door is east of the Pristine Library an
 [Mysterious Room]
 
 
-The Mysterious Room is a room. It is east of the Hidden door. "A hidden room lighted with lit candles instead of bright light bulbs.[if golden bricks are in mysterious room] Stacks of golden bricks fill the entire room.[end if] [if raw silk is in mysterious room]Another pile of raw silk is in the side corner.[end if] Must be a secret stash hidden by someone.[line break]The pristine library is to the west."
+The Mysterious Room is a room. It is east of the Hidden door. "A hidden room lighted with lit candles instead of bright light bulbs.[if golden brick is in mysterious room] Stacks of golden bricks fill the entire room.[end if] [if raw silk is in mysterious room]Another pile of raw silk is in the side corner.[end if] Must be a secret stash hidden by someone.[line break]The pristine library is to the west."
 
 Candles are scenery. It is undescribed. It is in the Mysterious Room. The description of the candles is "Low-lit candles are placed in tiny plates. There is a constant flame as melted wax drips down into the plate."
 
@@ -195,7 +195,7 @@ Instead of taking raw silk:
 
 Golden Bricks are things. It is undescribed. It is in the Mysterious Room. The description of the golden bricks is "24 karat golden bricks with a cartoony man's face carved onto the golden bricks."
 
-Golden Brick is a thing. It is undescribed. The description is "One 24 karat golden brick with a cartoony man's face carved onto it."
+Golden Brick is a thing. It is undescribed. It is in the mysterious room. The description is "One 24 karat golden brick with a cartoony man's face carved onto it."
 
 Instead of taking golden bricks:
 	say "Unfortunately, you are only strong enough to hold one of the bars.";
@@ -234,7 +234,7 @@ The handbars are scenery. It is undescribed. It is in the Floating Sidewalk. THe
 [Lockdown]
 
 
-The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail.[line break]The floating sidewalk is to the east."
+The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail. One of the guards[line break]The floating sidewalk is to the east."
 
 [Add NPC- Guards]
 Lewis is a man in the Lockdown. He is undescribed. The description of Lewis is "A burly man with a black uniform, belt, and black glasses."
@@ -270,14 +270,10 @@ The Directional Path is a room. It is south of the Floating Sidewalk. It is nort
 
 The Cement is scenery. It is undescribed. It is in the Directional Path. The description of the cement is "Plain old cement used to pave roads and walkways. Nothing too special about it."
 
-The bag is a closed openable container. It is in the Directional Path. The description of the bag is "A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair and glasses."
+The bag is a closed openable container. It is undescribed. It is in the Directional Path. The description of the bag is "A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair and glasses."
 
 
 [does not describe?]
-
-Instead of opening the bag:
-	say "You find a bottle of Pepto Bismol and a pin inside it as well.";
-	continue the action.
 	
 Instead of drinking the Pepto Bismol:
 	say "It tastes like a mint candy, but doesn't settle too well in your stomach.";
@@ -293,7 +289,7 @@ Instead of taking pin:
 	say "Ouch! You poked yourself on accident.";
 	decrease x by 30;
 	continue the action.
-
+[does not decrease health]
 [Outback Dump]
 
 
@@ -376,8 +372,11 @@ Laquisha is a woman.
 
 [Change convo]
 Instead of talking to Laquisha:
-say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he replies
-casually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
+say "[one of]'Hi, may I get a massage?[paragraph break]'What type of massage are you looking for' she replies
+casually.[or]'Alright! Are you going to be doing the massage?' you comment. 'Of course!'[paragraph break]'Do you want it gentle, or hard?' Laquisha asks, rubbing her hands with some chalky powder. 'What is that powder? And I would like it gentle please.'[or]'What is that powder? And I would like it hard please. [paragraph break] Laquisha laughs, directing you to one of the seats. 'Alright, sit back and enjoy the ride!'[or]You get the massage, and you feel much better![stopping]";
+	increase x by 30;
+	increase score by 300.
+
 
 
 Counter is scenery. It is undescribed. It is in the Facial Salon. The description of the counter is "A long table made out of dark-green granite."
@@ -390,7 +389,7 @@ Floor is scenery. It is undescribed. It is in the Facial Salon. The description 
 
 Light Blue Lights is scenery. It is undescribed. It is in the Facial Salon. The description of the light blue lights is "Pyramidal shaped lights that emits a faint light blue light into the room. Tiny circular holes excretes the thin silk for some reason."
 
-White leather seats is an scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on. A thin plastic triangular cutout is laying on one of the white leather seats."
+White leather seats is an scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on. [if triangular cutout is in facial salon]A thin plastic triangular cutout is laying on one of the white leather seats.[end if]".
 Understand "white leather seat" as white leather seats.
 
 Triangular Cutout is a thing. It is undescribed. It is in the Facial Salon. The description of the triangular cutout is "A plastic triangular figure that someone left on the seat. Maybe you can combine[roman type] this with something else."
@@ -399,8 +398,6 @@ Triangular Cutout is a thing. It is undescribed. It is in the Facial Salon. The 
 
 
 
-
-[Lay on seat and get massage from laquisha.]
 
 
 
@@ -433,16 +430,18 @@ Programers are men.
 
 
 
-The Thirft Shop is a room. It is west of the Tech Building. It is north of the Floating Sidewalk. "An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.[line break]The tech building is to the east, and floating sidewalk to the south."
+The Thrift Shop is a room. It is west of the Tech Building. It is north of the Floating Sidewalk. "An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.[line break]The tech building is to the east, and floating sidewalk to the south."
 
-Racks are a supporter. Racks are in the Thrift Shop. The description of the Racks is "Made from long titanium bars that sense your presence. It  automatically slides the clothes down when you gently push the clothes aside. Assorted shirts hang from these racks. On the top of one of the racks there is an orange key.".
+Racks are a supporter. It is undescribed. Racks are in the Thrift Shop. The description of the Racks is "Made from long titanium bars that sense your presence. It  automatically slides the clothes down when you gently push the clothes aside. Assorted shirts hang from these racks. On the top of one of the racks there is an orange key.".
 
-Orange Key is a thing. It unlocks the red box. It is undescribed. It is in the Old Thrift Shop. The description of the orange key is "A bright shiny orange key that unlocks something."
-Hangers are things. It is undescribed. It is in the Old Thrift Shop. The description of the hangers is "Plain old metal hangers that hold the shirts on it."
+Orange Key is a thing. It unlocks the red box. It is undescribed. It is in the Thrift Shop. The description of the orange key is "A bright shiny orange key that unlocks something."
+Hangers are things. It is undescribed. It is in the Thrift Shop. The description of the hangers is "Plain old metal hangers that hold the shirts on it."
 [Create an action where you can push the clothes aside.]
 
 Clothes are things. It is undescribed. The clothes are on the racks. The description of the clothes is "Old, new, stylish, and formal assorted shirts."
-
+Instead of taking clothes:
+	say "Please be more specific about what type of clothes you want to take."
+	
 Assorted Shirts are things. It is undescribed. It is in the Thrift Shop. The description of the assorted shirts is "Colorful shirts that are for sale."
 
 
@@ -575,14 +574,17 @@ Wooden Plank is a thing. It is undescribed. It is in the Cruising Shack. The des
 Instead of taking wooden planks:
 	say "Don't be greedy, you only need one wooden plank strip. Save some for everyone else.";
 	now player has a wooden plank.
-	
+
+Understand "cut [something] with [something]" as cutting it with. Cutting it with is an action applying to two things.
+Instead of cutting something: say "You need to specify what to cut [noun] with."
+[Cutting wooden plank with knife]
 
 [Use pocket knife to carve the wooden plank into a surfboard and stick the triangular cutout onto it too. Need silk to sew it onto the board.]
 [Make sure combining those things work]
 
 
 [Kai Wong's help]
-Understand "combine [something] with [something]" as combining it with. Combining it with is an action applying to two carried things. 
+Understand "combine [something] with [something]" and "combine [something] and [something]" as combining it with. Combining it with is an action applying to two carried things. 
 
 The combining it with action has an object called the item built.
 
@@ -610,13 +612,14 @@ Report combining it with:
 Table of Outcome objects
 component list			result
 {wooden plank, triangular cutout}			Fragile Board
-{Fragile Board, silk}			Surfboard
+{Fragile Board, silk}			surfboard
 
 Fragile Board is a thing. the printed name is "Fragile Board".
 
 Surfboard is a thing. the printed name is "Surfboard".
 understand "board" as the surfboard.
 room1 is a room.
+
 
 
 
