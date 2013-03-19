@@ -1,8 +1,20 @@
 "Into The Future" by Tyler Makabe
+[Extentions]
+
+Include Rideable Vehicles by Graham Nelson.
+Include Secret Doors by Andrew Owen.
+
+Release along with cover art, a file of "Cover Art" called "Cover".
+
+An every turn rule:
+	change the carrying capacity of the player to 9.
+
+Understand "xyzzy" or "say xyzzy" or "cast xyzzy" as casting xyzzy.
+Casting xyzzy is an action applying to nothing.
+Check casting xyzzy: 
+	say "Tennis will rule the world." instead; 
 
 
-
-[Add scoring system]
 The orange backpack is a openable and unlocked container carried by the player.
 
 [Put all your stuff inside container and accumilate points depending on how much stuff you have in there at the end of the game]
@@ -20,9 +32,9 @@ After taking the diamonds for the first time: award 20 points;
 After taking the amber for the first time: award 20 points;
 After wearing the swim suit for the first time: award 2 points;
 After wearing the fins for the first time: award 2 points;
-After wearing the snorkel for the first time: award 2 points;
+After wearing the snorkels for the first time: award 2 points;
 After putting the golden brick in the backpack for the first time: award 5 points;
-
+After taking the shiny object for the first time: award 10 points;
 After taking the surfboard for the first time: award 500 points;
 say "Now you can finally surf the waves at DNA Beach!"
 The maximum score is 1500.
@@ -31,11 +43,6 @@ The maximum score is 1500.
 
 
 [Add more extras]
-
-[Extentions]
-
-Include Rideable Vehicles by Graham Nelson.
-Include Secret Doors by Andrew Owen.
 
 
 [Health]
@@ -53,6 +60,7 @@ The present health of a person is usually 1.
 Definition: a person is dead if his present health is less than 1.
 
 x is a number variable.
+
 
 [Assassin Brandon]
 To say status of the player:
@@ -75,6 +83,16 @@ To say status of the player:
         		say "Not bad, but could be better";
     	otherwise:
         		say "Still very fine".
+An every turn rule: 
+	If the present health of the player is less than 1, end the game in death.
+
+
+
+
+
+
+
+
 
 [Introduction]
 
@@ -94,13 +112,14 @@ You have successfully teleported into the future. Keep an eye on your watch at a
 
 The description of the player is "You are a tall young man, about 6 foot 2 inches. You are wearing a plain white T-shirt, black slim jeans, white shoes, prescription glasses, your prototype watch, and the orange backpack. "
 
-White shirt is a thing. The player is holding the white shirt. 
+White shirt is a thing. The player is wearing the white shirt. 
 The description of the white shirt is "Just your ordinary white T-shirt."
-Jeans are things. The player is holding the jeans.
+Jeans are things. The player is wearing the jeans.
 The description of the jeans is "Brand new pair of black skinny jeans."
-Glasses is a thing. The player is holding the glasses.
+Glasses is a thing. The player is wearing the glasses.
 The description of the glasses is "Your pair of prescription glasses. Better not lose them."
-Prototype watch is a thing. The player is holding the prototype watch.
+White shoes is a thing. The player is wearing the shoes. "Clean white shoes with a nike logo on it."
+Prototype watch is a thing. The player is wearing the prototype watch.
 
 The description of the prototype watch is "The Prototype Watch is a cyan color, with white trimming. The dial is clear and each hand glistens a shiny white, when the light hits it. The watch is wrapped tightly around your wrist as if it is apart of your wrist. A marvelous watch indeed. "
 
@@ -111,31 +130,74 @@ Chapter 1 Lab, Library, Mysterious Room, Garage, Floating Sidewalk, Lockdown, Di
 [Lab Room]
 
 
-The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks and chairs are covered in cob webs. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them.[Line Break]The outback dump is to the south, pristine library is to the east, garage to the west, and aurora walk is to the north."
+The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks are covered in cob webs. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them.[Line Break]The outback dump is to the south, pristine library is to the east, garage to the west, and aurora walk is to the north."
+
+
+
 
 Understand the command "put [thing] in [something]" as something new.
 Putting it in is an action applying to two things.
 Understand "put [thing] in [something]" as putting it in.
 
+[The mixing action]
+Understand "mix [something] with [something]" as combining it with.
+
+Instead of mixing nitrate with sulfate:
+	say "You created Chemical X!";
+	remove nitrate from play;
+	remove sulfate from play; 
+	move chemical x to player.  
+
+Instead of mixing nitrate with Astatine:
+	say "You created Floadium!";
+	remove nitrate from play;
+	remove Astatine from play; 
+	move floadium to player.  
+
+Instead of mixing Sulfate with Astatine:
+	say "You created a chemical called Florian!";
+	remove nitrate from play;
+	remove Astatine from play; 
+	move florian to player.  
+
+
+
+Chemical X is a thing. It is undescribed. It is in the lab room. "A mixture of nitrate and sulfate. Wonder how it tastes, for what it can be used for."
+
+Florian is a thing. It is undescribed. It is in the lab room. "A mixture of sulfate and astatine. Wonder how it tastes, or what it can be used for."
+
+Floadium is a thing. It is undescribed. It is in the lab room. "A mixture of nitrate and astatine. Wonder how it tastes, or what it can be used for."
 
 
 
 
+
+Desks are scenery. It is undescribed in the lab room. "Clear glass desks that stands on two sturdy legs. Different glass containers are labeled: Nitrate, Sulfate, and Astatine. Maybe you can mix the chemicals as a mini experiment."
+
+Nitrate is a thing. It is undescribed in the lab room. "A clear chemical that can be mixed."
+Sulfate is a thing. It is undescribed in the lab room. "A white chemical that can be mixed."
+Astatine is a thing. It is undescribed in the lab room. "A teal chemical that can be mixed."
+
+
+Cob Webs are things. It is undescribed in the lab room. "White thin threads of cob webs made from a spider."
+Instead of taking cob webs:
+	say "You don't need to take the cob webs for any reason."
+	
 The lights are scenery. The lights are undescribed. It is in the Lab Room. "A shady dark blue light that compliments that white walls of the lab room."
 
 Equipment is a thing. It is undescribed. It is in the Lab Room. The description of the equipment is "A Volumetric Flask, beaker, work gloves, and a goggle make up the equipment."
 
-Volumetric Flask is a thing. It is undescribed. It is in the Lab Room. The description of the volumetric flask is "Used to mix different chemicals in, and create experiments."
+Volumetric Flask is an open, fixed in place container in lab room. It is undescribed. The description of the volumetric flask is "Used to mix different chemicals in, and create experiments."
 
-Beaker is a thing. It is undescribed. It is in the Lab Room. The description of the beaker is "A lipped cylindrical glass container used by chemists."
+Dirty Beaker is an open, fixed in place container in lab room. It is undescribed. It is in the Lab Room. The description of the dirty beaker is "A lipped cylindrical glass container used by chemists. It looks like chemicals have been inside the beaker for awhile. It has black stains all over it, so you better not use it."
 
-Goggle is a thing. It is undescribed. It is in the Lab Room. It is wearable. The description of the goggle is "A black rubber goggle used to protect your eyes from dangerous chemicals."
+Goggles is a thing. It is undescribed. It is in the Lab Room. It is wearable. The description of the goggles is "A black rubber goggle used to protect your eyes from dangerous chemicals."
 
 Work gloves are things. It is undescribed. It is in the Lab Room. It is wearable. The description of the work gloves are "White elastic gloves that stretch onto your hand. Just in case you get the chemicals on your hand."
 
 The lab shelves are scenery. It is undescribed. It is in the Lab Room. "Old books that have cob webs on them line the shelves. A shiny object and a pair of electrical batteries is located on the top of it all. "
 
-Shiny object is a thing. It is undescribed. It is in the Lab Room. "This seems to be a piece of Rubidium, I wonder what it's doing here…. It's very dangerous."
+Shiny object is a thing. It is undescribed. It is in the Lab Room. "I wonder what this shiny rock-looking thing is doing here…. Looks interesting."
 
 Electrical Batteries is a thing. It is undescribed. It is on the lab shelves. The description of the electrical batteries is "A pair of functional batteries used for something."
 
@@ -208,19 +270,27 @@ Instead of taking golden bricks:
 
 The Garage is a room. It is west of the lab room and south of the Tech Building. "This must be someone's garage. Definately not yours, that's for sure. Many intricate tools and devices hang from the walls and racks. A marvelous car is parked in the middle of it![line break]The lab room is to the east, floating sidewalk to the west, tech building to the north, and obscure parking lot to the south."
 
-Tools are things. It is undescribed. It is in the Garage. The description of the tools is "All of the tools are glowing different colors in this small garage. The only refined tool that you can make out seems to be a glowing red machete and a shear. The rest of the tools are just wands with a button on them. That seems interesting… "
+Tools are things. It is undescribed. It is in the Garage. The description of the tools is "All of the tools are glowing different colors in this small garage. The only refined tool that you can make out seems to be a glowing red machete and a shear. The rest of the tools are just wands that glow different colors. How neat!"
 
 Red Machete is a thing. It is undescribed. It is in the garage. The description of the red machete is "A broad, large blade with a dark red glow on the ends of it."
+Instead of taking red machete:
+	say "Not too sure what you'd need a machete for, but whatever. Looks like it can easily break through glass very easily.";
+	continue the action.
 
-Shear is a thing. It is undescribed. It is in the Garage. The description of the Shears is "An unusally pair of shears. They are surprisingly very thick and long; could possibly be mistaken for two spears tied together."
+Shear is a thing. It is undescribed. It is in the Garage. The description of the Shears is "An unusally pair of shears. They are surprisingly very thick and long; could possibly be mistaken for two spears tied together. No sheep here in the city however."
 
-Wands are things. It is undescribed. It is in the Garage. The description of the wands is "Each of these wand-looking sticks, have a different glowing color from one another. The button can be promising…"
-[Push button and a brand new tool pops out instantly like magic]
+Wands are things. It is undescribed. It is in the Garage. The description of the wands is "Each of these wand-looking sticks, have a different glowing color from one another."
 
-The car is a vehicle. It is in the garage. "Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk."
-
-
-
+[You can hit the car with the red machete, causing death… If you're that couragous to do such a thing.]
+Car is a locked container. It is undescribed. It is in the garage. The description of the car is "Such an incredible piece of work! The car is slick and skinny. A white coat of paint is layered on the whole car and you can even see your own reflection! A black trim goes all around the sides, with blue tinted windows. Surprisingly there are no tires, and exhaust pipes stick out from the back of the car A fairly large bar code is inscribed on the trunk.[line break] Unfortunately, you don't see any key hole. Seems as though the future is handling car break-ins much better nowadays."
+Understand "break [something] with [something]" as hitting it with. 
+Understand "hitting [something] with [something]" as hitting it with. Hitting it with is an action applying to two carried things.
+Understand the command "hit [something] with [something]" as something new.
+Check hitting:
+	if player is in garage:
+		if noun is car and second noun is red machete:
+			say "You hit the luxurious car with full force. The car ends up exploding as you hit it causing shattered pieces of glass to pierce through all parts of your body.";
+			end the game in death.
 [Floating Sidewalk]
 
 The Floating Sidewalk is a room. It is west of the Garage. "A luminated clear pathway slowly elevates as you walk farther up onto it. Metal handbars line the edges of the clear floating path. It feels as if you're walking on a cloud, but looks like a beam of light![line break]The garage is to the east, the lockdown to the west, thrift shop to the north, and directional path to the south."
@@ -270,23 +340,27 @@ The Cement is scenery. It is undescribed. It is in the Directional Path. The des
 The bag is a closed openable container. It is undescribed. It is in the Directional Path. The description of the bag is "A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair and glasses."
 
 
-[does not describe?]
+
 	
-Instead of drinking the Pepto Bismol:
+Instead of drinking the Pepto Bismol for the first time:
 	say "It tastes like a mint candy, but doesn't settle too well in your stomach.";
-	decrease x by 70.
+	decrease x by 70;
+	continue the action.
 
 Instead of taking the Pepto Bismol:
 	say "This looks like you can give it to someone to treat their sickness."
 	
-Pepto Bismol is a thing. It is undescribed. It is inside bag. The description of the pepto bismol is "Pink liquid inside a bottle that someone can drink to clear up indigestion and heartburn."
+Pepto Bismol is a thing. It is inside bag."Pink liquid inside a bottle that someone can drink to clear up indigestion and heartburn."
 
-Pin is a thing. It is undescribed. It is inside the bag. The description of the pin is "A small, yet extremely sharp pin that is a turquoise color."
+Pin is a thing. It is inside the bag. The description of the pin is "A small, yet extremely sharp pin that is a turquoise color."
 Instead of taking pin:
 	say "Ouch! You poked yourself on accident.";
 	decrease x by 30;
 	continue the action.
 [does not decrease health]
+
+
+
 [Outback Dump]
 
 
@@ -362,17 +436,8 @@ Instead of putting recyclable bottles in Trash Can:
 [Facial Salon]
 
 
-The Facial Salon is a room. It is east of the Aurora Walk. It is north of the Pristine Library. "A pretty beautician in the back of the counter is waiting to greet people as they walk through. The aroma of strawberry surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice 'cool' feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon.[line break]The aurora walk is to the west, and pristine library to the south."
-[NPC]
-Laquisha is a woman. 
+The Facial Salon is a room. It is east of the Aurora Walk. It is north of the Pristine Library. "There is an aroma of strawberry that surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice 'cool' feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon.[line break]The aurora walk is to the west, and pristine library to the south."
 
-
-[Change convo]
-Instead of talking to Laquisha:
-say "[one of]'Hi, may I get a massage?[paragraph break]'What type of massage are you looking for' she replies
-casually.[or]'Alright! Are you going to be doing the massage?' you comment. 'Of course!'[paragraph break]'Do you want it gentle, or hard?' Laquisha asks, rubbing her hands with some chalky powder. 'What is that powder? And I would like it gentle please.'[or]'What is that powder? And I would like it hard please. [paragraph break] Laquisha laughs, directing you to one of the seats. 'Alright, sit back and enjoy the ride!'[or]You get the massage, and you feel much better![stopping]";
-	increase x by 30;
-	increase score by 300.
 
 
 
@@ -386,8 +451,18 @@ Floor is scenery. It is undescribed. It is in the Facial Salon. The description 
 
 Light Blue Lights is scenery. It is undescribed. It is in the Facial Salon. The description of the light blue lights is "Pyramidal shaped lights that emits a faint light blue light into the room. Tiny circular holes excretes the thin silk for some reason."
 
-White leather seats is an scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on. [if triangular cutout is in facial salon]A thin plastic triangular cutout is laying on one of the white leather seats.[end if]".
-Understand "white leather seat" as white leather seats.
+White leather seats is scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on. [if triangular cutout is in facial salon]A thin plastic triangular cutout is laying on one of the white leather seats.[end if]".
+Understand "seat" as white leather seats.
+Understand the commands "stand" and "sit" and "lie" as something new.
+Understand "sit on [something]" and "sit in [something]" as sitting on. 
+Understand "lie on [something]" and "lie in [something]" as lying on. 
+Sitting on is an action applying to one thing. 
+Lying on is an action applying to one thing. 
+Instead of sitting on leather seats:
+	say "Nice and comfy! Good way to relieve the stress off of your feet.";
+	increase score by 15;
+	continue the action.
+
 
 Triangular Cutout is a thing. It is undescribed. It is in the Facial Salon. The description of the triangular cutout is "A plastic triangular figure that someone left on the seat. Maybe you can combine[roman type] this with something else."
 
@@ -457,7 +532,6 @@ Beach Blankets are scenery. It is undescribed. It is in the DNA Beach. The descr
 Instead of taking beach blankets:
 	say "That is not yours. Do not take it."
 	
-[Add Key needed]
 Red Box is a locked and lockable container. It is undescribed. It is in the DNA Beach. The description of the Red Box is "A titanium sturdy red box that looks like a toy chest."
 
 The Analysis Sign is scenery. It is in the DNA Beach. "Welcome to DNA Beach! Today is low tide, what a nice day to learn how to hoverboard guys! Hoverboards and food can be bought and rented in The Shack. Have a nice day everyone!"
@@ -646,18 +720,34 @@ Swim Suit is a thing. It is undescribed. It is in the Cruising Shack. It is wear
 Instead of taking swim suits:
 	say "You only need one suit.";
 	now player has a swim suit.
-	
+
+Instead of wearing swim suit:
+	say "You will have to take of your shirt in order to put on the suit.";
+	move shirt to cruising shack;
+	move swim suit to player;
+	continue the action.
+
+Instead of wearing fins:
+	say "You have to take off your shoes in order to put on the fins.";
+	move shoes to cruising shack;
+	move fins to player;
+	continue the action.
+
+
+Instead of wearing snorkels:
+	say "You have to take off your glasses in order to put on the snorkels";
+	move glasses to cruising shack;
+	move snorkels to player;
+	continue the action.
 
 Fins are things. It is undescribed. It is in the Cruising Shack. It is wearable. The description of the fins is "A pair of plastic webbed shoes for you to wear in the ocean."
 
 
 Snorkels are things. It is undescribed. It is in the Cruising Shack. It is wearable. The description of the snorkels is "Face masks, with snorkel keeper tubes."
 
-Snorkel is a thing. It is undescribed. It is in the Cruising Shack. It is wearable. The description of the snorkel is "A face mask, with a snorkel keeper tube."
-
 Instead of taking snorkels:
 	say "You only need one snorkel for your face.";
-	now player has a snorkel.
+	now player has a snorkels.
 
 [Make it so you can wear them only if your other clothes is off.]
 
@@ -665,21 +755,6 @@ Beach Shelf is scenery. It is undescribed. It is in the Cruising Shack. The desc
 
 Conveyor Belt is scenery. It is undescribed. It is in the Cruising Shack. The description of the Conveyor Belt is "A rubber belt that automatically moves around all the shelves to transport various objects."
 
-
-
-
-
-[NPC runs cashier and tells you how to make the surfboard]
-Understand "young" and "woman" as Sunny. 
-
-Sunny is a woman in the Cruising Shack. "Sunny is leaning on the counter inside the Shack waiting for someone to ask for assistance." The description is "Sunny is a very young lady wearing a polka-dot bikini with dark black sunglasses."
-Sunny is wearing a bikini.
-
-[Change convo]
-
-Instead of talking to Sunny:
-say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he replies
-casually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
 
 
 
@@ -762,14 +837,7 @@ The Stairway is a room. It is north of the sliding door. "Just an empty stairway
 [Skyscraper View]
 
 
-The Skyscraper View is a room. It is north of the stairway. "What an amazing sight to see. Long metal poles stretch across the edges of the skyscraper for safety. There's a nice breeze at the top of the Skyscraper. You can see almost everything from here, how fantastic. Just don't look down.[line break]The Stairway is to the south."
-
-
-[Action: Look down, and notice how all the people and cars look like ants from up here.]
-[Able to jump off and fall to death.]
-
-
-
+The Skyscraper View is a room. It is north of the stairway. "What an amazing sight to see. Long metal poles stretch across the edges of the skyscraper for safety. There's a nice breeze at the top of the Skyscraper. You can see almost everything from here, how fantastic.[line break]The Stairway is to the south."
 
 
 
@@ -800,17 +868,27 @@ Wooden desks are scenery. It is in the Pear Incorporation. The description of th
 [Mayor of the city. Can give you an item to stay in the future forever.]
 
 [Mayor Lucas. the old man with the glasses. etc.]
-[change convo]
-Lewis is a man.
-Instead of talking to Lewis:
-say "[one of]'Hi, there,' you say confidently.[paragraph break]'Do you have any questions?' he asks
-casually.[or]'Nice black outfit you got there,' you comment. 'Where did you get it?'[paragraph break]'It's fashionable, but I have to wear it since people recognize me as a watch guard. It's also Lucas' new law for this city too.' Troy replies, looking down as his uniform. 'Who is this Lucas person that you speak of?'[or]'Who is Lucas?' you say sternly. [paragraph break]Troy laughs heartily. 'You don't know who Lucas is? You're so silly, you've probably seen his picture somewhere around. He is the mayor of this city.'[or]Are you serious?! Lucas is our mayor… How do you not know this?[stopping]".
-
 
 Lucas is man. He is in the Pear Incorporation. The description of Lucas is "A short old man with circular glasses."
 
+[lucas says the object is Rubidium]
+Instead of giving shiny object to Lucas:
+	say ""
 
 
+[Makana's NPC… Change convo]
+Table of Supplies
+Topic	Reply
+"Rune Stone"	"it comes from the elves. You need to throw the stone in the air to stop time."
+"Kitchen"	" That is where all us elves make food for Santa, Mrs. Clause, and ourselves.  The elf gets out of the hammock and walks around."
+"Home Room"	" That is where anyone can go to relax.  The elf rolls over in the hammock."
+"Santa Transformer"	" Every once in a while Santa needs to take a vacation.  That's when we need someone like you, a replacementclause to fill in for Santa until he comes back.  The Santa Transformer is what turns the average Joe like you into Santa Clause."
+"Santa's Sleigh"	" Santa's sleigh is a pretty magical machine.  I even helped to carry the lumber during construction.  It runs on the power of Christmas Spirit.  "
+"How to deliver presents"	" You need to become Santa first, get his toybag, and then deliver the presents to Spain or Hawaii.  Just one of these places will do."
+"Elf"	" My adopted son was a human named Buddy.  All the other elves are on vacation with Santa.  But I stayed behind to watch the house, and Santa chose me since I have the most experience with humans."
+"Spain"	" Spain is a country that Santa always delivers presents to.  Do you speak Spanish?  Well if not, becoming Santa imbues you with the knowledge to understand Spanish."
+"magic word"	" to turn on the Santa transformer you must say Kenaz, which literally means torch.  It symbolizes knowledge, intellect, illumination, and searching for enlightenment."
+"password"	" The password for the Santa transformer is Kenaz, which literally means torch.  It symbolizes knowledge, intellect, illumination, and searching for enlightenment."
 
 
 
@@ -823,14 +901,14 @@ Understand "dig [something]" as opening.
 Driving is an action applying to one visible thing.
 Understand "drive [somewhere]" as driving.
 
-Understand the command "mix" as something new. understand "mix [something] with [something]" as mixing it with. mixing it with is an action applying to two [carried?] things. [Assassin- Brandon]
+Understand the command "mix" as something new. understand "mix [something] with [something]" as mixing it with. mixing it with is an action applying to two things. [Assassin- Brandon]
 
 Talking to is an action applying to one visible thing. Understand "talk to [someone]" or "converse with [someone]" as talking to.
 Check talking to: say "[The noun] doesn't reply."
 
+instead of drinking a container:
+say "Try drinking from the container instead.".
 
-An every turn rule: 
-	If the present health of the player is less than 1, end the game in death.
 
 
 
