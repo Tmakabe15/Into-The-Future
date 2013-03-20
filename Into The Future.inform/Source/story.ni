@@ -12,7 +12,7 @@ An every turn rule:
 Understand "xyzzy" or "say xyzzy" or "cast xyzzy" as casting xyzzy.
 Casting xyzzy is an action applying to nothing.
 Check casting xyzzy: 
-	say "Tennis will rule the world." instead; 
+	say "The sport of tennis will rule the world someday." instead; 
 
 
 The orange backpack is a openable and unlocked container carried by the player.
@@ -20,10 +20,6 @@ The orange backpack is a openable and unlocked container carried by the player.
 [Put all your stuff inside container and accumilate points depending on how much stuff you have in there at the end of the game]
 
 [Scoring not working]
-After putting silver crystals in the backpack:
-	say "Your score increased by 5 points!";
-	move the noun to the backpack;
-	increase score by 5.
 After putting silver crystals in the backpack for the first time: award 5 points;
 After taking the silver crystals for the first time: award 5 points;
 After taking the golden brick for the first time: award 5 points;
@@ -35,6 +31,7 @@ After wearing the fins for the first time: award 2 points;
 After wearing the snorkels for the first time: award 2 points;
 After putting the golden brick in the backpack for the first time: award 5 points;
 After taking the shiny object for the first time: award 10 points;
+After taking the shovel for the first time: award 10 points;
 After taking the surfboard for the first time: award 500 points;
 say "Now you can finally surf the waves at DNA Beach!"
 The maximum score is 1500.
@@ -101,7 +98,7 @@ Rule for printing a parser error when the latest parser error is the nothing to 
 	say "Take everything individually please…" instead.
 
 
-When play begins: say "You are an intelligent scientist who has invented a prototype watch that allows you to travel 40 years into the future. You have exactly an hour and a half in the future day before your watch teleports you back home. In the mean time, you can do anything your heart desires, but use your time wisely!
+When play begins: say "You are an intelligent scientist who has invented a prototype watch that allows you to travel 40 years into the future in the city of L.A! You have exactly an hour and a half in the future day before your watch teleports you back home. In the mean time, you can do anything your heart desires, but use your time wisely!
 
 You have successfully teleported into the future. Keep an eye on your watch at all times.
 
@@ -130,10 +127,10 @@ Chapter 1 Lab, Library, Mysterious Room, Garage, Floating Sidewalk, Lockdown, Di
 [Lab Room]
 
 
-The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equpiment that you have in your very own lab room as well. The desks are covered in cob webs. The lab shelves are high up with shiny objects on the top. The walls are completely white with faded designs on them.[Line Break]The outback dump is to the south, pristine library is to the east, garage to the west, and aurora walk is to the north."
+The Lab Room is a room. It is west of The Pristine Library. "It is very gloomy in here with its spherical lights. You can vaguely see equipment that you have in your very own lab room as well. The desks are covered in cob webs. The lab shelves are high up with a shiny object on the top. The walls are completely white with faded designs on them.[Line Break]The outback dump is to the south, pristine library is to the east, garage to the west, and aurora walk is to the north."
 
 
-
+[Mixing certain chemicals together to create even newer chemicals that can be good or bad.]
 
 Understand the command "put [thing] in [something]" as something new.
 Putting it in is an action applying to two things.
@@ -161,12 +158,12 @@ Instead of mixing Sulfate with Astatine:
 	move florian to player.  
 
 
+[Drink the chemicals]
+Chemical X is a thing. It is undescribed. It is in the lab room. "A mixture of nitrate and sulfate. Wonder how it tastes."
 
-Chemical X is a thing. It is undescribed. It is in the lab room. "A mixture of nitrate and sulfate. Wonder how it tastes, for what it can be used for."
+Florian is a thing. It is undescribed. It is in the lab room. "A mixture of sulfate and astatine. Wonder how it tastes."
 
-Florian is a thing. It is undescribed. It is in the lab room. "A mixture of sulfate and astatine. Wonder how it tastes, or what it can be used for."
-
-Floadium is a thing. It is undescribed. It is in the lab room. "A mixture of nitrate and astatine. Wonder how it tastes, or what it can be used for."
+Floadium is a thing. It is undescribed. It is in the lab room. "A mixture of nitrate and astatine. Wonder how it tastes."
 
 
 
@@ -185,7 +182,7 @@ Instead of taking cob webs:
 	
 The lights are scenery. The lights are undescribed. It is in the Lab Room. "A shady dark blue light that compliments that white walls of the lab room."
 
-Equipment is a thing. It is undescribed. It is in the Lab Room. The description of the equipment is "A Volumetric Flask, beaker, work gloves, and a goggle make up the equipment."
+Equipment is a thing. It is undescribed. It is in the Lab Room. The description of the equipment is "A Volumetric Flask, beaker, work gloves, and goggles make up the equipment."
 
 Volumetric Flask is an open, fixed in place container in lab room. It is undescribed. The description of the volumetric flask is "Used to mix different chemicals in, and create experiments."
 
@@ -197,14 +194,12 @@ Work gloves are things. It is undescribed. It is in the Lab Room. It is wearable
 
 The lab shelves are scenery. It is undescribed. It is in the Lab Room. "Old books that have cob webs on them line the shelves. A shiny object and a pair of electrical batteries is located on the top of it all. "
 
-Shiny object is a thing. It is undescribed. It is in the Lab Room. "I wonder what this shiny rock-looking thing is doing here…. Looks interesting."
+Shiny object is a thing. It is undescribed. It is in the Lab Room. The description of the shiny object is "I wonder what this shiny rock-looking thing is doing here…. Looks interesting."
 
 Electrical Batteries is a thing. It is undescribed. It is on the lab shelves. The description of the electrical batteries is "A pair of functional batteries used for something."
 
 The wall is scenery. It is undescribed. It is in the Lab Room. "Smooth and very white colored plaster make up the walls of the Lab Room."
 
-
-[Able to make chemicals? Mix stuff together. "You have made an unkown liquid. Wonder how it tastes like."]
 
 
 [Pristine Library]
@@ -222,6 +217,7 @@ Glass door is an open door. It is undescribed. It is south of the Pristine Libra
 
 Black Book is a thing. It is undescribed. It is in the Pristine Library. The description of the black book is "A book with no words on its spine. There is no cover, nor any words in it either. Looks more like a plastic prop than an actual book."
 
+[A secret door that leads to the Mysterious Room. You examine book and move it aside or take it in order to uncover its lever.]
 The lever is a thing in the Pristine Library. It is undescribed. 
 	After pulling lever:
 		now the hidden door is revealed;
@@ -229,10 +225,11 @@ The lever is a thing in the Pristine Library. It is undescribed.
 		say "You found a hidden door to the east! Wonder where that leads to.";
 		increase score by 150.
 
-Instead of taking or pulling the book when the book has not been handled:
+Instead of pulling the book when the book has not been handled:
+	say "You found a hidden lever!"
+Instead of taking the book when the book has not been handled:
 	say "You found a hidden lever!";
 	continue the action.
-
 
 BookShelves are scenery. The printed name is "Book Shelves". Understand "book shelves" or "shelves" as BookShelves. They are in the Pristine Library. "Glass shelves that hold many books arranged in alphabetical order. There is one black book that seems to be jutting out a little too far than the others."
 
@@ -242,10 +239,13 @@ Hidden door is a secret door. The Hidden door is east of the Pristine Library an
 
 
 [Mysterious Room]
+[A secret room]
 
+The Mysterious Room is a room. It is east of the Hidden door. "A hidden room lighted with lit candles instead of bright light bulbs.[if golden brick is in mysterious room] Stacks of golden bricks fill the entire room.[end if] [if raw silk is in mysterious room]Another pile of raw silk is in the side corner.[end if] [if note is in mysterious room] A note lies near the silk. [end if] Must be a secret stash hidden by someone.[line break]The pristine library is to the west."
+[A way of telling the player that the Mayor and Pear Inc. is important.]
+Note is a thing. It is undescribed in the Mysterious Room. The description of the note is "A note that reads, 'To whom ever that finds this stash:[line break]This is a note written by the mayor. I am feeling very generous today, and shall be trading a certain object for my precious watch. I will be waiting in the Pear Incorporation room if you wish to consult me. Don't ask why I am doing this…'"
 
-The Mysterious Room is a room. It is east of the Hidden door. "A hidden room lighted with lit candles instead of bright light bulbs.[if golden brick is in mysterious room] Stacks of golden bricks fill the entire room.[end if] [if raw silk is in mysterious room]Another pile of raw silk is in the side corner.[end if] Must be a secret stash hidden by someone.[line break]The pristine library is to the west."
-
+Understand "candle" as candles.
 Candles are scenery. It is undescribed. It is in the Mysterious Room. The description of the candles is "Low-lit candles are placed in tiny plates. There is a constant flame as melted wax drips down into the plate."
 
 Plates are things.  It is undescribed. It is in the Mysterious Room. The description of the plate is "Mini-sized blue plates with white wax on the bottom of it."
@@ -302,7 +302,7 @@ The handbars are scenery. It is undescribed. It is in the Floating Sidewalk. THe
 
 
 [Lockdown]
-
+[The saw item is here in order for you to create the surfboard.]
 
 The Lockdown is a room. It is west of the Floating Sidewalk. "The prison cells are extremely small. The whole entire Lockdown contain chunks of the luminated steel that emerge from underneath the ground, and move guards toward each cell. The cell bars and walls are also made out of the same material as the floor. At least twenty guards are lined up around each corner of the jail.[line break]The floating sidewalk is to the east."
 
@@ -312,7 +312,6 @@ Instead of talking to guards:
 	say "They don't look like they want to talk right now."
 
 
-[Add more tangible items]
 
 The Luminated Steel is scenery. It is undescribed. It is in the Lockdown. The description of the luminated steel is "Tough steel that looks unbendable to human hands. Thick cylindrical wires are stuck to the bottom of the steel."
 
@@ -337,20 +336,21 @@ The Directional Path is a room. It is south of the Floating Sidewalk. It is nort
 
 The Cement is scenery. It is undescribed. It is in the Directional Path. The description of the cement is "Plain old cement used to pave roads and walkways. Nothing too special about it."
 
-The bag is a closed openable container. It is undescribed. It is in the Directional Path. The description of the bag is "A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair and glasses."
+The bag is a closed openable container. It is undescribed. It is in the Directional Path. The description of the bag is "A brown bag made out of soft silk. The designs on the bag is of a face of an old man with grey hair and glasses. This picture looks like its a face of someone significant…"
 
 
 
 	
 Instead of drinking the Pepto Bismol for the first time:
 	say "It tastes like a mint candy, but doesn't settle too well in your stomach.";
-	decrease x by 70;
-	continue the action.
-
+	decrease x by 70.
+	
 Instead of taking the Pepto Bismol:
 	say "This looks like you can give it to someone to treat their sickness."
-	
-Pepto Bismol is a thing. It is inside bag."Pink liquid inside a bottle that someone can drink to clear up indigestion and heartburn."
+
+
+Pepto Bismol is a thing. It is inside bag. The description of the pepto bismol is "Pink liquid inside a bottle that someone can drink to clear up indigestion and heartburn."
+
 
 Pin is a thing. It is inside the bag. The description of the pin is "A small, yet extremely sharp pin that is a turquoise color."
 Instead of taking pin:
@@ -377,7 +377,7 @@ Rust is scenery. It is undescribed. It is in the Outback Dump. "Chalky brown par
 
 Spiders are things. It is undescribed. It is in the Outback Dump. The description of the spiders is "Black medium-sized garden spiders that don't seem to be moving."
 Spider is a thing. It is undescribed. It is in the Outback Dump. The description of the spider is "Black medium-sized garden spider that doesn't seem to be moving."
-
+[Taking spiders will end game in death.]
 An every turn rule:
 	If player has spider:
 		say "The black spider sinks its teeth into your flesh and poisons you instantly.";
@@ -394,7 +394,7 @@ Chapter 2 Aurora Walk, Facial Salon, Tech Building, Thrift Shop
 
 [NPC who are people walking by, who don't want to talk at the moment]
 Pedestrians is a man. He is in Aurora Walk. He is undescribed. The description of pedestrians is "They are walking by too fast to actually examine them in detail."
-
+Understand "pedestrian" as pedestrians.
 Instead of talking to pedestrians:
 	say "They don't seem to be interested in talking right now."
 
@@ -415,50 +415,64 @@ Kleenex is a thing. It is undescribed. It is in the Aurora Walk. The description
 Instead of taking the kleenex:
 	say "Are you sure you really want to take it? You really don't need it at all.";
 	continue the action.
-[Make it so you are able to take trash and put into trash can]
+[You are able to take trash and put into trash can and be rewarded for being a good citizen.]
 
 Trash Can is a closed openable container. It is undescribed. It is in the Aurora Walk. The description of the trash can is "A dark blue trash can with a clear glass rim that opens automatically when it senses someone's hands nearby."
+Understand "bin" as trash can.
+Understand "trash bin" as Trash Can.
 Understand "trashcan" as Trash Can.
-Instead of putting the rubbish in Trash Can:
-	say "Your score increased by 100.";
-	increase score by 100.
-
 
 Instead of putting the kleenex in Trash Can:
 	say "Your score increased by 100.";
 	increase score by 100.
-[fixed scoring problem]
 Instead of putting recyclable bottles in Trash Can:
 	say "Your score increased by 100.";
 	increase score by 100.
+[scoring]
+
+
+
 
 
 [Facial Salon]
 
-
-The Facial Salon is a room. It is east of the Aurora Walk. It is north of the Pristine Library. "There is an aroma of strawberry that surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice 'cool' feeling to it. Silk seems to have been excreted from the tiny holes of the lights for some reason. White leather seats around the mirrors make up almost the entire salon.[line break]The aurora walk is to the west, and pristine library to the south."
-
+[Silk and triangular cutout is in this room. It is needed to make the surfboard.]
 
 
+The Facial Salon is a room. It is east of the Aurora Walk. It is north of the Pristine Library. "There is an aroma of strawberry that surrounds the salon. Lots of thin silk and hair is scattered all over the checker-board floor and tabletops. The fancy light blue lights gives the room a nice 'cool' feeling to it. Silk seems to have been excreted from the tiny holes of the lights. Probably a better use than electricity. White leather seats around the mirrors make up almost the entire salon.[line break]The aurora walk is to the west, and pristine library to the south."
 
-Counter is scenery. It is undescribed. It is in the Facial Salon. The description of the counter is "A long table made out of dark-green granite."
 
-Thin silk is a thing. It is undescribed. It is in the Facial Salon. The description of the thin silk is "Long pieces of white soft silk that hang from the lights and drop onto the floor to be picked up later."
+
+
+Tabletops is scenery. It is undescribed. It is in the Facial Salon. The description of the tabletops is "A long table made out of dark-green granite."
+Understand "Tabletop" as Tabletops.
+understand "table" as tabletops.
+
+
+Thin silk is a thing. It is undescribed. It is in the Facial Salon. The description of the thin silk is "Long pieces of white soft silk that hang from the lights and drop onto the floor to be picked up later. Maybe you can combine this with something else."
+
+
 
 Hair is a thing. It is undescribed. It is in the Facial Salon. The description of the hair is "Long and short strands of hair that have an array of colors that probably came from a lot of people."
 
+Instead of taking hair:
+	say "That's disgusting! Why do you need someone's hair for anyway?!"
+	
+
 Floor is scenery. It is undescribed. It is in the Facial Salon. The description of the floor is "Sturdy tile that is alternating black and white colors."
+
 
 Light Blue Lights is scenery. It is undescribed. It is in the Facial Salon. The description of the light blue lights is "Pyramidal shaped lights that emits a faint light blue light into the room. Tiny circular holes excretes the thin silk for some reason."
 
 White leather seats is scenery. It is undescribed. It is in the Facial Salon. The description of the white leather seats is "A white leather seat that has a circlular opening for you to lay your head on. [if triangular cutout is in facial salon]A thin plastic triangular cutout is laying on one of the white leather seats.[end if]".
+[Able to sit on seats]
 Understand "seat" as white leather seats.
 Understand the commands "stand" and "sit" and "lie" as something new.
 Understand "sit on [something]" and "sit in [something]" as sitting on. 
 Understand "lie on [something]" and "lie in [something]" as lying on. 
 Sitting on is an action applying to one thing. 
 Lying on is an action applying to one thing. 
-Instead of sitting on leather seats:
+Instead of sitting on leather seats for the first time:
 	say "Nice and comfy! Good way to relieve the stress off of your feet.";
 	increase score by 15;
 	continue the action.
@@ -477,10 +491,10 @@ Triangular Cutout is a thing. It is undescribed. It is in the Facial Salon. The 
 
 The Tech Building is a room. It is west of the Aurora Walk. "A Medium Sized robot is the only thing on the floor around the building. Programers are focused on their work on building more of these robots.[line break]The garage is to the south, aurora walk to the east, and thrift shop to the west."
 
-Medium Sized Robot is a man. The medium sized robot is in the Tech Building. The description of the robot is "[if robot does not have batteries]A metal robot with cylindrical pieces of tin stuck to it. The robot is able to do things such as walking, and dancing. It doesn't seem to have batteries though. [end if] [if medium sized robot has batteries]A metal robot with cylindrical pieces of tin stuck to it. Man, that thing could dance! [end if]".
-
+Medium Sized Robot is a man. He is undescribed. The medium sized robot is in the Tech Building. The description of the robot is "[if robot does not have batteries]A metal robot with cylindrical pieces of tin stuck to it. The robot is able to do things such as walking, and dancing. It doesn't seem to have batteries though. [end if] [if medium sized robot has batteries]A metal robot with cylindrical pieces of tin stuck to it. Man, that thing could dance! [end if]".
+[If you give the robot the batteries that were in the lab room, it will start to dance.]
 Instead of giving batteries to medium sized robot:
-	say "The robot starts to dance to the tune of Call Me Maybe by Carly Rae Jepson. It walks all over the place.";
+	say "The robot starts to dance to the tune of Call Me Maybe by Carly Rae Jepson. It walks all over the place like a happy robot.";
 	move batteries to robot;
 	increase score by 150.
 
@@ -491,31 +505,33 @@ Instead of taking batteries:
 		move batteries to player;
 		say "You pick up the electrical batteries.".
 	
-Programers are men.
+Programers are men. The description of the programers is "Mature men with white luxurious shirts on."
+Instead of talking to programers:
+	say "The programers seem to be busy with their own work right now."
 
 
 
 [Thrift Shop] 
 
 
-[Cannot examine items in thrift shop]
 
 
+The Thrift Shop is a room. It is west of the Tech Building. It is north of the Floating Sidewalk. "An old-school, yet reimaged look of a Thrift Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.[line break]The tech building is to the east, and floating sidewalk to the south."
 
-The Thrift Shop is a room. It is west of the Tech Building. It is north of the Floating Sidewalk. "An old-school, yet reimaged look of a Thirft Shop. The racks of clothes and hangers automatically rotate once you are done looking at them. Most of the stuff here dates back to 2010. Looks fairly brand new and in style.[line break]The tech building is to the east, and floating sidewalk to the south."
+Racks are a supporter. It is undescribed. Racks are in the Thrift Shop. The description of the Racks is "Made from long titanium bars that sense your presence. It  automatically slides the clothes down when you gently push the clothes aside. Assorted shirts hang from these racks. [if orange key is in thrift shop]On the top of one of the racks there is an orange key.[end if]".
 
-Racks are a supporter. It is undescribed. Racks are in the Thrift Shop. The description of the Racks is "Made from long titanium bars that sense your presence. It  automatically slides the clothes down when you gently push the clothes aside. Assorted shirts hang from these racks. On the top of one of the racks there is an orange key.".
+[Key is used to unlock the red box in the DNA beach.]
 
 Orange Key is a thing. It unlocks the red box. It is undescribed. It is in the Thrift Shop. The description of the orange key is "A bright shiny orange key that unlocks something."
-Hangers are things. It is undescribed. It is in the Thrift Shop. The description of the hangers is "Plain old metal hangers that hold the shirts on it."
-[Create an action where you can push the clothes aside.]
+Hangers are a supporter. It is undescribed. It is in the Thrift Shop. The description of the hangers is "Plain old metal hangers that hold the shirts on it."
 
 Clothes are things. It is undescribed. The clothes are on the racks. The description of the clothes is "Old, new, stylish, and formal assorted shirts."
 Instead of taking clothes:
-	say "Please be more specific about what type of clothes you want to take."
+	say "You don't really need anymore clothes than you already have. These date back to your time anyways, so what's the big deal?"
 	
 Assorted Shirts are things. It is undescribed. It is in the Thrift Shop. The description of the assorted shirts is "Colorful shirts that are for sale."
-
+Instead of taking assorted shirts:
+	say "Please don't shoplift. You already have a shirt."
 
 
 
@@ -527,6 +543,8 @@ Chapter 3 DNA Beach, Analysis Sign, Sandy Ocean, Cruising Shack, The Jump
 
 The DNA Beach is a room. It is north of the Aurora Walk. "Surfs-up! Seems as though everyone's at the beach today. A sign shows the reports of the day. Many beach blankets cover the bed of sand. A red box lies underneath the analysis sign.[line break]The aurora walk is to the south, sandy ocean to the north, and cruising shack to the east."
 
+
+Understand "blanket" as blankets.
 Beach Blankets are scenery. It is undescribed. It is in the DNA Beach. The description of the Beach Blankets is "An assortment of blankets people lie on so that they don't get themselves covered in sand."
 
 Instead of taking beach blankets:
@@ -534,12 +552,13 @@ Instead of taking beach blankets:
 	
 Red Box is a locked and lockable container. It is undescribed. It is in the DNA Beach. The description of the Red Box is "A titanium sturdy red box that looks like a toy chest."
 
-The Analysis Sign is scenery. It is in the DNA Beach. "Welcome to DNA Beach! Today is low tide, what a nice day to learn how to hoverboard guys! Hoverboards and food can be bought and rented in The Shack. Have a nice day everyone!"
+The Analysis Sign is scenery. It is in the DNA Beach. "Welcome to DNA Beach! Today is low tide, what a nice day to learn how to hoverboard guys! Hoverboards and food can be bought and rented in the Cruising Shack. Have a nice day everyone!"
 
-The shovel is a thing. The shovel is undescribed. The shovel is in the Red Box. The shovel unlocks the sand. The description of the shovel is "A metallic blue shovel with a silky green handle."
+The shovel is a thing. The shovel is in the Red Box. The shovel unlocks the sand. The description of the shovel is "A metallic blue shovel with a silky green handle."
 
 The sand is scenery in DNA Beach.  It is a closed openable container. "The sand is yellow-colored with tiny specs of black rocks mixed in it too. There is too much sand for you to uncover with your own hands."
 
+[digging out diamonds and amber when player has shovel.]
 Instead of opening the sand:
 	if player has shovel:
 		say "You dig out the sand and see diamonds and amber!";
@@ -554,7 +573,7 @@ Amber is a thing. It is undescribed. It is in the sand. The description of the a
 
 [Sandy Ocean]
 
-The Sandy Ocean is a room. It is north of DNA Beach. "The ocean is surprisingly clear blue. It looks like coral and large rocks on the bottom of the ocean have been coated with a layer of paint.[line break]The DNA beach is to the south."
+The Sandy Ocean is a room. It is north of DNA Beach. "The ocean is surprisingly clear blue. It looks like coral and large rocks on the bottom of the ocean have been coated with a layer of paint.[line break]You can surf the waves once you have your surfboard ready.The DNA beach is to the south."
 
 
 
@@ -571,7 +590,7 @@ SurfScore is a number variable.
 
 [Surfboard]
 Surfboard is a rideable vehicle.
-Understand "board" as surfboard. The description of the surfboard is "All waxed up and ready to go!"
+Understand "board" as surfboard. The description of the surfboard is "All waxed up and ready to go! Head to the Sandy Ocean to catch some waves!"
 Surf waves are scenery in Sandy Ocean.
 
 Instead of examining the surf waves when player is on surfboard in Ocean: 
@@ -638,9 +657,9 @@ An every turn rule:
 
 The Cruising Shack is a room. It is east of the DNA Beach. "An open cabin made out of wooden planks. A cashier runs the whole place, while people go in and out, grabbing beach gear from the automatic moving beach shelf. Looks like you can just borrow the gear instead of paying.[line break]The DNA Beach is to the west."
 
-Wooden Planks are things. It is undescribed. It is in the Cruising Shack. The description of the wooden planks is "Beige colored strips of wood that are not too thick and not too thin."
+Wooden Planks are things. It is undescribed. It is in the Cruising Shack. The description of the wooden planks is "Beige colored strips of wood that are not too thick and not too thin. Looks like they can be cut with a saw or something to form a surfboard."
 
-Wooden Plank is a thing. It is undescribed. It is in the Cruising Shack. The description of the wooden plank is "A beige colored strip of wood that is not too thick and not too thin."
+Wooden Plank is a thing. It is undescribed. It is in the Cruising Shack. The description of the wooden plank is "A beige colored strip of wood that is not too thick and not too thin. Looks like it can be cut with a saw or something to form a surfboard."
 
 Instead of taking wooden planks:
 	say "Don't be greedy, you only need one wooden plank strip. Save some for everyone else.";
@@ -650,7 +669,7 @@ Understand "cut [something]" as cutting.
 
 [Cutting wooden plank with saw]
 [Use saw to carve the wooden plank into a surfboard and stick the triangular cutout onto it too. Need silk to sew it onto the board.]
-[Make sure combining those things work]
+[create a variable]
 w is a number variable. w is 0.
 Instead of cutting wooden plank:
 	if w is greater than 0:
@@ -663,17 +682,18 @@ Instead of cutting wooden plank:
 			increase w by 1;
 		if player is not carrying the saw:
 			say "you have nothing to cut the plank with.".
-Oval Plank is a thing. It is undescribed. "A cut-up wooden plank into the shape of an oval."
-
+Oval Plank is a thing. It is undescribed. The description of the oval plank is "A cut-up wooden plank into the shape of an oval. Now this has the right shape to be made into a surfboard!"
+[Allow player to cut the plank into somethine else.]
 
 
 
 
 [Kai Wong's help]
+[Code for combining things together to produce something.]
 Understand "combine [something] with [something]" and "combine [something] and [something]" as combining it with. Combining it with is an action applying to two carried things. 
 
 The combining it with action has an object called the item built.
-
+[Variable]
 Setting action variables for combining something with something: 
 	let X be a list of objects; 
 	add the noun to X; 
@@ -687,6 +707,7 @@ Setting action variables for combining something with something:
 Check combining it with: 
 	if the item built is nothing, 
 		say "I can't combine [the noun] and [the second noun] and into anything useful." instead.
+[Move the new item to player and the old one out of play.]
 Carry out combining it with: 
 	move the item built to the holder of the noun; 
 	move the noun to room1; 
@@ -698,9 +719,9 @@ Report combining it with:
 Table of Outcome objects
 component list			result
 {oval plank, triangular cutout}			Fragile Board
-{Fragile Board, silk}			surfboard
+{Fragile Board, thin silk}			surfboard
 
-Fragile Board is a thing. the printed name is "Fragile Board".
+Fragile Board is a thing. the printed name is "Fragile Board". The description of the fragile board is "A wooden board with a triangular cutout on it."
 
 Surfboard is a thing. the printed name is "Surfboard".
 understand "board" as the surfboard.
@@ -770,8 +791,9 @@ The Obscure Parking Lot is south of the Garage. "An eighteen foot parking struct
 
 
 [Elevator Shaft]
+[Making the code so that if they tape is cut with the scissors, you are able to walk through the broken elevator shaft. Because it's broken, you fall to your death.]
 A thing can be broken or unbroken.
-Instead of going West in Elevator Shaft:
+Instead of going West in Elevator Shaft: [giving alternate ending]
 	if Yellow Tape is broken:
 		say "You enter the elevator shaft and fall to your death. Maybe that's why there was yellow tape covering up the elevator...";
 		end the game in death;
@@ -783,9 +805,9 @@ Yellow Tape is scenery. It is undescribed. It is in the Elevator Shaft. The desc
 
 
 Scissors is a thing. It is undescribed. It is in the Elevator Shaft. The description of the scissors is "Pointy black scissors that is in bad condition."
-
+[Making an action for cutting.]
 Understand "cut [something] with [something]" as TapeCut. TapeCut is an action applying to two things.
-Check TapeCut:
+Check TapeCut: [able to cut tape with only scissors]
 	if noun is Yellow Tape and second noun is Scissors:
 		say "You cut the tape! Now you can walk through the broken elevator shaft to the west.";
 		increase score by 150;
@@ -797,34 +819,15 @@ Instead of cutting tape:
 
 [Skyscraper]
 
-The Skyscraper 057 is a room. It is east of the Obscure Parking Lot. "The largest building in the vicinity. It is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. You can go through the sliding door that leads to the top of the Skyscraper. A young little girl is huddled in the corner as tears rush down her face. Where are her parents? How strange.[line break]The obscure parking lot is to the west, stairway to the north, and plaza streets to the east."
+The Skyscraper 057 is a room. It is east of the Obscure Parking Lot. "The largest building in the vicinity. It is filled with many people trying to buy and sell their products amongst many business owners.  Low square desks and pillows make up the whole floor. You can go through the sliding door that leads to the top of the Skyscraper.[line break]The obscure parking lot is to the west, stairway to the north, and plaza streets to the east."
 
 Sliding Door is north of Skyscraper 057 and south of the Stairway. sliding door is a door. The sliding door is scenery. It is closed. "An opaque door that leads to the stairway."
 
-Square Desks are scenery. It is in Skyscraper 057. The description of the square desks is "Wooden square desks that are low to the ground almost like ones used in Japanese households."
+Square Desks are scenery. It is in Skyscraper 057. It is undescribed. The description of the square desks is "Wooden square desks that are low to the ground almost like ones used in Japanese households."
 
-Pillows is a thing. It is in Skyscraper 057. The description of the pillows is "Cushiony rectangular pillows that are comfortable to sit on."
+Pillows is a thing. It is in Skyscraper 057. It is undescribed. The description of the pillows is "Cushiony rectangular pillows that are comfortable to sit on."
 Instead of taking pillows:
 	say "These are not yours. People need the pillows to sit on."
-
-[NPC]
-
-
-Understand "little girl" and "girl" as Missy.
-Missy is a woman.
-
-[Change convo]
-Instead of talking to Missy:
-say "[one of]'Hi, there,' you say confidently.[paragraph break]'What's happening?' he replies
-casually.[or]'I've been meaning to ask you about that tuxedo,' you comment. 'Where did you get it?'[paragraph break]'My tailor is quite exclusive,' Troy replies, inspecting his cuff. 'He would never consent to clothe riffraff like you.'[or]'You really are a stuck-up snob, aren't you?' you say hotly. [paragraph break]Troy laughs heartily. 'I was just yanking your chain. I bought it at Macy's for $60 at a clearance sale. I'll give it to you if you like.'[or]You decide against talking any further with Troy right now.[stopping]".
-
-Instead of giving the Pepto Bismol to Missy:
-say "Missy drinks the Pepto Bismol and starts to feel much better."; 
-remove the pepto bismol from play.
-
-
-[NPC: People?]
-
 
 
 [Stairway]
@@ -865,31 +868,39 @@ The Pear Incorporation is a room. It is south of the Plaza Streets. "This is sur
 Wooden desks are scenery. It is in the Pear Incorporation. The description of the wooden desks is "Mahogany and Hard Maple wood make up most of the desks. They are in the shape of a circle, so that more devices can be held on them."
 
 
-[Mayor of the city. Can give you an item to stay in the future forever.]
+[Mayor of the city. Can give you an industrial watch to stay in the future forever.]
 
 [Mayor Lucas. the old man with the glasses. etc.]
 
-Lucas is man. He is in the Pear Incorporation. The description of Lucas is "A short old man with circular glasses."
+Lucas is man. He is in the Pear Incorporation. The description of Lucas is "A short old man with circular glasses, a black tuxedo, and black leather shoes."
 
 [lucas says the object is Rubidium]
 Instead of giving shiny object to Lucas:
-	say ""
+	say "This is a magnificent piece of Rubidium. Just what I was looking for. Here is a token of my gratitude.";
+	move industrial watch to player.
 
+An every turn rule:
+	If player has industrial watch:
+		end the game in victory.
+	
+
+Industrial watch is a thing. It is in the Pear incorporation. The description of the watch is "A brown leather watch with many tiny gears and chains all in motion."
 
 [Makana's NPC… Change convo]
 Table of Supplies
 Topic	Reply
-"Rune Stone"	"it comes from the elves. You need to throw the stone in the air to stop time."
-"Kitchen"	" That is where all us elves make food for Santa, Mrs. Clause, and ourselves.  The elf gets out of the hammock and walks around."
-"Home Room"	" That is where anyone can go to relax.  The elf rolls over in the hammock."
-"Santa Transformer"	" Every once in a while Santa needs to take a vacation.  That's when we need someone like you, a replacementclause to fill in for Santa until he comes back.  The Santa Transformer is what turns the average Joe like you into Santa Clause."
-"Santa's Sleigh"	" Santa's sleigh is a pretty magical machine.  I even helped to carry the lumber during construction.  It runs on the power of Christmas Spirit.  "
-"How to deliver presents"	" You need to become Santa first, get his toybag, and then deliver the presents to Spain or Hawaii.  Just one of these places will do."
-"Elf"	" My adopted son was a human named Buddy.  All the other elves are on vacation with Santa.  But I stayed behind to watch the house, and Santa chose me since I have the most experience with humans."
-"Spain"	" Spain is a country that Santa always delivers presents to.  Do you speak Spanish?  Well if not, becoming Santa imbues you with the knowledge to understand Spanish."
-"magic word"	" to turn on the Santa transformer you must say Kenaz, which literally means torch.  It symbolizes knowledge, intellect, illumination, and searching for enlightenment."
-"password"	" The password for the Santa transformer is Kenaz, which literally means torch.  It symbolizes knowledge, intellect, illumination, and searching for enlightenment."
-
+"shiny object"	"This is Rubidium… I need this for a secret project I've been working on."
+"Secret project"	"Yes, this secret project is supposed to be 'secret' I am sorry but I cannot tell you what it is. It does not concern you at this moment."
+"Mysterious Room"	"Ahh I made this room, so that I could find someone worthy enough to find the Rubidium (AKA: Shiny Object.) If you could find the room that easily, you could have definately found the Rubidium."
+"Mayor"	" I am the mayor of this Los Angeles. However, they do not know that I am capable of time travel, and the secrets behind this watch."
+"Pear Incorporation"	"I decided to stay in here as a cover up."
+"Prototype Watch"	"This watch that you have is something greater than you think. This watch is the key to life. However, you come from the past… If you;ve enjoyed your stay in the future so far, I can allow you to stay here forever with this Industrial Watch."
+"Industrial Watch"	"This is my very own watch that I designed. It allows a time traveler, like yourself, to stay in the future until the day you die, as long as you have this watch on. I can trade you the Rubidium for this watch if you like."
+"Rubidium"	" I need this for a secret project I've been working on.."
+"trade"	"Are sure you are willing to trade?"
+"yes"	"Okay then, here you go!"
+"Los Angeles"	"Los Angeles is a nice city. I enjoy being mayor here. Not too many crimes are broken nowadays."
+[move watch to player. move prototype watch out of play.]
 
 
 
